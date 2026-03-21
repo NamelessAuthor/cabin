@@ -1,3 +1,9 @@
+# Predictions (large npz files, kept locally)
+experiments/predictions/
+
+# Lock files
+*.lock
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

@@ -37,7 +37,10 @@ import filelock
 from collections import OrderedDict
 from multiprocessing import Pool
 from sklearn.model_selection import StratifiedKFold
-from sklearn.metrics import accuracy_score, roc_auc_score, log_loss
+from sklearn.metrics import (accuracy_score, roc_auc_score, log_loss,
+                             precision_score, recall_score, f1_score,
+                             balanced_accuracy_score, matthews_corrcoef,
+                             average_precision_score)
 from sklearn.preprocessing import LabelEncoder
 from sklearn.impute import SimpleImputer
 
@@ -51,6 +54,8 @@ N_FOLDS = 5
 JOB_TIMEOUT = 3600  # 1 hour per job
 OUTPUT_FILE = os.path.join(SCRIPT_DIR, 'missing_results.csv')
 LOCK_FILE = OUTPUT_FILE + '.lock'
+PREDICTIONS_DIR = os.path.join(SCRIPT_DIR, 'predictions')
+os.makedirs(PREDICTIONS_DIR, exist_ok=True)
 
 
 # ============================================================================
@@ -281,19 +286,64 @@ def run_one_job(args):
         clf = CausalBoostClassifier(**config['kwargs'])
         cat_idx = [] if config.get('no_cat', False) else cat_indices
         clf.fit(X[tr_idx], y[tr_idx], cat_indices=cat_idx)
+
         preds = clf.predict(X[te_idx])
-        acc = accuracy_score(y[te_idx], preds)
+        proba = clf.predict_proba(X[te_idx])
         elapsed = time.time() - t0
+
+        y_te = y[te_idx]
+
+        # ── Save predictions (numpy) ──────────────────────────────
+        pred_file = os.path.join(
+            PREDICTIONS_DIR,
+            f"{config_name}__{ds_name}__fold{fold_idx}.npz"
+        )
+        np.savez_compressed(pred_file,
+                            y_true=y_te,
+                            y_pred=preds,
+                            y_proba=proba,
+                            test_indices=te_idx)
+
+        # ── Compute all metrics ───────────────────────────────────
+        acc = accuracy_score(y_te, preds)
+        balanced_acc = balanced_accuracy_score(y_te, preds)
+        mcc = matthews_corrcoef(y_te, preds)
+
+        avg = 'binary' if n_classes == 2 else 'macro'
+        precision = precision_score(y_te, preds, average=avg, zero_division=0)
+        recall = recall_score(y_te, preds, average=avg, zero_division=0)
+        f1 = f1_score(y_te, preds, average=avg, zero_division=0)
+
+        # Probabilistic metrics
+        try:
+            logloss = log_loss(y_te, proba)
+        except Exception:
+            logloss = np.nan
+
+        try:
+            if n_classes == 2:
+                roc_auc = roc_auc_score(y_te, proba[:, 1])
+                pr_auc = average_precision_score(y_te, proba[:, 1])
+            else:
+                roc_auc = roc_auc_score(y_te, proba, multi_class='ovr', average='macro')
+                pr_auc = np.nan  # not well-defined for multiclass
+        except Exception:
+            roc_auc = np.nan
+            pr_auc = np.nan
 
         result = {
             'config': config_name, 'dataset': ds_name,
             'openml_id': openml_id, 'fold': fold_idx,
             'n': n, 'd': d, 'classes': n_classes,
-            'accuracy': acc, 'time': elapsed, 'error': '',
+            'accuracy': acc, 'balanced_accuracy': balanced_acc,
+            'precision': precision, 'recall': recall, 'f1': f1,
+            'mcc': mcc,
+            'roc_auc': roc_auc, 'pr_auc': pr_auc, 'log_loss': logloss,
+            'time': elapsed, 'error': '',
         }
         append_result(result)
         print(f"{tag} DONE  {config_name:20s} | {ds_name:30s} | "
-              f"fold {fold_idx+1} | acc={acc:.4f} | {elapsed:.1f}s",
+              f"fold {fold_idx+1} | acc={acc:.4f} roc={roc_auc:.4f} | {elapsed:.1f}s",
               flush=True)
         return result
 
@@ -305,7 +355,11 @@ def run_one_job(args):
             'config': config_name, 'dataset': ds_name,
             'openml_id': openml_id, 'fold': fold_idx,
             'n': n, 'd': d, 'classes': n_classes,
-            'accuracy': np.nan, 'time': elapsed,
+            'accuracy': np.nan, 'balanced_accuracy': np.nan,
+            'precision': np.nan, 'recall': np.nan, 'f1': np.nan,
+            'mcc': np.nan,
+            'roc_auc': np.nan, 'pr_auc': np.nan, 'log_loss': np.nan,
+            'time': elapsed,
             'error': str(e)[:200],
         })
         return None
