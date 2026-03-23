@@ -62,15 +62,22 @@ os.makedirs(PREDICTIONS_DIR, exist_ok=True)
 # Dataset Loading
 # ============================================================================
 
-def get_cc18_datasets():
-    """Fetch all 72 CC18 classification datasets from OpenML (suite 99)."""
+def get_cc18_datasets(max_samples=20000):
+    """Fetch CC18 classification datasets from OpenML (suite 99).
+
+    Filters to n <= max_samples to match the paper's 56-dataset benchmark.
+    """
     import openml
     suite = openml.study.get_suite(99)
     all_ds = openml.datasets.list_datasets(
         data_id=suite.data, output_format='dataframe'
     )
+    if max_samples is not None:
+        all_ds = all_ds[all_ds['NumberOfInstances'] <= max_samples]
     all_ds = all_ds.sort_values('NumberOfInstances')
-    return [(row['name'], int(row['did'])) for _, row in all_ds.iterrows()]
+    result = [(row['name'], int(row['did'])) for _, row in all_ds.iterrows()]
+    print(f"Fetched {len(result)} CC18 datasets (n <= {max_samples})")
+    return result
 
 
 # 10 missing TabArena classification datasets (OpenML dataset IDs)
