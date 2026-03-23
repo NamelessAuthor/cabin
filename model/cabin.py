@@ -409,8 +409,19 @@ class CausalBoostNet(nn.Module):
             order_mask = P @ self.triu_mask @ P.T
             return edges * order_mask * self.no_self_loop_k
 
+    def set_fixed_dag(self, W_numpy):
+        """Fix the DAG to a pre-computed adjacency matrix (non-learnable).
+
+        Args:
+            W_numpy: [d, d] numpy array, binary or weighted adjacency matrix.
+        """
+        W_t = torch.tensor(W_numpy, dtype=torch.float32)
+        self.register_buffer('_fixed_W', W_t)
+
     def get_W(self):
         """Compute full adjacency matrix W [d, d]."""
+        if hasattr(self, '_fixed_W') and self._fixed_W is not None:
+            return self._fixed_W
         if self.dag_type == 'factored':
             A = torch.softmax(self.A_raw, dim=1)
             S = self._get_S()
@@ -423,6 +434,8 @@ class CausalBoostNet(nn.Module):
 
     def dag_loss(self):
         """Acyclicity constraint loss."""
+        if hasattr(self, '_fixed_W') and self._fixed_W is not None:
+            return torch.tensor(0.0)
         if self.dag_type == 'factored':
             if self.acyclicity_type == 'spectral':
                 return spectral_radius_acyclicity(self._get_S())
@@ -527,8 +540,10 @@ class CINNClassifier:
                  recon_loss=False, lambda_block=0.1, lambda_recon=0.1,
                  block_mask=None,
                  acyclicity='vcuda',
-                 tau_vcuda=0.3, tau_perm=1.0, tau_edge=0.5):
+                 tau_vcuda=0.3, tau_perm=1.0, tau_edge=0.5,
+                 fixed_dag=None):
 
+        self.fixed_dag = fixed_dag
         self.hidden_dim = hidden_dim
         self.emb_dim = emb_dim
         self.warmup_epochs = warmup_epochs
@@ -613,6 +628,10 @@ class CINNClassifier:
             tau_vcuda=self.tau_vcuda, tau_perm=self.tau_perm,
             tau_edge=self.tau_edge,
         ).to(self.device)
+
+        # Set fixed DAG if provided (non-learnable)
+        if self.fixed_dag is not None:
+            self.model.set_fixed_dag(self.fixed_dag)
 
         # Set block mask if provided
         if self.block_mask is not None and self.dag_type == 'block':
@@ -819,8 +838,13 @@ class CausalBoostClassifier:
                  hidden_dim=32, emb_dim=8,
                  warmup_epochs=20, joint_epochs=100, finetune_epochs=30,
                  lr=0.001, w_lr=0.005, batch_size=32, patience=25,
-                 lambda_dag=1.0, lambda_sparse=0.05, dag_gamma_max=50.0):
+                 lambda_dag=1.0, lambda_sparse=0.05, dag_gamma_max=50.0,
+                 # Fixed DAG (optional — overrides learned DAG)
+                 fixed_dag=None, fixed_dags=None):
 
+        # Fixed DAGs
+        self.fixed_dag = fixed_dag    # single DAG for all models
+        self.fixed_dags = fixed_dags  # list of DAGs, one per model
         # Ensemble
         self.n_models = n_models
         self.shrinkage = shrinkage
@@ -883,6 +907,14 @@ class CausalBoostClassifier:
             X_out = self.miss_handler.transform(X)
 
         return X_out, self._cat_indices_internal
+
+    def _get_fixed_dag(self, model_idx):
+        """Get fixed DAG for model i, or None if learning DAG."""
+        if self.fixed_dags is not None and model_idx < len(self.fixed_dags):
+            return self.fixed_dags[model_idx]
+        if self.fixed_dag is not None:
+            return self.fixed_dag
+        return None
 
     # ── Block mask computation ──
 
@@ -973,6 +1005,7 @@ class CausalBoostClassifier:
                 tau_vcuda=self.tau_vcuda,
                 tau_perm=self.tau_perm,
                 tau_edge=self.tau_edge,
+                fixed_dag=self._get_fixed_dag(i),
             )
             clf.fit(X, y, cat_indices=cat_indices, sample_weights=sw,
                     verbose=False)
