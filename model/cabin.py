@@ -632,6 +632,7 @@ class CINNClassifier:
         # Set fixed DAG if provided (non-learnable)
         if self.fixed_dag is not None:
             self.model.set_fixed_dag(self.fixed_dag)
+            self.model._fixed_W = self.model._fixed_W.to(self.device)
 
         # Set block mask if provided
         if self.block_mask is not None and self.dag_type == 'block':
