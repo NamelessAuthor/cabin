@@ -462,7 +462,7 @@ def _select_best_dag(dags, X_train, y_train, cat_indices, n_classes):
 # Main
 # ============================================================================
 
-CONFIGS = ['vcuda_baseline', 'rcd_best1', 'rcd_ensemble5', 'rcd_ensemble20']
+CONFIGS = ['rcd_best1', 'rcd_ensemble5', 'rcd_ensemble20']
 
 
 def build_run_jobs(groups=None):
