@@ -257,6 +257,7 @@ class CausalBoostNet(nn.Module):
 
     def __init__(self, n_num: int, cat_cardinalities: List[int],
                  n_classes: int, hidden_dim: int = 32, emb_dim: int = 8,
+                 emb_dim_formula: str = 'sqrt',
                  edge_dropout: float = 0.0, n_rounds: int = 1,
                  dag_type: str = 'factored', n_latent: int = 0,
                  n_groups: int = 32, recon_loss: bool = False,
@@ -292,7 +293,10 @@ class CausalBoostNet(nn.Module):
         self.cat_embeddings = nn.ModuleList()
         self.cat_projectors = nn.ModuleList()
         for card in cat_cardinalities:
-            actual_emb_dim = min(emb_dim, max(2, int(np.sqrt(card))))
+            if emb_dim_formula == 'sqrt':
+                actual_emb_dim = min(emb_dim, max(2, int(np.sqrt(card))))
+            else:  # 'linear'
+                actual_emb_dim = min(emb_dim, max(2, card))
             self.cat_embeddings.append(nn.Embedding(card, actual_emb_dim))
             self.cat_projectors.append(nn.Linear(actual_emb_dim, hidden_dim))
 
@@ -531,7 +535,7 @@ class CINNClassifier:
       3. Finetune (30 epochs): train CINN only, DAG frozen, low LR
     """
 
-    def __init__(self, hidden_dim=32, emb_dim=8,
+    def __init__(self, hidden_dim=32, emb_dim=8, emb_dim_formula='sqrt',
                  warmup_epochs=20, joint_epochs=100, finetune_epochs=30,
                  lr=0.001, w_lr=0.005, batch_size=32, patience=25,
                  lambda_dag=1.0, lambda_sparse=0.05, dag_gamma_max=50.0,
@@ -546,6 +550,7 @@ class CINNClassifier:
         self.fixed_dag = fixed_dag
         self.hidden_dim = hidden_dim
         self.emb_dim = emb_dim
+        self.emb_dim_formula = emb_dim_formula
         self.warmup_epochs = warmup_epochs
         self.joint_epochs = joint_epochs
         self.finetune_epochs = finetune_epochs
@@ -619,7 +624,8 @@ class CINNClassifier:
         self.model = CausalBoostNet(
             n_num=X_num.shape[1], cat_cardinalities=cat_cards,
             n_classes=n_classes, hidden_dim=self.hidden_dim,
-            emb_dim=self.emb_dim, edge_dropout=self.edge_dropout,
+            emb_dim=self.emb_dim, emb_dim_formula=self.emb_dim_formula,
+            edge_dropout=self.edge_dropout,
             n_rounds=self.n_rounds, dag_type=self.dag_type,
             n_latent=self.n_latent, n_groups=self.n_groups,
             recon_loss=self.recon_loss, lambda_block=self.lambda_block,
@@ -836,7 +842,7 @@ class CausalBoostClassifier:
                  add_missing_indicators=True,
                  # Training (Dim 7)
                  edge_dropout=0.2, label_smoothing=0.1,
-                 hidden_dim=32, emb_dim=8,
+                 hidden_dim=32, emb_dim=8, emb_dim_formula='sqrt',
                  warmup_epochs=20, joint_epochs=100, finetune_epochs=30,
                  lr=0.001, w_lr=0.005, batch_size=32, patience=25,
                  lambda_dag=1.0, lambda_sparse=0.05, dag_gamma_max=50.0,
@@ -873,6 +879,7 @@ class CausalBoostClassifier:
         self.label_smoothing = label_smoothing
         self.hidden_dim = hidden_dim
         self.emb_dim = emb_dim
+        self.emb_dim_formula = emb_dim_formula
         self.warmup_epochs = warmup_epochs
         self.joint_epochs = joint_epochs
         self.finetune_epochs = finetune_epochs
@@ -983,7 +990,7 @@ class CausalBoostClassifier:
             torch.manual_seed(seed)
 
             clf = CINNClassifier(
-                hidden_dim=self.hidden_dim, emb_dim=self.emb_dim,
+                hidden_dim=self.hidden_dim, emb_dim=self.emb_dim, emb_dim_formula=self.emb_dim_formula,
                 warmup_epochs=self.warmup_epochs,
                 joint_epochs=self.joint_epochs,
                 finetune_epochs=self.finetune_epochs,
