@@ -634,7 +634,7 @@ class CINNClassifier:
                 return {'A_raw', 'perm_scores', 'edge_logits'}
         return {'W_raw'}
 
-    def fit(self, X, y, cat_indices=None, sample_weights=None, verbose=False):
+    def fit(self, X, y, cat_indices=None, sample_weights=None, teacher_probas=None, verbose=False):
         cat_indices = cat_indices or []
         self.preprocessor = CategoricalPreprocessor()
         X_num, X_cat = self.preprocessor.fit_transform(X, cat_indices)
@@ -650,16 +650,19 @@ class CINNClassifier:
         y_t = torch.tensor(y, dtype=torch.long)
         sw_t = (torch.tensor(sample_weights, dtype=torch.float32)
                 if sample_weights is not None else None)
+        tp_t = (torch.tensor(teacher_probas, dtype=torch.float32)
+                if teacher_probas is not None else None)
 
         n_val = max(int(0.15 * len(X)), 20)
         idx = np.random.permutation(len(X))
         tr_idx, val_idx = idx[n_val:], idx[:n_val]
 
+        tensors = [X_num_t[tr_idx], X_cat_t[tr_idx], y_t[tr_idx]]
         if sw_t is not None:
-            ds = TensorDataset(X_num_t[tr_idx], X_cat_t[tr_idx],
-                               y_t[tr_idx], sw_t[tr_idx])
-        else:
-            ds = TensorDataset(X_num_t[tr_idx], X_cat_t[tr_idx], y_t[tr_idx])
+            tensors.append(sw_t[tr_idx])
+        if tp_t is not None:
+            tensors.append(tp_t[tr_idx])
+        ds = TensorDataset(*tensors)
         loader = DataLoader(ds, batch_size=self.batch_size, shuffle=True)
 
         self.model = CausalBoostNet(
@@ -720,6 +723,9 @@ class CINNClassifier:
                                    weight_decay=0.01)
 
         use_w = sw_t is not None
+        use_tp = tp_t is not None
+        distill_alpha = 0.3 if use_tp else 0.0
+        distill_temp = 3.0
 
         for epoch in range(total):
             if epoch < self.warmup_epochs:
@@ -748,10 +754,13 @@ class CINNClassifier:
 
             self.model.train()
             for batch in loader:
+                parts = [b.to(self.device) for b in batch]
+                xn, xc, yb = parts[0], parts[1], parts[2]
+                idx = 3
+                wb = parts[idx] if use_w else None
                 if use_w:
-                    xn, xc, yb, wb = [b.to(self.device) for b in batch]
-                else:
-                    xn, xc, yb = [b.to(self.device) for b in batch]
+                    idx += 1
+                tb = parts[idx] if use_tp else None
 
                 opt.zero_grad()
                 logits = self.model(xn, xc)
@@ -764,6 +773,14 @@ class CINNClassifier:
                     loss = F.cross_entropy(
                         logits, yb,
                         label_smoothing=self.label_smoothing)
+
+                # Distillation loss: KL divergence with teacher soft labels
+                if use_tp:
+                    log_student = F.log_softmax(logits / distill_temp, dim=1)
+                    teacher_soft = (tb / distill_temp).softmax(dim=1) if tb.min() < 0 else tb
+                    distill_loss = F.kl_div(log_student, teacher_soft,
+                                            reduction='batchmean') * (distill_temp ** 2)
+                    loss = (1 - distill_alpha) * loss + distill_alpha * distill_loss
 
                 if phase == 'joint':
                     loss = loss + gamma * self.model.dag_loss()
@@ -1000,7 +1017,7 @@ class CausalBoostClassifier:
 
     # ── Training ──
 
-    def fit(self, X, y, cat_indices=None, verbose=False):
+    def fit(self, X, y, cat_indices=None, teacher_probas=None, verbose=False):
         cat_indices = cat_indices or []
         X = np.array(X, dtype=float)
         y = np.array(y)
@@ -1062,7 +1079,7 @@ class CausalBoostClassifier:
                 fixed_dag=self._get_fixed_dag(i),
             )
             clf.fit(X, y, cat_indices=cat_indices, sample_weights=sw,
-                    verbose=False)
+                    teacher_probas=teacher_probas, verbose=False)
             self.models.append(clf)
 
             if self.n_models > 1:
