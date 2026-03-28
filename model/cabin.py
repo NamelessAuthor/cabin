@@ -480,6 +480,39 @@ class CausalBoostNet(nn.Module):
         H_recon = self.factored_recon_head(H_parents)
         return F.mse_loss(H_recon, H_group.detach())
 
+    # ── Intervention loss ──
+
+    def intervention_loss(self, H_pre: torch.Tensor, H_post: torch.Tensor,
+                          W: torch.Tensor) -> torch.Tensor:
+        """Intervention loss: mask a random feature, predict it from DAG parents.
+
+        If the DAG is causally correct, a node's post-message-passing embedding
+        should be reconstructable from its parents' pre-message-passing embeddings
+        weighted by the DAG adjacency.
+
+        Args:
+            H_pre: [B, d, h] embeddings before message passing
+            H_post: [B, d, h] embeddings after message passing
+            W: [d, d] adjacency matrix
+        """
+        d = H_pre.shape[1]
+        if d < 2:
+            return torch.tensor(0.0, device=H_pre.device)
+
+        # Pick a random feature to "intervene" on
+        target = torch.randint(0, d, (1,)).item()
+
+        # Parent message for the target node: weighted sum of parents' pre-DAG embeddings
+        parent_weights = W[:, target]  # [d] - who are the parents of target?
+        if parent_weights.sum() < 1e-6:
+            return torch.tensor(0.0, device=H_pre.device)
+
+        parent_msg = torch.einsum('j,bjh->bh', parent_weights, H_pre)  # [B, h]
+        target_emb = H_post[:, target, :]  # [B, h]
+
+        # The target's post-DAG embedding should be predictable from its parents
+        return F.mse_loss(parent_msg, target_emb.detach())
+
     # ── Forward pass ──
 
     def forward(self, X_num: torch.Tensor, X_cat: torch.Tensor):
@@ -499,7 +532,7 @@ class CausalBoostNet(nn.Module):
         if self.latent_embeds is not None:
             H = torch.cat([H, self.latent_embeds.expand(B, -1, -1)], dim=1)
 
-        H_pre_dag = H if self.recon_loss_enabled else None
+        H_pre_dag = H.clone() if (self.recon_loss_enabled or self.training) else None
 
         # Message passing
         W = self.get_W()
@@ -520,6 +553,12 @@ class CausalBoostNet(nn.Module):
         else:
             self._recon_loss = torch.tensor(0.0, device=logits.device)
 
+        # Intervention loss (stored for training loop to access)
+        if self.training and H_pre_dag is not None:
+            self._intervention_loss = self.intervention_loss(H_pre_dag, H, W)
+        else:
+            self._intervention_loss = torch.tensor(0.0, device=logits.device)
+
         return logits
 
 
@@ -539,6 +578,7 @@ class CINNClassifier:
                  warmup_epochs=20, joint_epochs=100, finetune_epochs=30,
                  lr=0.001, w_lr=0.005, batch_size=32, patience=25,
                  lambda_dag=1.0, lambda_sparse=0.05, dag_gamma_max=50.0,
+                 lambda_intervention=0.0,
                  label_smoothing=0.0, edge_dropout=0.0, n_rounds=1,
                  dag_type='factored', n_latent=0, n_groups=32,
                  recon_loss=False, lambda_block=0.1, lambda_recon=0.1,
@@ -561,6 +601,7 @@ class CINNClassifier:
         self.lambda_dag = lambda_dag
         self.lambda_sparse = lambda_sparse
         self.dag_gamma_max = dag_gamma_max
+        self.lambda_intervention = lambda_intervention
         self.label_smoothing = label_smoothing
         self.edge_dropout = edge_dropout
         self.n_rounds = n_rounds
@@ -733,6 +774,8 @@ class CINNClassifier:
                     if self.recon_loss:
                         loss = (loss
                                 + self.lambda_recon * self.model._recon_loss)
+                    if self.lambda_intervention > 0:
+                        loss = loss + self.lambda_intervention * self.model._intervention_loss
 
                 loss.backward()
                 torch.nn.utils.clip_grad_norm_(self.model.parameters(), 5.0)
@@ -846,6 +889,7 @@ class CausalBoostClassifier:
                  warmup_epochs=20, joint_epochs=100, finetune_epochs=30,
                  lr=0.001, w_lr=0.005, batch_size=32, patience=25,
                  lambda_dag=1.0, lambda_sparse=0.05, dag_gamma_max=50.0,
+                 lambda_intervention=0.0,
                  # Fixed DAG (optional — overrides learned DAG)
                  fixed_dag=None, fixed_dags=None):
 
@@ -890,6 +934,7 @@ class CausalBoostClassifier:
         self.lambda_dag = lambda_dag
         self.lambda_sparse = lambda_sparse
         self.dag_gamma_max = dag_gamma_max
+        self.lambda_intervention = lambda_intervention
 
         # State
         self.models: List[CINNClassifier] = []
@@ -999,6 +1044,7 @@ class CausalBoostClassifier:
                 lambda_dag=self.lambda_dag,
                 lambda_sparse=self.lambda_sparse,
                 dag_gamma_max=self.dag_gamma_max,
+                lambda_intervention=self.lambda_intervention,
                 edge_dropout=self.edge_dropout,
                 label_smoothing=self.label_smoothing,
                 n_rounds=self.n_rounds,
