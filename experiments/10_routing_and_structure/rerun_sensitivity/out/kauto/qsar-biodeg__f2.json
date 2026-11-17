@@ -1,0 +1,13 @@
+{
+ "config": "kauto",
+ "task": "qsar-biodeg",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 13,
+ "accuracy": 0.8672985781990521,
+ "n": 1055,
+ "d": 41,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 75.7
+}

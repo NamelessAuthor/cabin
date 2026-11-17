@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "churn",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 10700,
+ "joint_steps_at_restored": 321,
+ "accuracy": 0.968,
+ "n": 5000,
+ "d": 20,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 223.2
+}

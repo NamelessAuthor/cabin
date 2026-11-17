@@ -1,0 +1,13 @@
+{
+ "config": "ed0.1",
+ "task": "kc1",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.8578199052132701,
+ "n": 2109,
+ "d": 21,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 87.9
+}

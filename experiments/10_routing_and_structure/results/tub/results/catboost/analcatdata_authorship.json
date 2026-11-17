@@ -1,0 +1,80 @@
+{
+  "model": "catboost",
+  "task": "analcatdata_authorship",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T10:41:40.230746+00:00",
+  "runtime_seconds": 5.6869,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9940828402366864,
+        "f1_macro": 0.9943421211026845,
+        "f1_weighted": 0.9940992233683291,
+        "auc_ovr": 1.0,
+        "log_loss": 0.02098503296297941
+      },
+      "runtime_seconds": 1.1713
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9880952380952381,
+        "f1_macro": 0.9918564618644068,
+        "f1_weighted": 0.9880952380952381,
+        "auc_ovr": 0.9998860056046135,
+        "log_loss": 0.027774343743689246
+      },
+      "runtime_seconds": 1.1479
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9940476190476191,
+        "f1_macro": 0.9959338842975207,
+        "f1_weighted": 0.9940484061393152,
+        "auc_ovr": 1.0,
+        "log_loss": 0.03434977756522304
+      },
+      "runtime_seconds": 1.1219
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9880952380952381,
+        "f1_macro": 0.9902000244748426,
+        "f1_weighted": 0.988057963583838,
+        "auc_ovr": 1.0,
+        "log_loss": 0.03456941318172931
+      },
+      "runtime_seconds": 1.0753
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9880952380952381,
+        "f1_macro": 0.9804732709985403,
+        "f1_weighted": 0.9879966333951421,
+        "auc_ovr": 0.999357155124682,
+        "log_loss": 0.04918832135801923
+      },
+      "runtime_seconds": 1.1456
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.990483,
+    "f1_macro": 0.990561,
+    "f1_weighted": 0.990459,
+    "auc_ovr": 0.999849,
+    "log_loss": 0.033373
+  },
+  "std_metrics": {
+    "accuracy": 0.002925,
+    "f1_macro": 0.005417,
+    "f1_weighted": 0.002951,
+    "auc_ovr": 0.00025,
+    "log_loss": 0.009352
+  },
+  "tub_version": "0.1.0"
+}

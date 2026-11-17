@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "credit-g",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.705,
+ "best_epoch": 53,
+ "gates_open": 12,
+ "n_gates": 20,
+ "n": 1000,
+ "d": 20,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 52.0
+}

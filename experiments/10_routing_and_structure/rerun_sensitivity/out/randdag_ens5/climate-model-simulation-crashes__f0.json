@@ -1,0 +1,12 @@
+{
+ "config": "randdag_ens5",
+ "task": "climate-model-simulation-crashes",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9722222222222222,
+ "n": 540,
+ "d": 18,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 109.4
+}

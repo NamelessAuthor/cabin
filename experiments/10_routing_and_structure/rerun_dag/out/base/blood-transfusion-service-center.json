@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "blood-transfusion-service-center",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1600,
+ "joint_steps_at_restored": 1360,
+ "accuracy": 0.8133333333333334,
+ "n": 748,
+ "d": 4,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 17.6
+}

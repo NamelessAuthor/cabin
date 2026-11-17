@@ -1,0 +1,15 @@
+{
+ "config": "stg_l03",
+ "task": "credit-approval",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8623188405797102,
+ "best_epoch": 22,
+ "gates_open": 20,
+ "n_gates": 20,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 37.2
+}

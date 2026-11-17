@@ -1,0 +1,14 @@
+{
+ "config": "add_ft",
+ "task": "vehicle",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8047337278106509,
+ "best_epoch": 134,
+ "acc_W0": 0.35502958579881655,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 49.7
+}

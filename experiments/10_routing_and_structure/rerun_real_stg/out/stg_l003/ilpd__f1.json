@@ -1,0 +1,15 @@
+{
+ "config": "stg_l003",
+ "task": "ilpd",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.7264957264957265,
+ "best_epoch": 79,
+ "gates_open": 10,
+ "n_gates": 10,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 25.4
+}

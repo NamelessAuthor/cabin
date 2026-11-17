@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "soybean",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 1.0,
+ "d_internal": 67,
+ "n_edges": 172,
+ "mean_degree": 5.134328365325928,
+ "accuracy": 0.927007299270073,
+ "best_epoch": 106,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 135.0
+}

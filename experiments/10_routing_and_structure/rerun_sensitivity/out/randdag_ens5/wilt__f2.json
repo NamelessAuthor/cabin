@@ -1,0 +1,12 @@
+{
+ "config": "randdag_ens5",
+ "task": "wilt",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9917355371900827,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 507.9
+}

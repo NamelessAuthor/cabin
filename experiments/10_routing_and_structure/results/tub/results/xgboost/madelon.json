@@ -1,0 +1,80 @@
+{
+  "model": "xgboost",
+  "task": "madelon",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T10:41:08.934239+00:00",
+  "runtime_seconds": 2.6484,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.8,
+        "f1_macro": 0.7999881649801763,
+        "f1_weighted": 0.7999881649801763,
+        "auc_ovr": 0.8703550295857989,
+        "log_loss": 0.45748332079102205
+      },
+      "runtime_seconds": 0.5326
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.7461538461538462,
+        "f1_macro": 0.7459132906894101,
+        "f1_weighted": 0.7459132906894101,
+        "auc_ovr": 0.8366420118343195,
+        "log_loss": 0.5135561987216665
+      },
+      "runtime_seconds": 0.6083
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.7865384615384615,
+        "f1_macro": 0.7862530967749103,
+        "f1_weighted": 0.7862530967749102,
+        "auc_ovr": 0.8810798816568047,
+        "log_loss": 0.4362662839824419
+      },
+      "runtime_seconds": 0.4924
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.7826923076923077,
+        "f1_macro": 0.7825564054457113,
+        "f1_weighted": 0.7825564054457113,
+        "auc_ovr": 0.8587721893491125,
+        "log_loss": 0.4690190302189841
+      },
+      "runtime_seconds": 0.4924
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.75,
+        "f1_macro": 0.749818655534337,
+        "f1_weighted": 0.749818655534337,
+        "auc_ovr": 0.8165384615384614,
+        "log_loss": 0.540652175330803
+      },
+      "runtime_seconds": 0.4838
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.773077,
+    "f1_macro": 0.772906,
+    "f1_weighted": 0.772906,
+    "auc_ovr": 0.852678,
+    "log_loss": 0.483395
+  },
+  "std_metrics": {
+    "accuracy": 0.021241,
+    "f1_macro": 0.02129,
+    "f1_weighted": 0.02129,
+    "auc_ovr": 0.023322,
+    "log_loss": 0.038177
+  },
+  "tub_version": "0.1.0"
+}

@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "splice",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9686520376175548,
+ "best_epoch": 8,
+ "n": 3190,
+ "d": 60,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 282.8
+}

@@ -1,0 +1,12 @@
+{
+ "config": "randdag_ens5",
+ "task": "blood-transfusion-service-center",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8066666666666666,
+ "n": 748,
+ "d": 4,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 76.9
+}

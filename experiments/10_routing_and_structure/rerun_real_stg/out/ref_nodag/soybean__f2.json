@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "soybean",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9197080291970803,
+ "best_epoch": 43,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 77.9
+}

@@ -1,0 +1,14 @@
+{
+ "config": "rand_ft",
+ "task": "diabetes",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.6818181818181818,
+ "best_epoch": 124,
+ "acc_W0": 0.7142857142857143,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 32.0
+}

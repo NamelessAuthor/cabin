@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "diabetes",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.7662337662337663,
+ "accuracy_M1": 0.7272727272727273,
+ "accuracy_M3": 0.7857142857142857,
+ "accuracy_M5": 0.7792207792207793,
+ "accuracy_M10": 0.7662337662337663,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 198.9
+}

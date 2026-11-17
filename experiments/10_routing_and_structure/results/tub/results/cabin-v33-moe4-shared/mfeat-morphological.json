@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-moe4-shared",
+  "task": "mfeat-morphological",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-08T06:28:11.548488+00:00",
+  "runtime_seconds": 2514.8657,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.76,
+        "f1_macro": 0.7570079801636139,
+        "f1_weighted": 0.7570079801636139,
+        "auc_ovr": 0.9728611111111112,
+        "log_loss": 0.5376724090740206
+      },
+      "runtime_seconds": 524.2687
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.7325,
+        "f1_macro": 0.7133355821212055,
+        "f1_weighted": 0.7133355821212055,
+        "auc_ovr": 0.9602777777777778,
+        "log_loss": 0.6946984065288229
+      },
+      "runtime_seconds": 576.2084
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.75,
+        "f1_macro": 0.7357490562777227,
+        "f1_weighted": 0.7357490562777228,
+        "auc_ovr": 0.9691041666666667,
+        "log_loss": 0.564671366210543
+      },
+      "runtime_seconds": 492.8329
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.765,
+        "f1_macro": 0.7487255716351295,
+        "f1_weighted": 0.7487255716351295,
+        "auc_ovr": 0.9677291666666668,
+        "log_loss": 0.6067309176368834
+      },
+      "runtime_seconds": 462.9851
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.76,
+        "f1_macro": 0.7613572731483812,
+        "f1_weighted": 0.7613572731483812,
+        "auc_ovr": 0.9718819444444444,
+        "log_loss": 0.5610688829029078
+      },
+      "runtime_seconds": 456.1204
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.7535,
+    "f1_macro": 0.743235,
+    "f1_weighted": 0.743235,
+    "auc_ovr": 0.968371,
+    "log_loss": 0.592968
+  },
+  "std_metrics": {
+    "accuracy": 0.011576,
+    "f1_macro": 0.017311,
+    "f1_weighted": 0.017311,
+    "auc_ovr": 0.004448,
+    "log_loss": 0.055524
+  },
+  "tub_version": "0.1.0"
+}

@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est",
+ "task": "vowel",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.4,
+ "d_internal": 12,
+ "n_edges": 24,
+ "mean_degree": 4.0,
+ "accuracy": 0.98989898989899,
+ "best_epoch": 136,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 91.4
+}

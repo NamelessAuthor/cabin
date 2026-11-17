@@ -1,0 +1,15 @@
+{
+ "config": "stg_l03",
+ "task": "eucalyptus",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.6351351351351351,
+ "best_epoch": 74,
+ "gates_open": 10,
+ "n_gates": 19,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 39.9
+}

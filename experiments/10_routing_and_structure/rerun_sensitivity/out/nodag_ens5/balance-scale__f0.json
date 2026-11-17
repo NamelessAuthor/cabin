@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "balance-scale",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.976,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 72.7
+}

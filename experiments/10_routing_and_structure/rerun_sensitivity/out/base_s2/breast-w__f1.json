@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "breast-w",
+ "fold": 1,
+ "seed": 2,
+ "accuracy": 0.95,
+ "n": 699,
+ "d": 9,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 18.9
+}

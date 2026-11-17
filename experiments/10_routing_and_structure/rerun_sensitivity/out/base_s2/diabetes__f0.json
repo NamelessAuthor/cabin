@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "diabetes",
+ "fold": 0,
+ "seed": 2,
+ "accuracy": 0.7727272727272727,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 20.1
+}

@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "credit-approval",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8840579710144928,
+ "best_epoch": 16,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 36.8
+}

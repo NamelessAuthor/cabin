@@ -1,0 +1,14 @@
+{
+ "config": "add_rand",
+ "task": "analcatdata_dmft",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.1875,
+ "best_epoch": 14,
+ "acc_W0": 0.23125,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 23.1
+}

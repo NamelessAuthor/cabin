@@ -1,0 +1,80 @@
+{
+  "model": "xgboost",
+  "task": "dna",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T10:40:47.796802+00:00",
+  "runtime_seconds": 4.1445,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9639498432601881,
+        "f1_macro": 0.9599121461629534,
+        "f1_weighted": 0.9642509455251974,
+        "auc_ovr": 0.9957317987024014,
+        "log_loss": 0.11956562180446884
+      },
+      "runtime_seconds": 0.7421
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9607535321821036,
+        "f1_macro": 0.9555706417354927,
+        "f1_weighted": 0.9607990773978506,
+        "auc_ovr": 0.9947319754459034,
+        "log_loss": 0.11920526841125716
+      },
+      "runtime_seconds": 0.8403
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9607535321821036,
+        "f1_macro": 0.9545563936440383,
+        "f1_weighted": 0.9608751298932092,
+        "auc_ovr": 0.9932481782894566,
+        "log_loss": 0.12913396731043955
+      },
+      "runtime_seconds": 0.7932
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9733124018838305,
+        "f1_macro": 0.9688839490163993,
+        "f1_weighted": 0.973344996705742,
+        "auc_ovr": 0.9957731588303345,
+        "log_loss": 0.09975385805385638
+      },
+      "runtime_seconds": 0.7557
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9560439560439561,
+        "f1_macro": 0.9534206824611591,
+        "f1_weighted": 0.9561269411311295,
+        "auc_ovr": 0.9943892859411333,
+        "log_loss": 0.14011798775341425
+      },
+      "runtime_seconds": 0.9815
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.962963,
+    "f1_macro": 0.958469,
+    "f1_weighted": 0.963079,
+    "auc_ovr": 0.994775,
+    "log_loss": 0.121555
+  },
+  "std_metrics": {
+    "accuracy": 0.005757,
+    "f1_macro": 0.005652,
+    "f1_weighted": 0.005747,
+    "auc_ovr": 0.000937,
+    "log_loss": 0.013318
+  },
+  "tub_version": "0.1.0"
+}

@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse_ens5",
+ "task": "segment",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.7,
+ "d_internal": 19,
+ "n_edges": 40,
+ "mean_degree": 4.210526466369629,
+ "accuracy": 0.9826839826839827,
+ "best_epoch": 81,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 611.5
+}

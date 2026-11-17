@@ -1,0 +1,14 @@
+{
+ "config": "nodag_ft",
+ "task": "cylinder-bands",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.6944444444444444,
+ "best_epoch": 139,
+ "acc_W0": 0.6944444444444444,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 63.1
+}

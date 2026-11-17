@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "mfeat-factors",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9775,
+ "best_epoch": 41,
+ "n": 2000,
+ "d": 216,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 657.7
+}

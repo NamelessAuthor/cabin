@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "segment",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.974025974025974,
+ "best_epoch": 77,
+ "acc_W0": 0.6796536796536796,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 111.1
+}

@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "qsar-biodeg",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.8672985781990521,
+ "accuracy_M1": 0.8672985781990521,
+ "accuracy_M3": 0.8672985781990521,
+ "accuracy_M5": 0.8720379146919431,
+ "accuracy_M10": 0.8672985781990521,
+ "n": 1055,
+ "d": 41,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 719.4
+}

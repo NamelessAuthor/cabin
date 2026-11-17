@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s2",
+ "task": "eucalyptus",
+ "fold": 1,
+ "seed": 2,
+ "accuracy": 0.6054421768707483,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 34.7
+}

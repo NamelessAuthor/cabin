@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "vowel",
+ "fold": 0,
+ "seed": 2,
+ "accuracy": 0.9595959595959596,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 38.5
+}

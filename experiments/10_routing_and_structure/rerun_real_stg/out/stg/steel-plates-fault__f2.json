@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "steel-plates-fault",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.7603092783505154,
+ "best_epoch": 38,
+ "gates_open": 19,
+ "n_gates": 27,
+ "n": 1941,
+ "d": 27,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 122.0
+}

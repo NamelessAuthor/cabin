@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "soybean",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9197080291970803,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 333.8
+}

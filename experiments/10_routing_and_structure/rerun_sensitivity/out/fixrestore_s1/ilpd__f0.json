@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s1",
+ "task": "ilpd",
+ "fold": 0,
+ "seed": 1,
+ "accuracy": 0.6752136752136753,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 20.5
+}

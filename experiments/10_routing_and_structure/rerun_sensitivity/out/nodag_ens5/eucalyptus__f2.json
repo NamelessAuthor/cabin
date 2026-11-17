@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "eucalyptus",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.6870748299319728,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 149.3
+}

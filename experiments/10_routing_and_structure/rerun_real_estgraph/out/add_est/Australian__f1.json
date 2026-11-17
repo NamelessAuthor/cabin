@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "Australian",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.3,
+ "d_internal": 14,
+ "n_edges": 33,
+ "mean_degree": 4.714285850524902,
+ "accuracy": 0.855072463768116,
+ "best_epoch": 3,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 46.9
+}

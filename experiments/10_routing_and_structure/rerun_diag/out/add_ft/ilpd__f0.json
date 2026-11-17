@@ -1,0 +1,14 @@
+{
+ "config": "add_ft",
+ "task": "ilpd",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.7264957264957265,
+ "best_epoch": 130,
+ "acc_W0": 0.7435897435897436,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 27.6
+}

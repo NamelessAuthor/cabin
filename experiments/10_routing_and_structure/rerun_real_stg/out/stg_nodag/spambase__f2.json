@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "spambase",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9326086956521739,
+ "best_epoch": 5,
+ "gates_open": 33,
+ "n_gates": 57,
+ "n": 4601,
+ "d": 57,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 491.9
+}

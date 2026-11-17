@@ -1,0 +1,85 @@
+Dim.\ reduction before routing & linear bottleneck (best $k\in\{16,32,48\}$) & v33 & v28 & 15 high-gap, 5-fold & \ensuremath{-}0.08 & 15 & neutral (within noise) \\
+ & attention bottleneck (best $k$) & v33 & v28 & 15 high-gap, 5-fold & \ensuremath{-}0.59 & 15 & slightly worse \\
+ & learned linear projection & v38 & v28 & Dev8, 5-fold & \ensuremath{-}0.45 & 8 & slightly worse \\
+ & PCA-initialised projection & v38 & v28 & Dev8, 5-fold & \ensuremath{-}0.56 & 8 & slightly worse \\
+ & frozen PCA projection & v38 & v28 & Dev8, 5-fold & \ensuremath{-}1.82 & 8 & hurts \\
+ & PCA, $k$ at 95\% variance & v38 & v28 & Dev8, 5-fold & \ensuremath{-}4.69 & 8 & hurts; collapses on cnae-9 (\ensuremath{-}0.62 without it) \\
+ & attention grouping ($k$ queries) & v38 & v28 & Dev8, 5-fold & \ensuremath{-}0.96 & 8 & slightly worse \\
+\midrule
+Reconstruction loss & SDCD reconstruction loss & v35 & v28 & 15 high-gap, 5-fold & \ensuremath{-}0.27 & 15 & neutral (within noise) \\
+ & CASTLE reconstruction loss & v35 & v28 & 15 high-gap, 5-fold & +0.04 & 15 & neutral (within noise) \\
+ & PCA projection + recon.\ loss & v38 & v38 PCA init & Dev8, 5-fold & +0.36 & 8 & gain within noise \\
+ & factored DAG + recon.\ loss & v38 & v38 factored & Dev8, 5-fold & \ensuremath{-}0.66 & 8 & slightly worse \\
+\midrule
+Self-supervised pre-training & masked-feature SSL, boosted & v52/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}0.58 & 8 & slightly worse \\
+ & masked-feature SSL, 8 indep.\ models & v52/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}0.17 & 8 & neutral (within noise) \\
+ & correlation-clustering DAG init & v51/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}0.56 & 8 & slightly worse \\
+ & REPTILE meta-learned message passing & v51/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}0.45 & 8 & slightly worse \\
+ & both, halved joint epochs & v51/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}0.06 & 8 & neutral (within noise) \\
+\midrule
+Message-passing depth & multi-round MP, $K{=}2$ & v11 & v8 & early core, 5-fold & +0.10 & 6 & neutral (within noise) \\
+ & multi-round MP, $K{=}3$ & v11 & v8 & early core, 5-fold & +0.16 & 6 & neutral (within noise) \\
+ & GOLEM + multi-round MP, $K{=}2$ & v16 & v15 & early core, 5-fold & -- & -- & no surviving results; run crashed, log only \\
+ & multi-round MP, $K{=}2$ & v15 abl. & v15 & eucalyptus, 5-fold & \ensuremath{-}1.22 & 1 & hurts \\
+ & multi-round MP, $K{=}3$ & v15 abl. & v15 & eucalyptus, 5-fold & +0.27 & 1 & neutral (within noise) \\
+ & multi-round MP, $K{=}2$ & v25b & v25b & 5 categorical, 5-fold & +0.14 & 4 & neutral (within noise) \\
+ & multi-round MP, $K{=}2$ & v45/v42 & v42 variational & Dev8, 5-fold & \ensuremath{-}11.10 & 8 & hurts; collapses on cnae-9 (\ensuremath{-}0.80 without it) \\
+ & interleaved DAG+FFN layers (3) & v47/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}10.96 & 8 & hurts; collapses on cnae-9 (\ensuremath{-}0.60 without it) \\
+ & target-node readout & v47/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}2.47 & 8 & hurts \\
+\midrule
+Attention & attention parent aggregation & v10 & v8 & early core, 5-fold & +0.19 & 8 & neutral (within noise) \\
+ & cross-node attention after MP & v13 & v8 & early core, 5-fold & +0.08 & 6 & neutral (within noise) \\
+ & cross-node attention after MP & v15 abl. & v15 & eucalyptus, 5-fold & +0.68 & 1 & gain within noise \\
+ & cross-node attention after MP & v25b & v25b & 5 categorical, 5-fold & \ensuremath{-}1.29 & 4 & hurts \\
+ & DAG-masked attention & v32 & v29 SCM & 11 core, 5-fold & \ensuremath{-}0.34 & 11 & slightly worse \\
+ & self-attention side tower & v35 & v28 & 15 high-gap, 5-fold & +0.06 & 14 & neutral (within noise) \\
+ & transformer block on node states & v36 & v28 & Dev8, 5-fold & \ensuremath{-}0.67 & 7 & slightly worse \\
+ & cross-node attention after MP & v45/v42 & v42 variational & Dev8, 5-fold & \ensuremath{-}0.01 & 7 & neutral (within noise) \\
+ & DAG-biased attention replacing MP & v46/v45 & v45 latent & Dev8, 5-fold & \ensuremath{-}0.37 & 7 & slightly worse \\
+ & hierarchical block DAG & v14 & v8 & early core, 5-fold & \ensuremath{-}0.43 & 6 & slightly worse \\
+\midrule
+Pooled readout & [CLS] transformer readout & v37 & v28 & Dev8, 5-fold & \ensuremath{-}1.07 & 7 & hurts \\
+ & attention pooling & v37 & v28 & Dev8, 5-fold & \ensuremath{-}0.55 & 8 & slightly worse \\
+ & mean+max pooling & v48/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}1.70 & 8 & hurts \\
+ & attention pooling ($k{=}8$ queries) & v48/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}1.43 & 8 & hurts \\
+ & per-node classifier vote & v48/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}1.84 & 8 & hurts \\
+ & attention pooling + 3 interleaved layers & v48/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}1.64 & 8 & hurts \\
+\midrule
+Fine-tuned edges & CINN$\to$DAG fine-tuning (v8) & v12 & v8 & early core, 5-fold & +0.14 & 5 & neutral (within noise) \\
+ & CINN$\to$DAG fine-tuning (v10) & v12 & v10 & early core, 5-fold & \ensuremath{-}0.01 & 5 & neutral (within noise) \\
+ & CINN$\to$DAG fine-tuning (v11) & v12 & v11 & early core, 5-fold & +0.57 & 5 & gain within noise \\
+ & end-to-end fine-tuning & v15 abl. & v15 & eucalyptus, 5-fold & \ensuremath{-}2.31 & 1 & hurts \\
+\midrule
+RTDL embeddings & periodic embedding before DAG & v4 & v3 & 10 small, 5-fold & \ensuremath{-}3.14 & 10 & hurts \\
+ & PLE embedding before DAG & v4 & v3 & 10 small, 5-fold & \ensuremath{-}3.54 & 10 & hurts \\
+ & periodic replacing linear embedding & v45/v42 & v42 variational & Dev8, 5-fold & \ensuremath{-}10.81 & 8 & hurts; collapses on cnae-9 (\ensuremath{-}0.51 without it) \\
+ & periodic skip path & v50/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}0.89 & 8 & slightly worse \\
+ & periodic skip path + miss.\ ind. & v50 & v50 miss.\ ind. & Dev8, 5-fold & \ensuremath{-}0.50 & 8 & slightly worse \\
+\midrule
+Voting instead of boosting & bagged vote (5 GOLEM + 10 random DAGs) & v18 & v18 boost & early core, 5-fold & +0.40 & 6 & gain within noise \\
+ & bagging ($n{=}5$) & v25b & v25b boost & 5 categorical, 5-fold & \ensuremath{-}0.59 & 5 & slightly worse \\
+ & 8 independent models, mean vote & v52/v46 & v46 big head & Dev8, 5-fold & \ensuremath{-}0.56 & 8 & slightly worse \\
+ & independent ensemble & v53/v50 & v50 miss.\ ind. & Dev8, 5-fold & \ensuremath{-}0.74 & 8 & slightly worse \\
+\midrule
+Eval-time DAG sampling & MC, 8 Gumbel samples & v42 & v39 G+VCUDA & Dev8, 5-fold & \ensuremath{-}0.21 & 8 & neutral (within noise) \\
+ & MC, 32 Gumbel samples & v42 & v39 G+VCUDA & Dev8, 5-fold & +0.11 & 8 & neutral (within noise) \\
+ & variational posterior, 8 samples & v42 & v39 G+VCUDA & Dev8, 5-fold & +0.32 & 8 & gain within noise \\
+ & per-model Gumbel temperature & v42 & v39 G+VCUDA & Dev8, 5-fold & +0.32 & 8 & gain within noise \\
+ & variational + per-model temperature & v42 & v39 G+VCUDA & Dev8, 5-fold & +0.10 & 8 & neutral (within noise) \\
+ & confidence-weighted MC & v44 & v44 uniform MC & Dev8, 5-fold & +0.10 & 8 & neutral (within noise) \\
+ & adaptive number of MC samples & v44 & v44 uniform MC & Dev8, 5-fold & +0.10 & 8 & neutral (within noise) \\
+ & test-feature DAG prior weighting & v44 & v44 uniform MC & Dev8, 5-fold & +0.08 & 8 & neutral (within noise) \\
+ & per-sample DAG routing & v44 & v44 uniform MC & Dev8, 5-fold & \ensuremath{-}0.00 & 8 & neutral (within noise) \\
+ & combined weighting & v44 & v44 uniform MC & Dev8, 5-fold & +0.40 & 8 & gain within noise \\
+ & factored + Gumbel MC8 & v45/v38 & v38 factored & Dev8, 5-fold & \ensuremath{-}1.89 & 8 & hurts \\
+ & factored + variational MC8 & v45/v38 & v38 factored & Dev8, 5-fold & \ensuremath{-}2.37 & 8 & hurts \\
+\midrule
+Pre-extracted DAGs & RCD, best of 100 DAGs & v43 & v39 G+VCUDA & Dev8, 5-fold & +0.12 & 8 & neutral (within noise) \\
+ & RCD, 5 DAGs in boosting chain & v43 & v39 G+VCUDA & Dev8, 5-fold & \ensuremath{-}0.21 & 8 & neutral (within noise) \\
+ & RCD, 20 averaged CINNs & v43 & v39 G+VCUDA & Dev8, 5-fold & +0.34 & 8 & gain within noise \\
+ & VCUDA, best of 100 DAGs & v43 & v39 G+VCUDA & Dev8, 5-fold & \ensuremath{-}0.70 & 6 & slightly worse; $d\le 60$ only \\
+ & VCUDA, 5 DAGs in boosting chain & v43 & v39 G+VCUDA & Dev8, 5-fold & \ensuremath{-}0.91 & 6 & slightly worse; $d\le 60$ only \\
+ & VCUDA, 20 averaged CINNs & v43 & v39 G+VCUDA & Dev8, 5-fold & \ensuremath{-}0.63 & 6 & slightly worse; $d\le 60$ only \\
+ & VCUDA, mean posterior DAG & v43 & v39 G+VCUDA & Dev8, 5-fold & \ensuremath{-}0.84 & 6 & slightly worse; $d\le 60$ only \\
+\midrule
+Pairwise delta-DAG & DAG over $[x_b, x_a{-}x_b, y_a]$, $k$-NN & v54/v50 & v50 miss.\ ind. & Dev8, 5-fold & \ensuremath{-}1.70 & 8 & hurts \\

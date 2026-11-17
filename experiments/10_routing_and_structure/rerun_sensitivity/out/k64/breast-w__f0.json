@@ -1,0 +1,13 @@
+{
+ "config": "k64",
+ "task": "breast-w",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 64,
+ "accuracy": 0.9857142857142858,
+ "n": 699,
+ "d": 9,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 18.8
+}

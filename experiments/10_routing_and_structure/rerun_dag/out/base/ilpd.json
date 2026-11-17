@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "ilpd",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1300,
+ "joint_steps_at_restored": 52,
+ "accuracy": 0.6752136752136753,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "n_categorical": 1,
+ "status": "ok",
+ "seconds": 19.4
+}

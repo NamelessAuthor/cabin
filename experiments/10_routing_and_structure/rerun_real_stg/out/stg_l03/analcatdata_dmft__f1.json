@@ -1,0 +1,15 @@
+{
+ "config": "stg_l03",
+ "task": "analcatdata_dmft",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.2375,
+ "best_epoch": 35,
+ "gates_open": 4,
+ "n_gates": 4,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 25.2
+}

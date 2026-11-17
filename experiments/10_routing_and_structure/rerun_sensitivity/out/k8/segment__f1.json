@@ -1,0 +1,13 @@
+{
+ "config": "k8",
+ "task": "segment",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 8,
+ "accuracy": 0.9805194805194806,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 88.2
+}

@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "semeion",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9467084639498433,
+ "n": 1593,
+ "d": 256,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 4388.9
+}

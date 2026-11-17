@@ -1,0 +1,12 @@
+{
+ "config": "randdag_ens5",
+ "task": "ozone-level-8hr",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9447731755424064,
+ "n": 2534,
+ "d": 72,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 1229.9
+}

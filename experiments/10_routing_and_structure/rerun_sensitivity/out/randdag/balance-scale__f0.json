@@ -1,0 +1,12 @@
+{
+ "config": "randdag",
+ "task": "balance-scale",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.984,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 16.0
+}

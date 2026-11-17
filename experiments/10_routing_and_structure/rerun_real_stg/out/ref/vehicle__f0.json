@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "vehicle",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8,
+ "best_epoch": 110,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 44.5
+}

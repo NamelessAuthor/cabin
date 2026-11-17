@@ -1,0 +1,80 @@
+{
+  "model": "tabicl",
+  "task": "diabetes",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T13:20:32.718797+00:00",
+  "runtime_seconds": 3.4775,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.7727272727272727,
+        "f1_macro": 0.7395002658160553,
+        "f1_weighted": 0.7672901261418008,
+        "auc_ovr": 0.8440740740740741,
+        "log_loss": 0.4713749842336595
+      },
+      "runtime_seconds": 0.4892
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.7792207792207793,
+        "f1_macro": 0.7397096838337642,
+        "f1_weighted": 0.7700015236304757,
+        "auc_ovr": 0.8629629629629629,
+        "log_loss": 0.4473484268957594
+      },
+      "runtime_seconds": 0.4853
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.7792207792207793,
+        "f1_macro": 0.745578231292517,
+        "f1_weighted": 0.7732131813764467,
+        "auc_ovr": 0.8511111111111112,
+        "log_loss": 0.45935495205292387
+      },
+      "runtime_seconds": 0.4929
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.7450980392156863,
+        "f1_macro": 0.70566763675825,
+        "f1_weighted": 0.7387610102493126,
+        "auc_ovr": 0.8279245283018868,
+        "log_loss": 0.4783708418464984
+      },
+      "runtime_seconds": 0.9875
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.7320261437908496,
+        "f1_macro": 0.7053961395763866,
+        "f1_weighted": 0.7326050569259467,
+        "auc_ovr": 0.8175471698113208,
+        "log_loss": 0.4919717556573646
+      },
+      "runtime_seconds": 0.988
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.761659,
+    "f1_macro": 0.72717,
+    "f1_weighted": 0.756374,
+    "auc_ovr": 0.840724,
+    "log_loss": 0.469684
+  },
+  "std_metrics": {
+    "accuracy": 0.019451,
+    "f1_macro": 0.017802,
+    "f1_weighted": 0.017109,
+    "auc_ovr": 0.016215,
+    "log_loss": 0.015366
+  },
+  "tub_version": "0.1.0"
+}

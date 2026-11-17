@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "Australian",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.855072463768116,
+ "best_epoch": 13,
+ "gates_open": 14,
+ "n_gates": 14,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 31.7
+}

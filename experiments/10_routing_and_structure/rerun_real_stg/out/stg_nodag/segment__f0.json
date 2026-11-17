@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "segment",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9848484848484849,
+ "best_epoch": 140,
+ "gates_open": 8,
+ "n_gates": 19,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 147.6
+}

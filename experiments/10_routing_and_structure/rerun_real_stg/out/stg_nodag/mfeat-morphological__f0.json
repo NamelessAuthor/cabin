@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "mfeat-morphological",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.77,
+ "best_epoch": 70,
+ "gates_open": 6,
+ "n_gates": 6,
+ "n": 2000,
+ "d": 6,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 67.4
+}

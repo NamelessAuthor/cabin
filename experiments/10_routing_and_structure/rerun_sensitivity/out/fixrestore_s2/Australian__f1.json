@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s2",
+ "task": "Australian",
+ "fold": 1,
+ "seed": 2,
+ "accuracy": 0.8188405797101449,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 28.0
+}

@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "dresses-sales",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.62,
+ "n": 500,
+ "d": 12,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 106.6
+}

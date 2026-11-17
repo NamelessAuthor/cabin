@@ -1,0 +1,15 @@
+{
+ "config": "stg_l003",
+ "task": "vowel",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9747474747474747,
+ "best_epoch": 141,
+ "gates_open": 12,
+ "n_gates": 12,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 51.7
+}

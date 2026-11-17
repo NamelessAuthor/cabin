@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "credit-approval",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.4,
+ "d_internal": 20,
+ "n_edges": 52,
+ "mean_degree": 5.199999809265137,
+ "accuracy": 0.8115942028985508,
+ "best_epoch": 9,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 60.1
+}

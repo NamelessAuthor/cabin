@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore",
+ "task": "climate-model-simulation-crashes",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9444444444444444,
+ "n": 540,
+ "d": 18,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 26.3
+}

@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "Australian",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1500,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.8768115942028986,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 23.5
+}

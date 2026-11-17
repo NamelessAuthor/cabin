@@ -1,0 +1,80 @@
+{
+  "model": "xgboost",
+  "task": "kc2",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T10:41:05.362680+00:00",
+  "runtime_seconds": 1.376,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.7904761904761904,
+        "f1_macro": 0.71125,
+        "f1_weighted": 0.7991190476190476,
+        "auc_ovr": 0.7661555312157723,
+        "log_loss": 0.6013088966666776
+      },
+      "runtime_seconds": 0.2709
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.8095238095238095,
+        "f1_macro": 0.7023809523809523,
+        "f1_weighted": 0.8061224489795918,
+        "auc_ovr": 0.7680722891566265,
+        "log_loss": 0.5097717305137963
+      },
+      "runtime_seconds": 0.2295
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.8461538461538461,
+        "f1_macro": 0.7045454545454546,
+        "f1_weighted": 0.826486013986014,
+        "auc_ovr": 0.7601835915088927,
+        "log_loss": 0.5421572072500099
+      },
+      "runtime_seconds": 0.2531
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.8173076923076923,
+        "f1_macro": 0.7001972386587771,
+        "f1_weighted": 0.8119025944469732,
+        "auc_ovr": 0.8049340218014917,
+        "log_loss": 0.44794094842824106
+      },
+      "runtime_seconds": 0.278
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.8461538461538461,
+        "f1_macro": 0.7187288708586883,
+        "f1_weighted": 0.8315909918343996,
+        "auc_ovr": 0.6815834767641996,
+        "log_loss": 0.7062230478842567
+      },
+      "runtime_seconds": 0.3193
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.821923,
+    "f1_macro": 0.707421,
+    "f1_weighted": 0.815044,
+    "auc_ovr": 0.756186,
+    "log_loss": 0.56148
+  },
+  "std_metrics": {
+    "accuracy": 0.021625,
+    "f1_macro": 0.006758,
+    "f1_weighted": 0.012229,
+    "auc_ovr": 0.040493,
+    "log_loss": 0.087721
+  },
+  "tub_version": "0.1.0"
+}

@@ -1,0 +1,22 @@
+{
+ "d": 100,
+ "n": 500,
+ "lam": 1.0,
+ "rep": 1,
+ "seed": 111001,
+ "target": 40,
+ "n_parents": 6,
+ "n_children": 2,
+ "mb_size": 13,
+ "n_edges_feats": 203,
+ "model": "add_est_lgbm3",
+ "graph_edges": 444,
+ "acc": 0.3606,
+ "best_epoch": 2,
+ "auc_dir": 0.8212788278983995,
+ "auc_skel": 0.8282947059172652,
+ "w_density": 0.045763760049474335,
+ "w_mean": 0.045763760805130005,
+ "status": "ok",
+ "seconds": 117.7
+}

@@ -1,0 +1,14 @@
+{
+ "config": "nodag_ft",
+ "task": "diabetes",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.6948051948051948,
+ "best_epoch": 124,
+ "acc_W0": 0.6948051948051948,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 33.8
+}

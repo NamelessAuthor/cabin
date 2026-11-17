@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "pc1",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9369369369369369,
+ "best_epoch": 1,
+ "gates_open": 21,
+ "n_gates": 21,
+ "n": 1109,
+ "d": 21,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 60.3
+}

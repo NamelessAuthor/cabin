@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "eucalyptus",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.6394557823129252,
+ "accuracy_M1": 0.5850340136054422,
+ "accuracy_M3": 0.6258503401360545,
+ "accuracy_M5": 0.6122448979591837,
+ "accuracy_M10": 0.6394557823129252,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 331.7
+}

@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "mfeat-morphological",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.705,
+ "best_epoch": 97,
+ "acc_W0": 0.7025,
+ "n": 2000,
+ "d": 6,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 62.2
+}

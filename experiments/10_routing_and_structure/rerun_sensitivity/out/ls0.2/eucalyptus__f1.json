@@ -1,0 +1,13 @@
+{
+ "config": "ls0.2",
+ "task": "eucalyptus",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.6190476190476191,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 27.8
+}

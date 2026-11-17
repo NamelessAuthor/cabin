@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "analcatdata_authorship",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 2.8,
+ "d_internal": 70,
+ "n_edges": 189,
+ "mean_degree": 5.400000095367432,
+ "accuracy": 1.0,
+ "best_epoch": 96,
+ "n": 841,
+ "d": 70,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 174.4
+}

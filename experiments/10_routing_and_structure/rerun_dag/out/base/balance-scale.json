@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "balance-scale",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1400,
+ "joint_steps_at_restored": 1400,
+ "accuracy": 0.976,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 17.2
+}

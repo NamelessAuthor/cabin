@@ -1,0 +1,14 @@
+{
+ "config": "add_ft",
+ "task": "blood-transfusion-service-center",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.7733333333333333,
+ "best_epoch": 120,
+ "acc_W0": 0.7666666666666667,
+ "n": 748,
+ "d": 4,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 25.5
+}

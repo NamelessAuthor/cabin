@@ -1,0 +1,14 @@
+{
+ "config": "add_ft",
+ "task": "wdbc",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8421052631578947,
+ "best_epoch": 148,
+ "acc_W0": 0.7105263157894737,
+ "n": 569,
+ "d": 30,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 50.1
+}

@@ -1,0 +1,13 @@
+{
+ "config": "k8",
+ "task": "balance-scale",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 8,
+ "accuracy": 0.968,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 14.0
+}

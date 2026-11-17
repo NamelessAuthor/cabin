@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "segment",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9805194805194806,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 547.4
+}

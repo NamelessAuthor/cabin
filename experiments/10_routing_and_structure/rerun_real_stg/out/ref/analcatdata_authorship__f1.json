@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "analcatdata_authorship",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9940476190476191,
+ "best_epoch": 27,
+ "n": 841,
+ "d": 70,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 104.3
+}

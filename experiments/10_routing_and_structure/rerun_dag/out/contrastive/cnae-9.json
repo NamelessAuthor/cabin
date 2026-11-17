@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "cnae-9",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 2300,
+ "joint_steps_at_restored": 2300,
+ "accuracy": 0.9490740740740741,
+ "n": 1080,
+ "d": 856,
+ "n_classes": 9,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 1528.0
+}

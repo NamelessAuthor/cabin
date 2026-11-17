@@ -1,0 +1,12 @@
+{
+ "config": "base_s1",
+ "task": "mfeat-morphological",
+ "fold": 1,
+ "seed": 1,
+ "accuracy": 0.7075,
+ "n": 2000,
+ "d": 6,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 43.9
+}

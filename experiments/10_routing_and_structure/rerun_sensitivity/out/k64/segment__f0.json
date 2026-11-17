@@ -1,0 +1,13 @@
+{
+ "config": "k64",
+ "task": "segment",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 64,
+ "accuracy": 0.9913419913419913,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 113.3
+}

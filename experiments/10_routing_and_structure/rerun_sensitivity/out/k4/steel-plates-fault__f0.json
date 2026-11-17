@@ -1,0 +1,13 @@
+{
+ "config": "k4",
+ "task": "steel-plates-fault",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 4,
+ "accuracy": 0.7249357326478149,
+ "n": 1941,
+ "d": 27,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 95.2
+}

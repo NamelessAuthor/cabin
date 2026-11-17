@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "credit-score",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 212500,
+ "joint_steps_at_restored": 212500,
+ "accuracy": 0.7886654661864746,
+ "n": 99960,
+ "d": 20,
+ "n_classes": 3,
+ "n_categorical": 3,
+ "status": "ok",
+ "seconds": 4596.4
+}

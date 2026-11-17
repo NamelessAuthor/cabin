@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est_ens5",
+ "task": "mfeat-fourier",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 12.3,
+ "d_internal": 76,
+ "n_edges": 160,
+ "mean_degree": 4.210526466369629,
+ "accuracy": 0.8425,
+ "best_epoch": 5,
+ "n": 2000,
+ "d": 76,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 1612.0
+}

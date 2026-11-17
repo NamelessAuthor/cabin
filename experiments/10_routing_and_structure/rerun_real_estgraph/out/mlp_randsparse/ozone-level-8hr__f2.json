@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "ozone-level-8hr",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 8.6,
+ "d_internal": 72,
+ "n_edges": 140,
+ "mean_degree": 3.8888888359069824,
+ "accuracy": 0.9368836291913215,
+ "best_epoch": 14,
+ "n": 2534,
+ "d": 72,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 414.1
+}

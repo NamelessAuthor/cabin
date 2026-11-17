@@ -1,0 +1,80 @@
+{
+  "model": "xgboost",
+  "task": "diabetes",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-06T18:15:26.559184+00:00",
+  "runtime_seconds": 2.1235,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.7467532467532467,
+        "f1_macro": 0.7182266009852216,
+        "f1_weighted": 0.7450067174205105,
+        "auc_ovr": 0.8270370370370371,
+        "log_loss": 0.5878390377239747
+      },
+      "runtime_seconds": 0.1902
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.7922077922077922,
+        "f1_macro": 0.7677224736048265,
+        "f1_weighted": 0.7902489667195549,
+        "auc_ovr": 0.8283333333333333,
+        "log_loss": 0.5770616891614436
+      },
+      "runtime_seconds": 0.2043
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.7207792207792207,
+        "f1_macro": 0.6893267651888342,
+        "f1_weighted": 0.7188535602328706,
+        "auc_ovr": 0.7853703703703704,
+        "log_loss": 0.7079485095841442
+      },
+      "runtime_seconds": 0.2113
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.7450980392156863,
+        "f1_macro": 0.7243243243243244,
+        "f1_weighted": 0.747571100512277,
+        "auc_ovr": 0.7956603773584906,
+        "log_loss": 0.6798594945288269
+      },
+      "runtime_seconds": 0.2106
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.7189542483660131,
+        "f1_macro": 0.6754797020667884,
+        "f1_weighted": 0.7119672677107806,
+        "auc_ovr": 0.7460377358490566,
+        "log_loss": 0.6909127078373459
+      },
+      "runtime_seconds": 0.2171
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.744759,
+    "f1_macro": 0.715016,
+    "f1_weighted": 0.74273,
+    "auc_ovr": 0.796488,
+    "log_loss": 0.648724
+  },
+  "std_metrics": {
+    "accuracy": 0.026444,
+    "f1_macro": 0.031931,
+    "f1_weighted": 0.027579,
+    "auc_ovr": 0.030387,
+    "log_loss": 0.054953
+  },
+  "tub_version": "0.1.0"
+}

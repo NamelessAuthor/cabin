@@ -1,0 +1,14 @@
+{
+ "config": "add_rand_ft",
+ "task": "vowel",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9494949494949495,
+ "best_epoch": 146,
+ "acc_W0": 0.35353535353535354,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 51.1
+}

@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "vowel",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 0.4,
+ "d_internal": 12,
+ "n_edges": 23,
+ "mean_degree": 3.8333332538604736,
+ "accuracy": 0.9595959595959596,
+ "best_epoch": 115,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 86.5
+}

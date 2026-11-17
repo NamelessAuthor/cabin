@@ -1,0 +1,14 @@
+{
+ "config": "nodag_ft",
+ "task": "balance-scale",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.992,
+ "best_epoch": 135,
+ "acc_W0": 0.992,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 24.5
+}

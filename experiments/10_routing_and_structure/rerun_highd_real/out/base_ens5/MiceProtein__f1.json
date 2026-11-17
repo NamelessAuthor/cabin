@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "MiceProtein",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 1.0,
+ "n": 1080,
+ "d": 77,
+ "n_classes": 8,
+ "status": "ok",
+ "seconds": 1127.1
+}

@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-moe4-shared",
+  "task": "car",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-04-09T11:01:11.163751+00:00",
+  "runtime_seconds": 1590.5961,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.01814181831822856
+      },
+      "runtime_seconds": 321.6134
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9971098265895953,
+        "f1_macro": 0.9814814814814814,
+        "f1_weighted": 0.9971098265895953,
+        "auc_ovr": 1.0,
+        "log_loss": 0.02333883117007713
+      },
+      "runtime_seconds": 300.6891
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.018750876118040286
+      },
+      "runtime_seconds": 309.8768
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.018892163349209033
+      },
+      "runtime_seconds": 331.7315
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.017273929397349404
+      },
+      "runtime_seconds": 325.6501
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.999422,
+    "f1_macro": 0.996296,
+    "f1_weighted": 0.999422,
+    "auc_ovr": 1.0,
+    "log_loss": 0.01928
+  },
+  "std_metrics": {
+    "accuracy": 0.001156,
+    "f1_macro": 0.007407,
+    "f1_weighted": 0.001156,
+    "auc_ovr": 0.0,
+    "log_loss": 0.002108
+  },
+  "tub_version": "0.1.0"
+}

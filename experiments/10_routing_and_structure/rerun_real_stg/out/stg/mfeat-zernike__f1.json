@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "mfeat-zernike",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8125,
+ "best_epoch": 29,
+ "gates_open": 40,
+ "n_gates": 47,
+ "n": 2000,
+ "d": 47,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 185.1
+}

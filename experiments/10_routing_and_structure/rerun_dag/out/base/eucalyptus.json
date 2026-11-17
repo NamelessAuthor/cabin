@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "eucalyptus",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1600,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.7094594594594594,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "n_categorical": 5,
+ "status": "ok",
+ "seconds": 33.9
+}

@@ -1,0 +1,14 @@
+{
+ "config": "base_ft",
+ "task": "dresses-sales",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.58,
+ "best_epoch": 121,
+ "acc_W0": 0.67,
+ "n": 500,
+ "d": 12,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 32.3
+}

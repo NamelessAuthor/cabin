@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "semeion",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9278996865203761,
+ "best_epoch": 22,
+ "n": 1593,
+ "d": 256,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 613.1
+}

@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "analcatdata_authorship",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1800,
+ "joint_steps_at_restored": 144,
+ "accuracy": 0.9940828402366864,
+ "n": 841,
+ "d": 70,
+ "n_classes": 4,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 96.4
+}

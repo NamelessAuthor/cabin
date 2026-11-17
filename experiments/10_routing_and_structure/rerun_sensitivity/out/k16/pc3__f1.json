@@ -1,0 +1,13 @@
+{
+ "config": "k16",
+ "task": "pc3",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 16,
+ "accuracy": 0.8977635782747604,
+ "n": 1563,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 95.0
+}

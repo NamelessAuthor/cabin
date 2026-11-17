@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "semeion",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 3400,
+ "joint_steps_at_restored": 2414,
+ "accuracy": 0.9341692789968652,
+ "n": 1593,
+ "d": 256,
+ "n_classes": 10,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 566.1
+}

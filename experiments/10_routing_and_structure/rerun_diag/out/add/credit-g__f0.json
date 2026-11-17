@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "credit-g",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.73,
+ "best_epoch": 8,
+ "acc_W0": 0.705,
+ "n": 1000,
+ "d": 20,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 49.0
+}

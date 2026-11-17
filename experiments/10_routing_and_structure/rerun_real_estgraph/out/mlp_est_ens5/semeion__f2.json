@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est_ens5",
+ "task": "semeion",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 14.3,
+ "d_internal": 256,
+ "n_edges": 468,
+ "mean_degree": 3.65625,
+ "accuracy": 0.9655172413793104,
+ "best_epoch": 90,
+ "n": 1593,
+ "d": 256,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 3124.1
+}

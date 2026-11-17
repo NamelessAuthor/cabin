@@ -1,0 +1,21 @@
+{
+ "d": 50,
+ "n": 1000,
+ "lam": 0.0,
+ "rep": 4,
+ "seed": 61004,
+ "target": 9,
+ "n_parents": 5,
+ "n_children": 2,
+ "mb_size": 11,
+ "n_edges_feats": 82,
+ "model": "add_skel_est_nw_ft",
+ "acc": 0.7218,
+ "best_epoch": 120,
+ "auc_dir": 0.9114994090469538,
+ "auc_skel": 0.9317117759843045,
+ "w_density": 0.08673469387755102,
+ "w_mean": 0.0446428582072258,
+ "status": "ok",
+ "seconds": 263.6
+}

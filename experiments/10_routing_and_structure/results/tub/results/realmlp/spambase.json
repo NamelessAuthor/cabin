@@ -1,0 +1,53 @@
+{
+  "model": "realmlp-cc18",
+  "task": "spambase",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-04-02T07:51:57.888046+00:00",
+  "runtime_seconds": 0,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9348534201954396
+      },
+      "runtime_seconds": 0
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.942391304347826
+      },
+      "runtime_seconds": 0
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9445652173913044
+      },
+      "runtime_seconds": 0
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9402173913043478
+      },
+      "runtime_seconds": 0
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9434782608695652
+      },
+      "runtime_seconds": 0
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.941101
+  },
+  "std_metrics": {
+    "accuracy": 0.003439
+  },
+  "tub_version": "0.1.0",
+  "note": "imported from Pipe_CINN/07_cc18_benchmarks/cc18_results.csv"
+}

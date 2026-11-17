@@ -1,0 +1,80 @@
+{
+  "model": "catboost",
+  "task": "tic-tac-toe",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T11:29:25.469720+00:00",
+  "runtime_seconds": 11.6941,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.008270050946107626
+      },
+      "runtime_seconds": 2.4135
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.009546658133016655
+      },
+      "runtime_seconds": 2.3894
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.01177426074179643
+      },
+      "runtime_seconds": 2.1355
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.00891417454128992
+      },
+      "runtime_seconds": 2.2916
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.014364449328838165
+      },
+      "runtime_seconds": 2.4454
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "auc_ovr": 1.0,
+    "log_loss": 0.010574
+  },
+  "std_metrics": {
+    "accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_weighted": 0.0,
+    "auc_ovr": 0.0,
+    "log_loss": 0.002233
+  },
+  "tub_version": "0.1.0"
+}

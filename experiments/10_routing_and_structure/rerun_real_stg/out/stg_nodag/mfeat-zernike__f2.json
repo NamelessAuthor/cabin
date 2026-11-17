@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "mfeat-zernike",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8275,
+ "best_epoch": 21,
+ "gates_open": 41,
+ "n_gates": 47,
+ "n": 2000,
+ "d": 47,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 183.9
+}

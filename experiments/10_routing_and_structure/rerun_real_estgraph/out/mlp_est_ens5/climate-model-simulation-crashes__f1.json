@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est_ens5",
+ "task": "climate-model-simulation-crashes",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.6,
+ "d_internal": 18,
+ "n_edges": 46,
+ "mean_degree": 5.111111164093018,
+ "accuracy": 0.9444444444444444,
+ "best_epoch": 13,
+ "n": 540,
+ "d": 18,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 238.9
+}

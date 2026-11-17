@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "blood-transfusion-service-center",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1600,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.8066666666666666,
+ "n": 748,
+ "d": 4,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 20.7
+}

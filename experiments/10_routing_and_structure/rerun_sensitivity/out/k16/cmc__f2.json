@@ -1,0 +1,13 @@
+{
+ "config": "k16",
+ "task": "cmc",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 16,
+ "accuracy": 0.5491525423728814,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 45.0
+}

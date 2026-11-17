@@ -1,0 +1,13 @@
+{
+ "config": "ls0.05",
+ "task": "credit-g",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.73,
+ "n": 1000,
+ "d": 20,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 38.2
+}

@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "wilt",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9896694214876033,
+ "best_epoch": 26,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 140.7
+}

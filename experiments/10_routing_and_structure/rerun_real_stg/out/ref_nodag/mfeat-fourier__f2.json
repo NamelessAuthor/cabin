@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "mfeat-fourier",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.865,
+ "best_epoch": 6,
+ "n": 2000,
+ "d": 76,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 263.6
+}

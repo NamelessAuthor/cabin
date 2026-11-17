@@ -1,0 +1,15 @@
+{
+ "config": "stg_l003",
+ "task": "semeion",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9310344827586207,
+ "best_epoch": 29,
+ "gates_open": 256,
+ "n_gates": 256,
+ "n": 1593,
+ "d": 256,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 619.0
+}

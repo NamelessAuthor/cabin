@@ -1,0 +1,14 @@
+{
+ "config": "nodag_ft",
+ "task": "qsar-biodeg",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8720379146919431,
+ "best_epoch": 120,
+ "acc_W0": 0.8720379146919431,
+ "n": 1055,
+ "d": 41,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 104.4
+}

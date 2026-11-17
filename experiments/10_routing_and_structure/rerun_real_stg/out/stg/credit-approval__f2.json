@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "credit-approval",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8623188405797102,
+ "best_epoch": 117,
+ "gates_open": 8,
+ "n_gates": 20,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 43.5
+}

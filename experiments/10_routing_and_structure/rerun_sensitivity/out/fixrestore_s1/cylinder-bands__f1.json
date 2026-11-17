@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s1",
+ "task": "cylinder-bands",
+ "fold": 1,
+ "seed": 1,
+ "accuracy": 0.7685185185185185,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 52.5
+}

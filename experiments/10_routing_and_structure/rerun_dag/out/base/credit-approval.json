@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "credit-approval",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1500,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.8260869565217391,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "n_categorical": 9,
+ "status": "ok",
+ "seconds": 29.5
+}

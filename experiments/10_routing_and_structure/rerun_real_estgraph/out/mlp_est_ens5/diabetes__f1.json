@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est_ens5",
+ "task": "diabetes",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.2,
+ "d_internal": 8,
+ "n_edges": 17,
+ "mean_degree": 4.25,
+ "accuracy": 0.7857142857142857,
+ "best_epoch": 0,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 252.6
+}

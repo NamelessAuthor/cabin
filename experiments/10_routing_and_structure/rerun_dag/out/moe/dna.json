@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "dna",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 6800,
+ "joint_steps_at_restored": 4692,
+ "accuracy": 0.9529780564263323,
+ "n": 3186,
+ "d": 180,
+ "n_classes": 3,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 749.9
+}

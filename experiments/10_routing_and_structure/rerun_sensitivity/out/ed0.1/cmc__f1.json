@@ -1,0 +1,13 @@
+{
+ "config": "ed0.1",
+ "task": "cmc",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.5627118644067797,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 38.3
+}

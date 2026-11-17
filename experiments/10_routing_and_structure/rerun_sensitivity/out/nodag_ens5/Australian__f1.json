@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "Australian",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8623188405797102,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 119.2
+}

@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "vowel",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9494949494949495,
+ "best_epoch": 146,
+ "acc_W0": 0.35858585858585856,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 50.9
+}

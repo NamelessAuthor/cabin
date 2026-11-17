@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-moe4-shared",
+  "task": "spambase",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-06T22:25:19.167969+00:00",
+  "runtime_seconds": 29198.5815,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9457111834961998,
+        "f1_macro": 0.9431633046002548,
+        "f1_weighted": 0.9457111834961998,
+        "auc_ovr": 0.9825626746447861,
+        "log_loss": 0.1723014456408229
+      },
+      "runtime_seconds": 5524.5695
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9554347826086956,
+        "f1_macro": 0.953427441509583,
+        "f1_weighted": 0.9554663115264829,
+        "auc_ovr": 0.9904100578166191,
+        "log_loss": 0.12523408395965388
+      },
+      "runtime_seconds": 6001.7924
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9619565217391305,
+        "f1_macro": 0.9603170201779325,
+        "f1_weighted": 0.9620178934553251,
+        "auc_ovr": 0.9817697127963163,
+        "log_loss": 0.14639385885509418
+      },
+      "runtime_seconds": 5631.7455
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.95,
+        "f1_macro": 0.9476227252024793,
+        "f1_weighted": 0.95,
+        "auc_ovr": 0.9833511554684251,
+        "log_loss": 0.15812840846251855
+      },
+      "runtime_seconds": 6023.7604
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.95,
+        "f1_macro": 0.9470255709271527,
+        "f1_weighted": 0.9496998282587035,
+        "auc_ovr": 0.9806976375769818,
+        "log_loss": 0.1752603924673319
+      },
+      "runtime_seconds": 6013.189
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.95262,
+    "f1_macro": 0.950311,
+    "f1_weighted": 0.952579,
+    "auc_ovr": 0.983758,
+    "log_loss": 0.155464
+  },
+  "std_metrics": {
+    "accuracy": 0.005596,
+    "f1_macro": 0.005982,
+    "f1_weighted": 0.005649,
+    "auc_ovr": 0.00344,
+    "log_loss": 0.018323
+  },
+  "tub_version": "0.1.0"
+}

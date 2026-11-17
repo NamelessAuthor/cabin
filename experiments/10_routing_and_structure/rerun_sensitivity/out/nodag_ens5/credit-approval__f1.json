@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "credit-approval",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.7971014492753623,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 140.8
+}

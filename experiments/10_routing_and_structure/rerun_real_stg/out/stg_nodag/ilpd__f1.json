@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "ilpd",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.7008547008547008,
+ "best_epoch": 71,
+ "gates_open": 6,
+ "n_gates": 10,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 25.6
+}

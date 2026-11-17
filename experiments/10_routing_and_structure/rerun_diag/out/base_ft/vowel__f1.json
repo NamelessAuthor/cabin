@@ -1,0 +1,14 @@
+{
+ "config": "base_ft",
+ "task": "vowel",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9949494949494949,
+ "best_epoch": 129,
+ "acc_W0": 0.7373737373737373,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 49.2
+}

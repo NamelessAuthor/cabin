@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "mfeat-zernike",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8325,
+ "best_epoch": 15,
+ "n": 2000,
+ "d": 47,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 177.3
+}

@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "dna",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 6800,
+ "joint_steps_at_restored": 5712,
+ "accuracy": 0.9608150470219435,
+ "n": 3186,
+ "d": 180,
+ "n_classes": 3,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 778.2
+}

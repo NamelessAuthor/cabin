@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "mfeat-factors",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9775,
+ "n": 2000,
+ "d": 216,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 4455.2
+}

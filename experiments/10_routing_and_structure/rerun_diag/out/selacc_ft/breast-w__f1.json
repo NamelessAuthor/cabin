@@ -1,0 +1,14 @@
+{
+ "config": "selacc_ft",
+ "task": "breast-w",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9428571428571428,
+ "best_epoch": 128,
+ "acc_W0": 0.9428571428571428,
+ "n": 699,
+ "d": 9,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 28.7
+}

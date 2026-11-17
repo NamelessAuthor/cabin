@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "wdbc",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 1.3,
+ "d_internal": 30,
+ "n_edges": 59,
+ "mean_degree": 3.933333396911621,
+ "accuracy": 0.9649122807017544,
+ "best_epoch": 49,
+ "n": 569,
+ "d": 30,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 66.6
+}

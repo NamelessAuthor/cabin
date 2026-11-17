@@ -1,0 +1,14 @@
+{
+ "config": "selacc_ft",
+ "task": "qsar-biodeg",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8530805687203792,
+ "best_epoch": 120,
+ "acc_W0": 0.8104265402843602,
+ "n": 1055,
+ "d": 41,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 104.2
+}

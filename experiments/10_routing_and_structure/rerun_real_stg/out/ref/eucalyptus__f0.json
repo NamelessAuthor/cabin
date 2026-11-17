@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "eucalyptus",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.7094594594594594,
+ "best_epoch": 16,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 37.8
+}

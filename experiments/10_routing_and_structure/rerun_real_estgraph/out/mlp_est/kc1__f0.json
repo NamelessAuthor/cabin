@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est",
+ "task": "kc1",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 0.7,
+ "d_internal": 21,
+ "n_edges": 45,
+ "mean_degree": 4.285714149475098,
+ "accuracy": 0.8483412322274881,
+ "best_epoch": 12,
+ "n": 2109,
+ "d": 21,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 183.0
+}

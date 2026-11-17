@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est",
+ "task": "breast-w",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.2,
+ "d_internal": 9,
+ "n_edges": 20,
+ "mean_degree": 4.44444465637207,
+ "accuracy": 0.9642857142857143,
+ "best_epoch": 3,
+ "n": 699,
+ "d": 9,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 43.2
+}

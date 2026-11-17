@@ -1,0 +1,15 @@
+{
+ "config": "stg_l03",
+ "task": "balance-scale",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.896,
+ "best_epoch": 118,
+ "gates_open": 4,
+ "n_gates": 4,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 24.1
+}

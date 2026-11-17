@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "breast-w",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.9714285714285714,
+ "accuracy_M1": 0.9714285714285714,
+ "accuracy_M3": 0.9714285714285714,
+ "accuracy_M5": 0.9714285714285714,
+ "accuracy_M10": 0.9714285714285714,
+ "n": 699,
+ "d": 9,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 213.2
+}

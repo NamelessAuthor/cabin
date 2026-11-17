@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "splice",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9655172413793104,
+ "best_epoch": 9,
+ "gates_open": 59,
+ "n_gates": 60,
+ "n": 3190,
+ "d": 60,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 289.3
+}

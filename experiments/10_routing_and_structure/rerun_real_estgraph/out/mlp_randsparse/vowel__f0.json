@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "vowel",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 0.3,
+ "d_internal": 12,
+ "n_edges": 23,
+ "mean_degree": 3.8333332538604736,
+ "accuracy": 0.9646464646464646,
+ "best_epoch": 144,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 46.9
+}

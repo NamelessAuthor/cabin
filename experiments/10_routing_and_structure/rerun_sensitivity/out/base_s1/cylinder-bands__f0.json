@@ -1,0 +1,12 @@
+{
+ "config": "base_s1",
+ "task": "cylinder-bands",
+ "fold": 0,
+ "seed": 1,
+ "accuracy": 0.6759259259259259,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 40.7
+}

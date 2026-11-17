@@ -1,0 +1,14 @@
+{
+ "config": "base_ft",
+ "task": "breast-w",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.95,
+ "best_epoch": 137,
+ "acc_W0": 0.9428571428571428,
+ "n": 699,
+ "d": 9,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 29.7
+}

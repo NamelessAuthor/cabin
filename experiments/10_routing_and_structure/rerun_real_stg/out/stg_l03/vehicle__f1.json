@@ -1,0 +1,15 @@
+{
+ "config": "stg_l03",
+ "task": "vehicle",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.7455621301775148,
+ "best_epoch": 78,
+ "gates_open": 13,
+ "n_gates": 18,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 42.6
+}

@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "qsar-biodeg",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 1.2,
+ "d_internal": 41,
+ "n_edges": 93,
+ "mean_degree": 4.536585330963135,
+ "accuracy": 0.8672985781990521,
+ "best_epoch": 18,
+ "n": 1055,
+ "d": 41,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 86.6
+}

@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "credit-approval",
+ "fold": 0,
+ "seed": 2,
+ "accuracy": 0.8478260869565217,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 27.0
+}

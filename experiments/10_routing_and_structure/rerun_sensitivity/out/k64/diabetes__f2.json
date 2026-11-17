@@ -1,0 +1,13 @@
+{
+ "config": "k64",
+ "task": "diabetes",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 64,
+ "accuracy": 0.7532467532467533,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 23.1
+}

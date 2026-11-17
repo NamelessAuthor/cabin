@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "ozone-level-8hr",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9428007889546351,
+ "n": 2534,
+ "d": 72,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 2838.7
+}

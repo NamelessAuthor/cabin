@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "semeion",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 18.9,
+ "d_internal": 256,
+ "n_edges": 467,
+ "mean_degree": 3.6484375,
+ "accuracy": 0.9373040752351097,
+ "best_epoch": 72,
+ "n": 1593,
+ "d": 256,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 828.9
+}

@@ -1,0 +1,13 @@
+{
+ "config": "k4",
+ "task": "wdbc",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 4,
+ "accuracy": 0.9736842105263158,
+ "n": 569,
+ "d": 30,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 41.1
+}

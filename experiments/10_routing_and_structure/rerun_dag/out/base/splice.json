@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "splice",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 6800,
+ "joint_steps_at_restored": 4080,
+ "accuracy": 0.957680250783699,
+ "n": 3190,
+ "d": 60,
+ "n_classes": 3,
+ "n_categorical": 60,
+ "status": "ok",
+ "seconds": 249.7
+}

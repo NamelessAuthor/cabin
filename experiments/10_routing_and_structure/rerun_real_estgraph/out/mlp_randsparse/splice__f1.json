@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "splice",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 3.0,
+ "d_internal": 60,
+ "n_edges": 131,
+ "mean_degree": 4.366666793823242,
+ "accuracy": 0.9623824451410659,
+ "best_epoch": 26,
+ "n": 3190,
+ "d": 60,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 378.3
+}

@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "steel-plates-fault",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.7654639175257731,
+ "accuracy_M1": 0.7603092783505154,
+ "accuracy_M3": 0.7731958762886598,
+ "accuracy_M5": 0.7731958762886598,
+ "accuracy_M10": 0.7654639175257731,
+ "n": 1941,
+ "d": 27,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 1073.6
+}

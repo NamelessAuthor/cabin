@@ -1,0 +1,13 @@
+{
+ "config": "base",
+ "task": "wilt",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.9886363636363636,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 97.7
+}

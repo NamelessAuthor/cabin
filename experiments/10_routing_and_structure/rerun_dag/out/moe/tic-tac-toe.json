@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "tic-tac-toe",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 2100,
+ "joint_steps_at_restored": 882,
+ "accuracy": 0.984375,
+ "n": 958,
+ "d": 9,
+ "n_classes": 2,
+ "n_categorical": 9,
+ "status": "ok",
+ "seconds": 33.3
+}

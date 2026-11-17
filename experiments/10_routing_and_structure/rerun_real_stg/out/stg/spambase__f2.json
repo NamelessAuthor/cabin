@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "spambase",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.933695652173913,
+ "best_epoch": 5,
+ "gates_open": 56,
+ "n_gates": 57,
+ "n": 4601,
+ "d": 57,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 488.3
+}

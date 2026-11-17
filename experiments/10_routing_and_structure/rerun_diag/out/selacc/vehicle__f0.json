@@ -1,0 +1,14 @@
+{
+ "config": "selacc",
+ "task": "vehicle",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8411764705882353,
+ "best_epoch": 106,
+ "acc_W0": 0.5176470588235295,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 43.5
+}

@@ -1,0 +1,14 @@
+{
+ "config": "add_ft",
+ "task": "cylinder-bands",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8240740740740741,
+ "best_epoch": 145,
+ "acc_W0": 0.5833333333333334,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 63.2
+}

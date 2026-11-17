@@ -1,0 +1,14 @@
+{
+ "config": "base_ft",
+ "task": "steel-plates-fault",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.7680412371134021,
+ "best_epoch": 122,
+ "acc_W0": 0.7164948453608248,
+ "n": 1941,
+ "d": 27,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 143.6
+}

@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "pc4",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 1.6,
+ "d_internal": 37,
+ "n_edges": 82,
+ "mean_degree": 4.432432651519775,
+ "accuracy": 0.8904109589041096,
+ "best_epoch": 65,
+ "n": 1458,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 173.7
+}

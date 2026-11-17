@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse_ens5",
+ "task": "steel-plates-fault",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 1.2,
+ "d_internal": 27,
+ "n_edges": 63,
+ "mean_degree": 4.666666507720947,
+ "accuracy": 0.7551546391752577,
+ "best_epoch": 24,
+ "n": 1941,
+ "d": 27,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 564.4
+}

@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore",
+ "task": "blood-transfusion-service-center",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8066666666666666,
+ "n": 748,
+ "d": 4,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 19.0
+}

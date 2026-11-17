@@ -1,0 +1,12 @@
+{
+ "config": "randdag",
+ "task": "soybean",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.948905109489051,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 70.4
+}

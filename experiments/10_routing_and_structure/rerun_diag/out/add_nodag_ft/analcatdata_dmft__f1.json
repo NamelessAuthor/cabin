@@ -1,0 +1,14 @@
+{
+ "config": "add_nodag_ft",
+ "task": "analcatdata_dmft",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.28125,
+ "best_epoch": 129,
+ "acc_W0": 0.28125,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 31.2
+}

@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s1",
+ "task": "breast-w",
+ "fold": 1,
+ "seed": 1,
+ "accuracy": 0.9428571428571428,
+ "n": 699,
+ "d": 9,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 23.8
+}

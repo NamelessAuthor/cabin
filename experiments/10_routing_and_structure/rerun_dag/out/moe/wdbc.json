@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "wdbc",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1300,
+ "joint_steps_at_restored": 780,
+ "accuracy": 0.9736842105263158,
+ "n": 569,
+ "d": 30,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 38.8
+}

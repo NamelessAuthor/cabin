@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "blood-transfusion-service-center",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8133333333333334,
+ "best_epoch": 104,
+ "n": 748,
+ "d": 4,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 23.1
+}

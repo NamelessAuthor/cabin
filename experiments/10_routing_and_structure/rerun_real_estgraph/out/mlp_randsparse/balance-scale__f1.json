@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "balance-scale",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.1,
+ "d_internal": 4,
+ "n_edges": 6,
+ "mean_degree": 3.0,
+ "accuracy": 1.0,
+ "best_epoch": 135,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 21.5
+}

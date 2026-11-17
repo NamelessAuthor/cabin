@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "spambase",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9326818675352877,
+ "best_epoch": 6,
+ "n": 4601,
+ "d": 57,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 469.8
+}

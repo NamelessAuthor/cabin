@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "segment",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9891774891774892,
+ "best_epoch": 145,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 137.9
+}

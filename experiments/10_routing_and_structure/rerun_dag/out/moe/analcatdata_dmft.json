@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "analcatdata_dmft",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1700,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.19375,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "n_categorical": 2,
+ "status": "ok",
+ "seconds": 23.1
+}

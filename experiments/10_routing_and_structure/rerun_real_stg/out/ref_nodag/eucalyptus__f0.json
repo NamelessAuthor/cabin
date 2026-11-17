@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "eucalyptus",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.7162162162162162,
+ "best_epoch": 17,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 38.6
+}

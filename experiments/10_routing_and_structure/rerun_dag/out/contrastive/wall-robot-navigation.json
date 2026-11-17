@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "wall-robot-navigation",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 11600,
+ "joint_steps_at_restored": 9628,
+ "accuracy": 0.9862637362637363,
+ "n": 5456,
+ "d": 24,
+ "n_classes": 4,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 283.6
+}

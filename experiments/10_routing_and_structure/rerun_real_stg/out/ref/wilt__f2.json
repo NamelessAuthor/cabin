@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "wilt",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.987603305785124,
+ "best_epoch": 100,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 137.9
+}

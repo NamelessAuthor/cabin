@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "ilpd",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.7521367521367521,
+ "accuracy_M1": 0.6752136752136753,
+ "accuracy_M3": 0.7094017094017094,
+ "accuracy_M5": 0.7350427350427351,
+ "accuracy_M10": 0.7521367521367521,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 172.0
+}

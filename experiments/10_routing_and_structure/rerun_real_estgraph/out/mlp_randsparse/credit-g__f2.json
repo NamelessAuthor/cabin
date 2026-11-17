@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "credit-g",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 0.3,
+ "d_internal": 20,
+ "n_edges": 49,
+ "mean_degree": 4.900000095367432,
+ "accuracy": 0.76,
+ "best_epoch": 23,
+ "n": 1000,
+ "d": 20,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 47.1
+}

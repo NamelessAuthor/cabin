@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "splice",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9592476489028213,
+ "best_epoch": 95,
+ "n": 3190,
+ "d": 60,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 280.8
+}

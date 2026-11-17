@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "ozone-level-8hr",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9349112426035503,
+ "best_epoch": 1,
+ "gates_open": 72,
+ "n_gates": 72,
+ "n": 2534,
+ "d": 72,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 320.8
+}

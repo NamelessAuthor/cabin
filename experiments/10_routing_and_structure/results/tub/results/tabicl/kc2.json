@@ -1,0 +1,80 @@
+{
+  "model": "tabicl",
+  "task": "kc2",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T13:21:19.813194+00:00",
+  "runtime_seconds": 3.1595,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.8,
+        "f1_macro": 0.6929397019913661,
+        "f1_weighted": 0.7982732209998608,
+        "auc_ovr": 0.787513691128149,
+        "log_loss": 0.43149640468313294
+      },
+      "runtime_seconds": 0.621
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.8666666666666667,
+        "f1_macro": 0.7838235294117647,
+        "f1_weighted": 0.8615686274509803,
+        "auc_ovr": 0.8874589266155531,
+        "log_loss": 0.3075767320397036
+      },
+      "runtime_seconds": 0.6931
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.8557692307692307,
+        "f1_macro": 0.7156916347731,
+        "f1_weighted": 0.8346616478109097,
+        "auc_ovr": 0.8123924268502583,
+        "log_loss": 0.38564604424514887
+      },
+      "runtime_seconds": 0.6052
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.8653846153846154,
+        "f1_macro": 0.7414772727272727,
+        "f1_weighted": 0.8481752622377622,
+        "auc_ovr": 0.9225473321858864,
+        "log_loss": 0.29801671704928323
+      },
+      "runtime_seconds": 0.6186
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.8365384615384616,
+        "f1_macro": 0.6938528138528138,
+        "f1_weighted": 0.8184515484515485,
+        "auc_ovr": 0.7885829030407343,
+        "log_loss": 0.4509065605652546
+      },
+      "runtime_seconds": 0.5864
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.844872,
+    "f1_macro": 0.725557,
+    "f1_weighted": 0.832226,
+    "auc_ovr": 0.839699,
+    "log_loss": 0.374728
+  },
+  "std_metrics": {
+    "accuracy": 0.02489,
+    "f1_macro": 0.034102,
+    "f1_weighted": 0.022198,
+    "auc_ovr": 0.055185,
+    "log_loss": 0.062512
+  },
+  "tub_version": "0.1.0"
+}

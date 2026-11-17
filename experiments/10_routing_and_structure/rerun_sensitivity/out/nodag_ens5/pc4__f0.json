@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "pc4",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9143835616438356,
+ "n": 1458,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 488.5
+}

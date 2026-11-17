@@ -1,0 +1,15 @@
+{
+ "d": 10,
+ "lam": 0.0,
+ "rep": 3,
+ "seed": 19003,
+ "target": 2,
+ "n_parents": 2,
+ "n_children": 1,
+ "n_edges_feats": 12,
+ "model": "add_nodag_all",
+ "acc": 0.778,
+ "best_epoch": 49,
+ "status": "ok",
+ "seconds": 429.4
+}

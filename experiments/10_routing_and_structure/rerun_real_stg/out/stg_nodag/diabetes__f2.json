@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "diabetes",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.7792207792207793,
+ "best_epoch": 34,
+ "gates_open": 8,
+ "n_gates": 8,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 28.3
+}

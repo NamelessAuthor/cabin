@@ -1,0 +1,17 @@
+{
+ "d": 100,
+ "n": 1000,
+ "lam": 0.0,
+ "rep": 3,
+ "seed": 111003,
+ "target": 23,
+ "n_parents": 7,
+ "n_children": 3,
+ "mb_size": 15,
+ "n_edges_feats": 170,
+ "model": "stg_add__nodag",
+ "acc": 0.8262,
+ "best_epoch": 29,
+ "status": "ok",
+ "seconds": 379.5
+}

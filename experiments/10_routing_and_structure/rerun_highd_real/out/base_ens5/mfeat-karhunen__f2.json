@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "mfeat-karhunen",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9725,
+ "n": 2000,
+ "d": 64,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 1642.4
+}

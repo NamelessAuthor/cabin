@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est_ens5",
+ "task": "ozone-level-8hr",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 7.2,
+ "d_internal": 72,
+ "n_edges": 139,
+ "mean_degree": 3.8611111640930176,
+ "accuracy": 0.9447731755424064,
+ "best_epoch": 2,
+ "n": 2534,
+ "d": 72,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 1508.8
+}

@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "kc1",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8436018957345972,
+ "best_epoch": 22,
+ "acc_W0": 0.8388625592417062,
+ "n": 2109,
+ "d": 21,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 109.3
+}

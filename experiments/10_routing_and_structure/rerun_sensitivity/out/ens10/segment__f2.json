@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "segment",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.9826839826839827,
+ "accuracy_M1": 0.987012987012987,
+ "accuracy_M3": 0.987012987012987,
+ "accuracy_M5": 0.9848484848484849,
+ "accuracy_M10": 0.9826839826839827,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 1093.7
+}

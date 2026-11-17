@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s1",
+ "task": "wilt",
+ "fold": 2,
+ "seed": 1,
+ "accuracy": 0.9896694214876033,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 118.3
+}

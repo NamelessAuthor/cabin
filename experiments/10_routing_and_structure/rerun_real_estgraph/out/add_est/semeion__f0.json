@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "semeion",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 21.2,
+ "d_internal": 256,
+ "n_edges": 467,
+ "mean_degree": 3.6484375,
+ "accuracy": 0.9216300940438872,
+ "best_epoch": 33,
+ "n": 1593,
+ "d": 256,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 974.8
+}

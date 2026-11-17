@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-contrastive",
+  "task": "banknote-authentication",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-06T12:06:38.301229+00:00",
+  "runtime_seconds": 1162.878,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.007712353039948858
+      },
+      "runtime_seconds": 252.2217
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.0075981988211211255
+      },
+      "runtime_seconds": 226.5944
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.008069814006502765
+      },
+      "runtime_seconds": 220.835
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.007586021755847414
+      },
+      "runtime_seconds": 229.4566
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.008041317426772651
+      },
+      "runtime_seconds": 223.5791
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "auc_ovr": 1.0,
+    "log_loss": 0.007802
+  },
+  "std_metrics": {
+    "accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_weighted": 0.0,
+    "auc_ovr": 0.0,
+    "log_loss": 0.000212
+  },
+  "tub_version": "0.1.0"
+}

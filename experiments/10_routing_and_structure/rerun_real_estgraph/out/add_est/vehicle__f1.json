@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "vehicle",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.4,
+ "d_internal": 18,
+ "n_edges": 42,
+ "mean_degree": 4.666666507720947,
+ "accuracy": 0.8224852071005917,
+ "best_epoch": 35,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 68.5
+}

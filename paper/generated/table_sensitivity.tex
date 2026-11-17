@@ -1,0 +1,29 @@
+\multirow{6}{*}{Groups $k$} & 4 & .814 & +0.36 & 15/11 & 0.328 \\
+ & 8 & .816 & +0.61 & 18/8 & 0.055 \\
+ & 16 & .815 & +0.49 & 17/8 & 0.093 \\
+ & \textbf{32} & .810 & -- & -- & -- \\
+ & 64 & .811 & +0.09 & 11/15 & 0.889 \\
+ & auto ($\lfloor d/3\rfloor$) & .814 & +0.42 & 15/11 & 0.144 \\
+\midrule
+\multirow{4}{*}{Edge dropout} & 0 & .811 & +0.09 & 14/14 & 0.567 \\
+ & 0.1 & .813 & +0.28 & 16/9 & 0.128 \\
+ & \textbf{0.2} & .810 & -- & -- & -- \\
+ & 0.3 & .810 & \ensuremath{-}0.01 & 14/11 & 0.798 \\
+\midrule
+\multirow{4}{*}{Label smoothing} & 0 & .808 & \ensuremath{-}0.26 & 9/18 & 0.331 \\
+ & 0.05 & .809 & \ensuremath{-}0.07 & 13/11 & 0.954 \\
+ & \textbf{0.1} & .810 & -- & -- & -- \\
+ & 0.2 & .811 & +0.13 & 12/13 & 0.677 \\
+\midrule
+\multirow{3}{*}{Seed (noise floor)} & \textbf{42} & .810 & -- & -- & -- \\
+ & 1 & .815 & +0.53 & 14/14 & 0.479 \\
+ & 2 & .816 & +0.57 & 15/10 & 0.276 \\
+\midrule
+\multirow{4}{*}{Routing ablation} & \textbf{default routing} & .810 & -- & -- & -- \\
+ & default, restore fix & .802 & \ensuremath{-}0.84 & 10/16 & 0.124 \\
+ & dense random (frozen) & .809 & \ensuremath{-}0.16 & 10/11 & 0.555 \\
+ & no message passing & .811 & +0.14 & 12/14 & 0.909 \\
+\midrule
+\multirow{3}{*}{Routing ablation, $M{=}5$} & \textbf{default routing} & .824 & -- & -- & -- \\
+ & dense random (frozen) & .822 & \ensuremath{-}0.12 & 10/10 & 0.575 \\
+ & no message passing & .825 & +0.17 & 18/9 & 0.239 \\

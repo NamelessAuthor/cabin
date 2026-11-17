@@ -1,0 +1,80 @@
+{
+  "model": "realmlp",
+  "task": "monks-problems-2",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-04-10T08:21:10.958774+00:00",
+  "runtime_seconds": 52.0195,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9917355371900827,
+        "f1_macro": 0.9909329336830274,
+        "f1_weighted": 0.9917578317319453,
+        "auc_ovr": 0.9969861362266426,
+        "log_loss": 0.04252090233511223
+      },
+      "runtime_seconds": 12.391
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9916666666666667,
+        "f1_macro": 0.9906825064057768,
+        "f1_weighted": 0.9916414317881822,
+        "auc_ovr": 1.0,
+        "log_loss": 0.018047776184821927
+      },
+      "runtime_seconds": 9.6613
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9916666666666667,
+        "f1_macro": 0.9906825064057768,
+        "f1_weighted": 0.9916414317881822,
+        "auc_ovr": 1.0,
+        "log_loss": 0.024457662455931038
+      },
+      "runtime_seconds": 9.3827
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9916666666666667,
+        "f1_macro": 0.9907911902386617,
+        "f1_weighted": 0.9916903281917477,
+        "auc_ovr": 1.0,
+        "log_loss": 0.02563113819770202
+      },
+      "runtime_seconds": 10.59
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.004237352183745394
+      },
+      "runtime_seconds": 9.9666
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.993347,
+    "f1_macro": 0.992618,
+    "f1_weighted": 0.993346,
+    "auc_ovr": 0.999397,
+    "log_loss": 0.022979
+  },
+  "std_metrics": {
+    "accuracy": 0.003327,
+    "f1_macro": 0.003692,
+    "f1_weighted": 0.003327,
+    "auc_ovr": 0.001206,
+    "log_loss": 0.012383
+  },
+  "tub_version": "0.1.0"
+}

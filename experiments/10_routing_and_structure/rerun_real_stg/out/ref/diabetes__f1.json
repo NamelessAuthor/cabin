@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "diabetes",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.7792207792207793,
+ "best_epoch": 36,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 26.3
+}

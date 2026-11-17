@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s2",
+ "task": "diabetes",
+ "fold": 1,
+ "seed": 2,
+ "accuracy": 0.7142857142857143,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 24.5
+}

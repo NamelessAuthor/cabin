@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "wilt",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.987603305785124,
+ "best_epoch": 34,
+ "gates_open": 2,
+ "n_gates": 5,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 129.8
+}

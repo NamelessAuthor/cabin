@@ -1,0 +1,14 @@
+{
+ "config": "selacc",
+ "task": "eucalyptus",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.6216216216216216,
+ "best_epoch": 48,
+ "acc_W0": 0.40540540540540543,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 36.8
+}

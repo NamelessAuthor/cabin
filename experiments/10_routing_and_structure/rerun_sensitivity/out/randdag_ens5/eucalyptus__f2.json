@@ -1,0 +1,12 @@
+{
+ "config": "randdag_ens5",
+ "task": "eucalyptus",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.7006802721088435,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 148.3
+}

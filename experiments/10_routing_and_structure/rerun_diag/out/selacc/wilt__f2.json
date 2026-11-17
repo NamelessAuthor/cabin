@@ -1,0 +1,14 @@
+{
+ "config": "selacc",
+ "task": "wilt",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9896694214876033,
+ "best_epoch": 110,
+ "acc_W0": 0.984504132231405,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 150.2
+}

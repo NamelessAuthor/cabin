@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s2",
+ "task": "cmc",
+ "fold": 0,
+ "seed": 2,
+ "accuracy": 0.4915254237288136,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 46.8
+}

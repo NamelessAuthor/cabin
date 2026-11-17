@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "wdbc",
+ "fold": 0,
+ "seed": 2,
+ "accuracy": 0.9912280701754386,
+ "n": 569,
+ "d": 30,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 31.9
+}

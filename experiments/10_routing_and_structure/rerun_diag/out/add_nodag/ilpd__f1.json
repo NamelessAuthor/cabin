@@ -1,0 +1,14 @@
+{
+ "config": "add_nodag",
+ "task": "ilpd",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.6837606837606838,
+ "best_epoch": 128,
+ "acc_W0": 0.6837606837606838,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 29.2
+}

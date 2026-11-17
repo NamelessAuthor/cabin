@@ -1,0 +1,13 @@
+{
+ "config": "k16",
+ "task": "balance-scale",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 16,
+ "accuracy": 1.0,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 16.8
+}

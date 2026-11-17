@@ -1,0 +1,12 @@
+{
+ "config": "base_s1",
+ "task": "eucalyptus",
+ "fold": 1,
+ "seed": 1,
+ "accuracy": 0.6938775510204082,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 28.9
+}

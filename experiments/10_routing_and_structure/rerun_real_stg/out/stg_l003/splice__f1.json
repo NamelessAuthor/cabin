@@ -1,0 +1,15 @@
+{
+ "config": "stg_l003",
+ "task": "splice",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9717868338557993,
+ "best_epoch": 21,
+ "gates_open": 57,
+ "n_gates": 60,
+ "n": 3190,
+ "d": 60,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 291.7
+}

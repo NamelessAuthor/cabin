@@ -1,0 +1,13 @@
+{
+ "config": "k4",
+ "task": "vowel",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 4,
+ "accuracy": 0.9747474747474747,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 38.4
+}

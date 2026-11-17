@@ -1,0 +1,12 @@
+{
+ "config": "nodag",
+ "task": "wdbc",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9385964912280702,
+ "n": 569,
+ "d": 30,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 32.4
+}

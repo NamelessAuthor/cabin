@@ -1,0 +1,12 @@
+{
+ "config": "base_s1",
+ "task": "cmc",
+ "fold": 1,
+ "seed": 1,
+ "accuracy": 0.6101694915254238,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 39.1
+}

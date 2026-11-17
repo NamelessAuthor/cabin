@@ -1,0 +1,14 @@
+{
+ "config": "add_rand_ft",
+ "task": "breast-w",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9357142857142857,
+ "best_epoch": 120,
+ "acc_W0": 0.85,
+ "n": 699,
+ "d": 9,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 29.0
+}

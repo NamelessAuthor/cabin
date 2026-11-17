@@ -1,0 +1,14 @@
+{
+ "config": "add_rand_ft",
+ "task": "dresses-sales",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.54,
+ "best_epoch": 122,
+ "acc_W0": 0.5,
+ "n": 500,
+ "d": 12,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 31.7
+}

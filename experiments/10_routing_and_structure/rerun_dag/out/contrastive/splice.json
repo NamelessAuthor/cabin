@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "splice",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 6800,
+ "joint_steps_at_restored": 272,
+ "accuracy": 0.9623824451410659,
+ "n": 3190,
+ "d": 60,
+ "n_classes": 3,
+ "n_categorical": 60,
+ "status": "ok",
+ "seconds": 251.4
+}

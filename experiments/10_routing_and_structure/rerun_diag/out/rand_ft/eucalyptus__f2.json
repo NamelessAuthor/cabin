@@ -1,0 +1,14 @@
+{
+ "config": "rand_ft",
+ "task": "eucalyptus",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.6190476190476191,
+ "best_epoch": 126,
+ "acc_W0": 0.4897959183673469,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 46.2
+}

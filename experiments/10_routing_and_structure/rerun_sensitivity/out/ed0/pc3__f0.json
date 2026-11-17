@@ -1,0 +1,13 @@
+{
+ "config": "ed0",
+ "task": "pc3",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.8977635782747604,
+ "n": 1563,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 98.0
+}

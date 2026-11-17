@@ -1,0 +1,14 @@
+{
+ "config": "add_nodag",
+ "task": "kc1",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8436018957345972,
+ "best_epoch": 40,
+ "acc_W0": 0.8436018957345972,
+ "n": 2109,
+ "d": 21,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 114.3
+}

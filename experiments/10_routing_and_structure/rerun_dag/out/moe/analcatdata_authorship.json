@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "analcatdata_authorship",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1800,
+ "joint_steps_at_restored": 1368,
+ "accuracy": 0.9881656804733728,
+ "n": 841,
+ "d": 70,
+ "n_classes": 4,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 99.3
+}

@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "mfeat-factors",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 68.2,
+ "d_internal": 216,
+ "n_edges": 432,
+ "mean_degree": 4.0,
+ "accuracy": 0.9825,
+ "best_epoch": 68,
+ "n": 2000,
+ "d": 216,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 906.5
+}

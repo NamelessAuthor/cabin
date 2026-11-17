@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "soybean",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9343065693430657,
+ "best_epoch": 77,
+ "acc_W0": 0.8905109489051095,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 79.8
+}

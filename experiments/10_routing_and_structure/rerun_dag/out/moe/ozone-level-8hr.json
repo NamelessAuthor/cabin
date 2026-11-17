@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "ozone-level-8hr",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 5400,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.9408284023668639,
+ "n": 2534,
+ "d": 72,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 291.9
+}

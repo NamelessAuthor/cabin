@@ -1,0 +1,14 @@
+{
+ "config": "selacc_ft",
+ "task": "cylinder-bands",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8425925925925926,
+ "best_epoch": 141,
+ "acc_W0": 0.7870370370370371,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 63.9
+}

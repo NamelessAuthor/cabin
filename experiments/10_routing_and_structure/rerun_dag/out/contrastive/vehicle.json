@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "vehicle",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1800,
+ "joint_steps_at_restored": 612,
+ "accuracy": 0.8647058823529412,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 37.4
+}

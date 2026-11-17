@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "ozone-level-8hr",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 9.3,
+ "d_internal": 72,
+ "n_edges": 140,
+ "mean_degree": 3.8888888359069824,
+ "accuracy": 0.9408284023668639,
+ "best_epoch": 8,
+ "n": 2534,
+ "d": 72,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 511.3
+}

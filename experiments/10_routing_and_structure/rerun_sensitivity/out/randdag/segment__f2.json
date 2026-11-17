@@ -1,0 +1,12 @@
+{
+ "config": "randdag",
+ "task": "segment",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9826839826839827,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 89.9
+}

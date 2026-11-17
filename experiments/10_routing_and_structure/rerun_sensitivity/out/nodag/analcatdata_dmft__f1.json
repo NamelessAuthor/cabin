@@ -1,0 +1,12 @@
+{
+ "config": "nodag",
+ "task": "analcatdata_dmft",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.26875,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 16.8
+}

@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "cylinder-bands",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 0.7,
+ "d_internal": 49,
+ "n_edges": 120,
+ "mean_degree": 4.897959232330322,
+ "accuracy": 0.7129629629629629,
+ "best_epoch": 116,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 58.6
+}

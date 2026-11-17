@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "pc4",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9246575342465754,
+ "n": 1458,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 450.4
+}

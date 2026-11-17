@@ -1,0 +1,15 @@
+{
+ "config": "stg_l003",
+ "task": "blood-transfusion-service-center",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8,
+ "best_epoch": 70,
+ "gates_open": 4,
+ "n_gates": 4,
+ "n": 748,
+ "d": 4,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 23.1
+}

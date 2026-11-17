@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-contrastive",
+  "task": "blood-transfusion-service-center",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-06T11:57:19.964065+00:00",
+  "runtime_seconds": 605.3119,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.82,
+        "f1_macro": 0.699443413729128,
+        "f1_weighted": 0.7984267161410019,
+        "auc_ovr": 0.766325536062378,
+        "log_loss": 0.7707080432340309
+      },
+      "runtime_seconds": 131.0315
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.8066666666666666,
+        "f1_macro": 0.6859432531947152,
+        "f1_weighted": 0.7871951483647389,
+        "auc_ovr": 0.7753411306042883,
+        "log_loss": 0.9288432223273985
+      },
+      "runtime_seconds": 122.0227
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.8,
+        "f1_macro": 0.6510545905707196,
+        "f1_weighted": 0.7696029776674937,
+        "auc_ovr": 0.719541910331384,
+        "log_loss": 1.1588269438569148
+      },
+      "runtime_seconds": 115.4761
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.7986577181208053,
+        "f1_macro": 0.6701593860684769,
+        "f1_weighted": 0.7793138831881967,
+        "auc_ovr": 0.7894736842105263,
+        "log_loss": 0.9685985980296785
+      },
+      "runtime_seconds": 112.2005
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.7986577181208053,
+        "f1_macro": 0.6788793103448276,
+        "f1_weighted": 0.7828627632492479,
+        "auc_ovr": 0.7563909774436091,
+        "log_loss": 0.8294840903422555
+      },
+      "runtime_seconds": 114.8309
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.804796,
+    "f1_macro": 0.677096,
+    "f1_weighted": 0.78348,
+    "auc_ovr": 0.761415,
+    "log_loss": 0.931292
+  },
+  "std_metrics": {
+    "accuracy": 0.008161,
+    "f1_macro": 0.016169,
+    "f1_weighted": 0.009461,
+    "auc_ovr": 0.023596,
+    "log_loss": 0.133658
+  },
+  "tub_version": "0.1.0"
+}

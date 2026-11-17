@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "kc2",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1200,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.8476190476190476,
+ "n": 522,
+ "d": 21,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 29.9
+}

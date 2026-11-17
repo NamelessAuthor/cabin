@@ -1,0 +1,80 @@
+{
+  "model": "tabicl",
+  "task": "blood-transfusion-service-center",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T13:16:21.929106+00:00",
+  "runtime_seconds": 2.2571,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.8066666666666666,
+        "f1_macro": 0.6940713130318588,
+        "f1_weighted": 0.7905816161474084,
+        "auc_ovr": 0.7592592592592591,
+        "log_loss": 0.46660970549556186
+      },
+      "runtime_seconds": 0.4322
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.8066666666666666,
+        "f1_macro": 0.6574533427828964,
+        "f1_weighted": 0.7750153555398063,
+        "auc_ovr": 0.7950779727095516,
+        "log_loss": 0.4406162051077957
+      },
+      "runtime_seconds": 0.4321
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.78,
+        "f1_macro": 0.5837187789084182,
+        "f1_weighted": 0.732358926919519,
+        "auc_ovr": 0.7195419103313839,
+        "log_loss": 0.5012057670875306
+      },
+      "runtime_seconds": 0.4325
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.785234899328859,
+        "f1_macro": 0.6381299332119004,
+        "f1_weighted": 0.7604593260881081,
+        "auc_ovr": 0.7789473684210526,
+        "log_loss": 0.4504113732647298
+      },
+      "runtime_seconds": 0.4295
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.785234899328859,
+        "f1_macro": 0.6154838709677419,
+        "f1_weighted": 0.7509417622862091,
+        "auc_ovr": 0.7588972431077694,
+        "log_loss": 0.46847603784764197
+      },
+      "runtime_seconds": 0.4963
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.792761,
+    "f1_macro": 0.637771,
+    "f1_weighted": 0.761871,
+    "auc_ovr": 0.762345,
+    "log_loss": 0.465464
+  },
+  "std_metrics": {
+    "accuracy": 0.011514,
+    "f1_macro": 0.037351,
+    "f1_weighted": 0.019947,
+    "auc_ovr": 0.025301,
+    "log_loss": 0.020649
+  },
+  "tub_version": "0.1.0"
+}

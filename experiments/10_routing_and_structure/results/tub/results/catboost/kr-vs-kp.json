@@ -1,0 +1,80 @@
+{
+  "model": "catboost",
+  "task": "kr-vs-kp",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T10:48:20.142594+00:00",
+  "runtime_seconds": 9.0304,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9953125,
+        "f1_macro": 0.9953053365120117,
+        "f1_weighted": 0.9953133596185586,
+        "auc_ovr": 0.9999902156471371,
+        "log_loss": 0.012026472991858276
+      },
+      "runtime_seconds": 1.6915
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9968701095461658,
+        "f1_macro": 0.9968627258444619,
+        "f1_weighted": 0.9968696331783141,
+        "auc_ovr": 1.0,
+        "log_loss": 0.00989387199933143
+      },
+      "runtime_seconds": 1.6234
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9968701095461658,
+        "f1_macro": 0.996863649749681,
+        "f1_weighted": 0.9968701095461658,
+        "auc_ovr": 0.999970550701875,
+        "log_loss": 0.010793484677748594
+      },
+      "runtime_seconds": 2.5305
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9953051643192489,
+        "f1_macro": 0.9952933608644305,
+        "f1_weighted": 0.9953040577453596,
+        "auc_ovr": 0.998723863747914,
+        "log_loss": 0.024037280465648053
+      },
+      "runtime_seconds": 1.6018
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9953051643192489,
+        "f1_macro": 0.9952985321708421,
+        "f1_weighted": 0.9953059933377998,
+        "auc_ovr": 0.99972521541149,
+        "log_loss": 0.018875857530560442
+      },
+      "runtime_seconds": 1.5559
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.995933,
+    "f1_macro": 0.995925,
+    "f1_weighted": 0.995933,
+    "auc_ovr": 0.999682,
+    "log_loss": 0.015125
+  },
+  "std_metrics": {
+    "accuracy": 0.000765,
+    "f1_macro": 0.000766,
+    "f1_weighted": 0.000765,
+    "auc_ovr": 0.00049,
+    "log_loss": 0.005463
+  },
+  "tub_version": "0.1.0"
+}

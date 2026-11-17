@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s1",
+ "task": "analcatdata_dmft",
+ "fold": 0,
+ "seed": 1,
+ "accuracy": 0.19375,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 19.9
+}

@@ -1,0 +1,14 @@
+{
+ "config": "add_ft",
+ "task": "wilt",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9907024793388429,
+ "best_epoch": 132,
+ "acc_W0": 0.9462809917355371,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 168.6
+}

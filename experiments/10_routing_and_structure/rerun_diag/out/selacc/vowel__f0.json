@@ -1,0 +1,14 @@
+{
+ "config": "selacc",
+ "task": "vowel",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9646464646464646,
+ "best_epoch": 115,
+ "acc_W0": 0.6212121212121212,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 47.4
+}

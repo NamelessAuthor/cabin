@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "sick",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 8100,
+ "joint_steps_at_restored": 6804,
+ "accuracy": 0.9841059602649007,
+ "n": 3772,
+ "d": 28,
+ "n_classes": 2,
+ "n_categorical": 22,
+ "status": "ok",
+ "seconds": 203.5
+}

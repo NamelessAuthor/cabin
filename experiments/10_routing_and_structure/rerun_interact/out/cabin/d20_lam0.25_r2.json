@@ -1,0 +1,15 @@
+{
+ "d": 20,
+ "lam": 0.25,
+ "rep": 2,
+ "seed": 29002,
+ "target": 3,
+ "n_parents": 5,
+ "n_children": 1,
+ "n_edges_feats": 57,
+ "model": "cabin",
+ "acc": 0.713,
+ "best_epoch": 6,
+ "status": "ok",
+ "seconds": 95.3
+}

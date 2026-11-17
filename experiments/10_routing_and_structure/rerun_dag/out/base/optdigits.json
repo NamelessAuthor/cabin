@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "optdigits",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 12000,
+ "joint_steps_at_restored": 8520,
+ "accuracy": 0.9911032028469751,
+ "n": 5620,
+ "d": 64,
+ "n_classes": 10,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 568.2
+}

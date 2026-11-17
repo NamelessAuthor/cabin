@@ -1,0 +1,13 @@
+{
+ "config": "ed0.1",
+ "task": "soybean",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.9562043795620438,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 64.0
+}

@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-anneal",
+  "task": "ozone-level-8hr",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-07T17:51:03.804047+00:00",
+  "runtime_seconds": 10430.1221,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9467455621301775,
+        "f1_macro": 0.7105001586126679,
+        "f1_weighted": 0.9390082672551499,
+        "auc_ovr": 0.9207894736842106,
+        "log_loss": 0.16401128729360348
+      },
+      "runtime_seconds": 1986.5149
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9428007889546351,
+        "f1_macro": 0.6628138974888201,
+        "f1_weighted": 0.9312861765350454,
+        "auc_ovr": 0.9377631578947367,
+        "log_loss": 0.15529422642741447
+      },
+      "runtime_seconds": 2103.6306
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9408284023668639,
+        "f1_macro": 0.6584171757096658,
+        "f1_weighted": 0.9298014998075808,
+        "auc_ovr": 0.9117763157894736,
+        "log_loss": 0.16172914479226652
+      },
+      "runtime_seconds": 2126.036
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9585798816568047,
+        "f1_macro": 0.7657374199652358,
+        "f1_weighted": 0.9514530950290727,
+        "auc_ovr": 0.9276315789473686,
+        "log_loss": 0.13435553315532678
+      },
+      "runtime_seconds": 2141.8765
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.950592885375494,
+        "f1_macro": 0.7418946767052295,
+        "f1_weighted": 0.9446300794134864,
+        "auc_ovr": 0.9277426160337553,
+        "log_loss": 0.14228485233278124
+      },
+      "runtime_seconds": 2069.0248
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.94791,
+    "f1_macro": 0.707873,
+    "f1_weighted": 0.939236,
+    "auc_ovr": 0.925141,
+    "log_loss": 0.151535
+  },
+  "std_metrics": {
+    "accuracy": 0.006303,
+    "f1_macro": 0.0424,
+    "f1_weighted": 0.008132,
+    "auc_ovr": 0.0086,
+    "log_loss": 0.01144
+  },
+  "tub_version": "0.1.0"
+}

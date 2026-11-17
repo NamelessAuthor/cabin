@@ -1,0 +1,12 @@
+{
+ "config": "randdag_ens5",
+ "task": "cylinder-bands",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8425925925925926,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 216.2
+}

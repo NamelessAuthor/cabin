@@ -1,0 +1,14 @@
+{
+ "config": "add_ft",
+ "task": "credit-approval",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.7971014492753623,
+ "best_epoch": 132,
+ "acc_W0": 0.5652173913043478,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 41.2
+}

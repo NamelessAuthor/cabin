@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "adult",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 103800,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.8572013512130208,
+ "n": 48842,
+ "d": 14,
+ "n_classes": 2,
+ "n_categorical": 8,
+ "status": "ok",
+ "seconds": 1946.9
+}

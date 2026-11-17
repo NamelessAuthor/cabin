@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "cylinder-bands",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.9,
+ "d_internal": 49,
+ "n_edges": 121,
+ "mean_degree": 4.938775539398193,
+ "accuracy": 0.7314814814814815,
+ "best_epoch": 5,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 83.9
+}

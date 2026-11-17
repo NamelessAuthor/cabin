@@ -1,0 +1,15 @@
+{
+ "config": "stg_l003",
+ "task": "MiceProtein",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 1.0,
+ "best_epoch": 78,
+ "gates_open": 75,
+ "n_gates": 77,
+ "n": 1080,
+ "d": 77,
+ "n_classes": 8,
+ "status": "ok",
+ "seconds": 141.2
+}

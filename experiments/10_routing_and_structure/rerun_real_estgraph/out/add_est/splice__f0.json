@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "splice",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 3.6,
+ "d_internal": 60,
+ "n_edges": 135,
+ "mean_degree": 4.5,
+ "accuracy": 0.9702194357366771,
+ "best_epoch": 7,
+ "n": 3190,
+ "d": 60,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 458.6
+}

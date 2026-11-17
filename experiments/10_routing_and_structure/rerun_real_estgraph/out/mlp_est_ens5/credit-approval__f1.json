@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est_ens5",
+ "task": "credit-approval",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.6,
+ "d_internal": 20,
+ "n_edges": 52,
+ "mean_degree": 5.199999809265137,
+ "accuracy": 0.8043478260869565,
+ "best_epoch": 2,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 321.2
+}

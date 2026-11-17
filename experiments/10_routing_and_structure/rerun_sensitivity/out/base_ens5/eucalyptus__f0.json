@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "eucalyptus",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.7297297297297297,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 147.8
+}

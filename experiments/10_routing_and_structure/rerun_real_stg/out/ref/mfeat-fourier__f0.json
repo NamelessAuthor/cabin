@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "mfeat-fourier",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.82,
+ "best_epoch": 8,
+ "n": 2000,
+ "d": 76,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 266.0
+}

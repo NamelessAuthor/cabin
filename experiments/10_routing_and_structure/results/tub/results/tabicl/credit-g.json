@@ -1,0 +1,80 @@
+{
+  "model": "tabicl",
+  "task": "credit-g",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T13:17:59.710519+00:00",
+  "runtime_seconds": 3.5249,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.74,
+        "f1_macro": 0.6533333333333333,
+        "f1_weighted": 0.7226666666666667,
+        "auc_ovr": 0.7848809523809525,
+        "log_loss": 0.49639979236437776
+      },
+      "runtime_seconds": 0.6803
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.76,
+        "f1_macro": 0.69558599695586,
+        "f1_weighted": 0.7515981735159818,
+        "auc_ovr": 0.7677380952380952,
+        "log_loss": 0.527254822418253
+      },
+      "runtime_seconds": 0.7571
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.755,
+        "f1_macro": 0.6754859432431537,
+        "f1_weighted": 0.7397397264810093,
+        "auc_ovr": 0.7997619047619049,
+        "log_loss": 0.47696902194712154
+      },
+      "runtime_seconds": 0.6864
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.77,
+        "f1_macro": 0.7011434511434511,
+        "f1_weighted": 0.7585239085239085,
+        "auc_ovr": 0.8175,
+        "log_loss": 0.46960297037331467
+      },
+      "runtime_seconds": 0.6837
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.775,
+        "f1_macro": 0.7057958223006766,
+        "f1_weighted": 0.7628714327743453,
+        "auc_ovr": 0.8129761904761904,
+        "log_loss": 0.4660993084377065
+      },
+      "runtime_seconds": 0.6797
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.76,
+    "f1_macro": 0.686269,
+    "f1_weighted": 0.74708,
+    "auc_ovr": 0.796571,
+    "log_loss": 0.487265
+  },
+  "std_metrics": {
+    "accuracy": 0.012247,
+    "f1_macro": 0.019444,
+    "f1_weighted": 0.014496,
+    "auc_ovr": 0.018359,
+    "log_loss": 0.022577
+  },
+  "tub_version": "0.1.0"
+}

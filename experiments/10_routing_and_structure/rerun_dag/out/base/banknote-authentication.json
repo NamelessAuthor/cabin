@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "banknote-authentication",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 3000,
+ "joint_steps_at_restored": 3000,
+ "accuracy": 1.0,
+ "n": 1372,
+ "d": 4,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 38.5
+}

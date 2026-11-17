@@ -1,0 +1,14 @@
+{
+ "config": "add_rand",
+ "task": "pc3",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9073482428115016,
+ "best_epoch": 15,
+ "acc_W0": 0.8977635782747604,
+ "n": 1563,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 118.5
+}

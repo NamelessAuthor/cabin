@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "qsar-biodeg",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 1.4,
+ "d_internal": 41,
+ "n_edges": 93,
+ "mean_degree": 4.536585330963135,
+ "accuracy": 0.8530805687203792,
+ "best_epoch": 24,
+ "n": 1055,
+ "d": 41,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 139.6
+}

@@ -1,0 +1,13 @@
+{
+ "config": "k16",
+ "task": "mfeat-morphological",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 16,
+ "accuracy": 0.75,
+ "n": 2000,
+ "d": 6,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 43.5
+}

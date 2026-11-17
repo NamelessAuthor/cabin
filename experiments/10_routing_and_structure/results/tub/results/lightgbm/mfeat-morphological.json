@@ -1,0 +1,80 @@
+{
+  "model": "lightgbm",
+  "task": "mfeat-morphological",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-06T17:32:17.833497+00:00",
+  "runtime_seconds": 9.6869,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.73,
+        "f1_macro": 0.7281764709064322,
+        "f1_weighted": 0.7281764709064323,
+        "auc_ovr": 0.9671180555555555,
+        "log_loss": 0.6531971233880577
+      },
+      "runtime_seconds": 1.8424
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.6875,
+        "f1_macro": 0.6831312149888811,
+        "f1_weighted": 0.6831312149888812,
+        "auc_ovr": 0.9504930555555555,
+        "log_loss": 0.8774608985029937
+      },
+      "runtime_seconds": 1.7332
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.715,
+        "f1_macro": 0.7133120941243145,
+        "f1_weighted": 0.7133120941243146,
+        "auc_ovr": 0.962125,
+        "log_loss": 0.6952637097100903
+      },
+      "runtime_seconds": 1.7062
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.71,
+        "f1_macro": 0.709769643285262,
+        "f1_weighted": 0.709769643285262,
+        "auc_ovr": 0.9602291666666668,
+        "log_loss": 0.806631062116459
+      },
+      "runtime_seconds": 1.7906
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.715,
+        "f1_macro": 0.714366314534566,
+        "f1_weighted": 0.714366314534566,
+        "auc_ovr": 0.9630138888888888,
+        "log_loss": 0.690342739246589
+      },
+      "runtime_seconds": 1.7128
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.7115,
+    "f1_macro": 0.709751,
+    "f1_weighted": 0.709751,
+    "auc_ovr": 0.960596,
+    "log_loss": 0.744579
+  },
+  "std_metrics": {
+    "accuracy": 0.013748,
+    "f1_macro": 0.014711,
+    "f1_weighted": 0.014711,
+    "auc_ovr": 0.00553,
+    "log_loss": 0.083943
+  },
+  "tub_version": "0.1.0"
+}

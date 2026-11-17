@@ -1,0 +1,80 @@
+{
+  "model": "xgboost",
+  "task": "car",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-06T18:14:47.536358+00:00",
+  "runtime_seconds": 5.4062,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9971098265895953,
+        "f1_macro": 0.989745323416723,
+        "f1_weighted": 0.9971502121544917,
+        "auc_ovr": 0.9999879302853281,
+        "log_loss": 0.033822291558197284
+      },
+      "runtime_seconds": 0.7792
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9971098265895953,
+        "f1_macro": 0.9891278375149343,
+        "f1_weighted": 0.9970656279998066,
+        "auc_ovr": 0.9999758605706561,
+        "log_loss": 0.03432486203271844
+      },
+      "runtime_seconds": 0.8351
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9942196531791907,
+        "f1_macro": 0.9957575273965316,
+        "f1_weighted": 0.9942447142636622,
+        "auc_ovr": 0.9999758605706561,
+        "log_loss": 0.03424810686208872
+      },
+      "runtime_seconds": 0.8398
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9942028985507246,
+        "f1_macro": 0.9957575273965316,
+        "f1_weighted": 0.9942280322760206,
+        "auc_ovr": 0.9997622707350218,
+        "log_loss": 0.04636628236025718
+      },
+      "runtime_seconds": 0.8918
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9971014492753624,
+        "f1_macro": 0.9891067538126361,
+        "f1_weighted": 0.9970572447980802,
+        "auc_ovr": 1.0,
+        "log_loss": 0.030719563297333705
+      },
+      "runtime_seconds": 0.8141
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.995949,
+    "f1_macro": 0.991899,
+    "f1_weighted": 0.995949,
+    "auc_ovr": 0.99994,
+    "log_loss": 0.035896
+  },
+  "std_metrics": {
+    "accuracy": 0.001419,
+    "f1_macro": 0.003159,
+    "f1_weighted": 0.001399,
+    "auc_ovr": 9e-05,
+    "log_loss": 0.005402
+  },
+  "tub_version": "0.1.0"
+}

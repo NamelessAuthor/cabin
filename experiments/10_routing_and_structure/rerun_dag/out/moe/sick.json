@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "sick",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 8100,
+ "joint_steps_at_restored": 7776,
+ "accuracy": 0.9867549668874173,
+ "n": 3772,
+ "d": 28,
+ "n_classes": 2,
+ "n_categorical": 22,
+ "status": "ok",
+ "seconds": 247.1
+}

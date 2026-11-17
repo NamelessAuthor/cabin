@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "pc4",
+ "fold": 2,
+ "seed": 2,
+ "accuracy": 0.9041095890410958,
+ "n": 1458,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 89.0
+}

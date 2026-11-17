@@ -1,0 +1,14 @@
+{
+ "config": "add_nodag",
+ "task": "credit-approval",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.855072463768116,
+ "best_epoch": 41,
+ "acc_W0": 0.855072463768116,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 36.6
+}

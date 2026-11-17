@@ -1,0 +1,17 @@
+{
+ "d": 50,
+ "n": 1000,
+ "lam": 0.0,
+ "rep": 1,
+ "seed": 61001,
+ "target": 9,
+ "n_parents": 4,
+ "n_children": 1,
+ "mb_size": 11,
+ "n_edges_feats": 82,
+ "model": "stg_muon_mlp__nodag",
+ "acc": 0.6704,
+ "best_epoch": 7,
+ "status": "ok",
+ "seconds": 427.7
+}

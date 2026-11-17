@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "eucalyptus",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.6530612244897959,
+ "best_epoch": 5,
+ "acc_W0": 0.4557823129251701,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 37.5
+}

@@ -1,0 +1,13 @@
+{
+ "config": "k16",
+ "task": "kc2",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 16,
+ "accuracy": 0.819047619047619,
+ "n": 522,
+ "d": 21,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 23.8
+}

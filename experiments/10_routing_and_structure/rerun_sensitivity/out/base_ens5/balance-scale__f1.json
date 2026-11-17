@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "balance-scale",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 1.0,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 76.1
+}

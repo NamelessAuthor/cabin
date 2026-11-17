@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "ozone-level-8hr",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9368836291913215,
+ "best_epoch": 4,
+ "gates_open": 72,
+ "n_gates": 72,
+ "n": 2534,
+ "d": 72,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 323.6
+}

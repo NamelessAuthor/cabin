@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est_ens5",
+ "task": "analcatdata_dmft",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.2,
+ "d_internal": 4,
+ "n_edges": 6,
+ "mean_degree": 3.0,
+ "accuracy": 0.25,
+ "best_epoch": 3,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 229.7
+}

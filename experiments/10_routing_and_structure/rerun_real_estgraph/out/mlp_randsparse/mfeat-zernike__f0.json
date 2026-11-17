@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "mfeat-zernike",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 5.0,
+ "d_internal": 47,
+ "n_edges": 94,
+ "mean_degree": 4.0,
+ "accuracy": 0.835,
+ "best_epoch": 23,
+ "n": 2000,
+ "d": 47,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 239.4
+}

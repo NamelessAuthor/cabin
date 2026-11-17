@@ -1,0 +1,80 @@
+{
+  "model": "xgboost",
+  "task": "blood-transfusion-service-center",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T10:40:21.962160+00:00",
+  "runtime_seconds": 1.8089,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.7466666666666667,
+        "f1_macro": 0.6386916835699796,
+        "f1_weighted": 0.7413995943204867,
+        "auc_ovr": 0.7048001949317738,
+        "log_loss": 0.5829630303795583
+      },
+      "runtime_seconds": 0.2597
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.7733333333333333,
+        "f1_macro": 0.6458333333333333,
+        "f1_weighted": 0.7563333333333333,
+        "auc_ovr": 0.7558479532163742,
+        "log_loss": 0.527967858432843
+      },
+      "runtime_seconds": 0.356
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.7733333333333333,
+        "f1_macro": 0.592,
+        "f1_weighted": 0.73344,
+        "auc_ovr": 0.6829922027290447,
+        "log_loss": 0.5991212982862412
+      },
+      "runtime_seconds": 0.2349
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.7919463087248322,
+        "f1_macro": 0.6805007954624058,
+        "f1_weighted": 0.780548472141175,
+        "auc_ovr": 0.7146616541353383,
+        "log_loss": 0.5361688744971095
+      },
+      "runtime_seconds": 0.4925
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.7449664429530202,
+        "f1_macro": 0.5822018890200709,
+        "f1_weighted": 0.7204642520383825,
+        "auc_ovr": 0.6634085213032581,
+        "log_loss": 0.5998088047919629
+      },
+      "runtime_seconds": 0.4334
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.766049,
+    "f1_macro": 0.627846,
+    "f1_weighted": 0.746437,
+    "auc_ovr": 0.704342,
+    "log_loss": 0.569206
+  },
+  "std_metrics": {
+    "accuracy": 0.017871,
+    "f1_macro": 0.036282,
+    "f1_weighted": 0.020642,
+    "auc_ovr": 0.031276,
+    "log_loss": 0.031025
+  },
+  "tub_version": "0.1.0"
+}

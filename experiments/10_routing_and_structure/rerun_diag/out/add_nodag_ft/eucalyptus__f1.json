@@ -1,0 +1,14 @@
+{
+ "config": "add_nodag_ft",
+ "task": "eucalyptus",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.564625850340136,
+ "best_epoch": 120,
+ "acc_W0": 0.564625850340136,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 46.2
+}

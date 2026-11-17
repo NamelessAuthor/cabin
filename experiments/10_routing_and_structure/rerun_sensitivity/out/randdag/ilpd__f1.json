@@ -1,0 +1,12 @@
+{
+ "config": "randdag",
+ "task": "ilpd",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.6581196581196581,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 17.4
+}

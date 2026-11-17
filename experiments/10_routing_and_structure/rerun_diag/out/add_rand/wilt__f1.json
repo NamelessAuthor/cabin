@@ -1,0 +1,14 @@
+{
+ "config": "add_rand",
+ "task": "wilt",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9917355371900827,
+ "best_epoch": 36,
+ "acc_W0": 0.9493801652892562,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 137.1
+}

@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "mfeat-zernike",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8325,
+ "best_epoch": 35,
+ "n": 2000,
+ "d": 47,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 180.8
+}

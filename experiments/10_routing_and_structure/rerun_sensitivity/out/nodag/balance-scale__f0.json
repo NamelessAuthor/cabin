@@ -1,0 +1,12 @@
+{
+ "config": "nodag",
+ "task": "balance-scale",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.968,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 14.4
+}

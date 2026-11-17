@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "dresses-sales",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1100,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.62,
+ "n": 500,
+ "d": 12,
+ "n_classes": 2,
+ "n_categorical": 11,
+ "status": "ok",
+ "seconds": 25.6
+}

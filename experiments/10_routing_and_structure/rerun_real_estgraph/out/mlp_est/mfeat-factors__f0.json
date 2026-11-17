@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est",
+ "task": "mfeat-factors",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 72.6,
+ "d_internal": 216,
+ "n_edges": 445,
+ "mean_degree": 4.120370388031006,
+ "accuracy": 0.9825,
+ "best_epoch": 108,
+ "n": 2000,
+ "d": 216,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 1197.9
+}

@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-anneal",
+  "task": "dresses-sales",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-06T15:11:46.868506+00:00",
+  "runtime_seconds": 949.5955,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.58,
+        "f1_macro": 0.5625,
+        "f1_weighted": 0.5765,
+        "auc_ovr": 0.6305418719211823,
+        "log_loss": 0.6679650649443134
+      },
+      "runtime_seconds": 190.9305
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.62,
+        "f1_macro": 0.5558672276764843,
+        "f1_weighted": 0.5828705002337541,
+        "auc_ovr": 0.5205254515599342,
+        "log_loss": 0.6817096007990331
+      },
+      "runtime_seconds": 191.7926
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.63,
+        "f1_macro": 0.5360501567398119,
+        "f1_weighted": 0.5694545454545455,
+        "auc_ovr": 0.6564039408866995,
+        "log_loss": 0.6618164709231159
+      },
+      "runtime_seconds": 189.5097
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.6,
+        "f1_macro": 0.5324918186068257,
+        "f1_weighted": 0.5609163160355307,
+        "auc_ovr": 0.6756978653530378,
+        "log_loss": 0.6592773944630252
+      },
+      "runtime_seconds": 190.0363
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.65,
+        "f1_macro": 0.5944849959448499,
+        "f1_weighted": 0.6184914841849148,
+        "auc_ovr": 0.6428571428571428,
+        "log_loss": 0.6570600873568678
+      },
+      "runtime_seconds": 184.884
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.616,
+    "f1_macro": 0.556279,
+    "f1_weighted": 0.581647,
+    "auc_ovr": 0.625205,
+    "log_loss": 0.665566
+  },
+  "std_metrics": {
+    "accuracy": 0.024166,
+    "f1_macro": 0.022242,
+    "f1_weighted": 0.019819,
+    "auc_ovr": 0.054444,
+    "log_loss": 0.008858
+  },
+  "tub_version": "0.1.0"
+}

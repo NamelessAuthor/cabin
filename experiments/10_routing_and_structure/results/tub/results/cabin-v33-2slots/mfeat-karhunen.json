@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-2slots",
+  "task": "mfeat-karhunen",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-04-09T23:38:07.293032+00:00",
+  "runtime_seconds": 6463.7052,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9725,
+        "f1_macro": 0.9724464496034321,
+        "f1_weighted": 0.9724464496034321,
+        "auc_ovr": 0.9990625000000002,
+        "log_loss": 0.11704205856978522
+      },
+      "runtime_seconds": 1260.4894
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.99,
+        "f1_macro": 0.989996482359609,
+        "f1_weighted": 0.9899964823596089,
+        "auc_ovr": 0.999263888888889,
+        "log_loss": 0.097673770969819
+      },
+      "runtime_seconds": 1337.1023
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.975,
+        "f1_macro": 0.9749298845395892,
+        "f1_weighted": 0.9749298845395892,
+        "auc_ovr": 0.9964097222222221,
+        "log_loss": 0.1429987232002046
+      },
+      "runtime_seconds": 1310.0934
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9525,
+        "f1_macro": 0.9519967475882021,
+        "f1_weighted": 0.951996747588202,
+        "auc_ovr": 0.9987222222222222,
+        "log_loss": 0.1576536735383323
+      },
+      "runtime_seconds": 1288.9592
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9825,
+        "f1_macro": 0.9825187683127068,
+        "f1_weighted": 0.9825187683127067,
+        "auc_ovr": 0.9996319444444446,
+        "log_loss": 0.10448502884651219
+      },
+      "runtime_seconds": 1264.2568
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.9745,
+    "f1_macro": 0.974378,
+    "f1_weighted": 0.974378,
+    "auc_ovr": 0.998618,
+    "log_loss": 0.123971
+  },
+  "std_metrics": {
+    "accuracy": 0.01259,
+    "f1_macro": 0.012768,
+    "f1_weighted": 0.012768,
+    "auc_ovr": 0.001143,
+    "log_loss": 0.022873
+  },
+  "tub_version": "0.1.0"
+}

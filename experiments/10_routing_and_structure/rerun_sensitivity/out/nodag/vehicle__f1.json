@@ -1,0 +1,12 @@
+{
+ "config": "nodag",
+ "task": "vehicle",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.7988165680473372,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 32.6
+}

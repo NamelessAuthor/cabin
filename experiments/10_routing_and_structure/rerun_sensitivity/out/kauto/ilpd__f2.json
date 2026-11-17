@@ -1,0 +1,13 @@
+{
+ "config": "kauto",
+ "task": "ilpd",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 3,
+ "accuracy": 0.5897435897435898,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 20.1
+}

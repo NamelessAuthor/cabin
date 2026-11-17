@@ -1,0 +1,14 @@
+{
+ "config": "add_ft",
+ "task": "pc4",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9143835616438356,
+ "best_epoch": 120,
+ "acc_W0": 0.7568493150684932,
+ "n": 1458,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 131.4
+}

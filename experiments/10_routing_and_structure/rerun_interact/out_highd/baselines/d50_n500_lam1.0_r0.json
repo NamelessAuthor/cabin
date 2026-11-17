@@ -1,0 +1,19 @@
+{
+ "d": 50,
+ "n": 500,
+ "lam": 1.0,
+ "rep": 0,
+ "seed": 61000,
+ "target": 10,
+ "n_parents": 5,
+ "n_children": 1,
+ "mb_size": 11,
+ "n_edges_feats": 103,
+ "model": "baselines",
+ "lgbm": 0.3656,
+ "lgbm_stumps": 0.3574,
+ "logreg": 0.3452,
+ "lgbm_mb": 0.4892,
+ "status": "ok",
+ "seconds": 1.6
+}

@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "mfeat-fourier",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 4300,
+ "joint_steps_at_restored": 258,
+ "accuracy": 0.8175,
+ "n": 2000,
+ "d": 76,
+ "n_classes": 10,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 229.9
+}

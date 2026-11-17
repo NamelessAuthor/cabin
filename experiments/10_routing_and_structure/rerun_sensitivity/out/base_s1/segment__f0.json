@@ -1,0 +1,12 @@
+{
+ "config": "base_s1",
+ "task": "segment",
+ "fold": 0,
+ "seed": 1,
+ "accuracy": 0.9826839826839827,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 95.7
+}

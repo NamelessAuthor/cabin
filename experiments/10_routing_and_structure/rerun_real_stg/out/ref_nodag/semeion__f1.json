@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "semeion",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9341692789968652,
+ "best_epoch": 32,
+ "n": 1593,
+ "d": 256,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 616.0
+}

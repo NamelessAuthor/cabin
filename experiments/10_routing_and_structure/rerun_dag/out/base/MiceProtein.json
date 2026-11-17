@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "MiceProtein",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 2300,
+ "joint_steps_at_restored": 391,
+ "accuracy": 1.0,
+ "n": 1080,
+ "d": 77,
+ "n_classes": 8,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 129.2
+}

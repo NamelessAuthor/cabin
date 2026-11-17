@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "MiceProtein",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9907407407407407,
+ "best_epoch": 61,
+ "gates_open": 63,
+ "n_gates": 77,
+ "n": 1080,
+ "d": 77,
+ "n_classes": 8,
+ "status": "ok",
+ "seconds": 146.5
+}

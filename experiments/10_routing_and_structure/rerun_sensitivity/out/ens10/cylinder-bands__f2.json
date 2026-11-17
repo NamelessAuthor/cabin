@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "cylinder-bands",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.8333333333333334,
+ "accuracy_M1": 0.8148148148148148,
+ "accuracy_M3": 0.8703703703703703,
+ "accuracy_M5": 0.8703703703703703,
+ "accuracy_M10": 0.8333333333333334,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 478.3
+}

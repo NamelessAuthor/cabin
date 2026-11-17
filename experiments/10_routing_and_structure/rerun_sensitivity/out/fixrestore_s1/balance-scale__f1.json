@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s1",
+ "task": "balance-scale",
+ "fold": 1,
+ "seed": 1,
+ "accuracy": 1.0,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 16.4
+}

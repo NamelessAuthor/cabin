@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "vowel",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 1.0,
+ "accuracy_M1": 0.9696969696969697,
+ "accuracy_M3": 1.0,
+ "accuracy_M5": 1.0,
+ "accuracy_M10": 1.0,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 418.9
+}

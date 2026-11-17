@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "cylinder-bands",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1200,
+ "joint_steps_at_restored": 384,
+ "accuracy": 0.7037037037037037,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "n_categorical": 14,
+ "status": "ok",
+ "seconds": 47.1
+}

@@ -1,0 +1,14 @@
+{
+ "config": "selacc_ft",
+ "task": "diabetes",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.6623376623376623,
+ "best_epoch": 123,
+ "acc_W0": 0.7012987012987013,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 32.1
+}

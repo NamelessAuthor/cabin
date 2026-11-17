@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "kc2",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8461538461538461,
+ "n": 522,
+ "d": 21,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 124.7
+}

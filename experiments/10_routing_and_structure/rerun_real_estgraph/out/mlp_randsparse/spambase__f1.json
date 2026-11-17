@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "spambase",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 4.2,
+ "d_internal": 57,
+ "n_edges": 144,
+ "mean_degree": 5.052631378173828,
+ "accuracy": 0.9467391304347826,
+ "best_epoch": 60,
+ "n": 4601,
+ "d": 57,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 619.4
+}

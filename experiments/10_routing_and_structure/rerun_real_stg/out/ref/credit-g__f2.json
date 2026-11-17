@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "credit-g",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.73,
+ "best_epoch": 20,
+ "n": 1000,
+ "d": 20,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 49.2
+}

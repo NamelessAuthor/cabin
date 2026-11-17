@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "vehicle",
+ "fold": 1,
+ "seed": 2,
+ "accuracy": 0.8106508875739645,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 32.7
+}

@@ -1,0 +1,12 @@
+{
+ "config": "randdag_ens5",
+ "task": "mfeat-karhunen",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.985,
+ "n": 2000,
+ "d": 64,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 983.2
+}

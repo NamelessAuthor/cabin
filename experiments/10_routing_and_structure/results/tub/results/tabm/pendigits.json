@@ -1,0 +1,80 @@
+{
+  "model": "tabm",
+  "task": "pendigits",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-06T00:05:31.511687+00:00",
+  "runtime_seconds": 260.2349,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9918144611186903,
+        "f1_macro": 0.9918854962984769,
+        "f1_weighted": 0.9918222572069241,
+        "auc_ovr": 0.9999735587389976,
+        "log_loss": 0.026827753960368926
+      },
+      "runtime_seconds": 45.494
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9918144611186903,
+        "f1_macro": 0.9918158526807982,
+        "f1_weighted": 0.9918136638588259,
+        "auc_ovr": 0.9992860163192177,
+        "log_loss": 0.04288785503691147
+      },
+      "runtime_seconds": 62.5686
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9968152866242038,
+        "f1_macro": 0.9968836020386955,
+        "f1_weighted": 0.9968153240790875,
+        "auc_ovr": 0.9995414405207527,
+        "log_loss": 0.017469733145757806
+      },
+      "runtime_seconds": 70.0567
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.991810737033667,
+        "f1_macro": 0.9917887764005819,
+        "f1_weighted": 0.9918040267612527,
+        "auc_ovr": 0.9996582981418747,
+        "log_loss": 0.04415074094855611
+      },
+      "runtime_seconds": 39.5746
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9940855323020928,
+        "f1_macro": 0.9940843355593072,
+        "f1_weighted": 0.9940911300037412,
+        "auc_ovr": 0.999979109257415,
+        "log_loss": 0.024742257634008207
+      },
+      "runtime_seconds": 42.5031
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.993268,
+    "f1_macro": 0.993292,
+    "f1_weighted": 0.993269,
+    "auc_ovr": 0.999688,
+    "log_loss": 0.031216
+  },
+  "std_metrics": {
+    "accuracy": 0.00198,
+    "f1_macro": 0.001997,
+    "f1_weighted": 0.00198,
+    "auc_ovr": 0.000265,
+    "log_loss": 0.010523
+  },
+  "tub_version": "0.1.0"
+}

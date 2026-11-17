@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-2slots",
+  "task": "mfeat-fourier",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-03T01:25:12.078184+00:00",
+  "runtime_seconds": 8918.4847,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.8425,
+        "f1_macro": 0.8413163331426444,
+        "f1_weighted": 0.8413163331426443,
+        "auc_ovr": 0.9826180555555556,
+        "log_loss": 0.41636762221991797
+      },
+      "runtime_seconds": 1750.0227
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.8575,
+        "f1_macro": 0.8576666613192112,
+        "f1_weighted": 0.8576666613192111,
+        "auc_ovr": 0.9842222222222222,
+        "log_loss": 0.4160758670073622
+      },
+      "runtime_seconds": 1766.7751
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.845,
+        "f1_macro": 0.8411646481816788,
+        "f1_weighted": 0.8411646481816788,
+        "auc_ovr": 0.9873541666666666,
+        "log_loss": 0.3931023417258875
+      },
+      "runtime_seconds": 1793.7514
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.8375,
+        "f1_macro": 0.8378028515989466,
+        "f1_weighted": 0.8378028515989467,
+        "auc_ovr": 0.9826805555555556,
+        "log_loss": 0.4626400996619512
+      },
+      "runtime_seconds": 1837.9222
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.845,
+        "f1_macro": 0.8427267557731228,
+        "f1_weighted": 0.8427267557731227,
+        "auc_ovr": 0.9872222222222222,
+        "log_loss": 0.36542224288521297
+      },
+      "runtime_seconds": 1765.8294
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.8455,
+    "f1_macro": 0.844135,
+    "f1_weighted": 0.844135,
+    "auc_ovr": 0.984819,
+    "log_loss": 0.410722
+  },
+  "std_metrics": {
+    "accuracy": 0.006595,
+    "f1_macro": 0.006956,
+    "f1_weighted": 0.006956,
+    "auc_ovr": 0.002096,
+    "log_loss": 0.031995
+  },
+  "tub_version": "0.1.0"
+}

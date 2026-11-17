@@ -1,0 +1,14 @@
+{
+ "config": "base_ft",
+ "task": "pc1",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9144144144144144,
+ "best_epoch": 120,
+ "acc_W0": 0.9369369369369369,
+ "n": 1109,
+ "d": 21,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 68.8
+}

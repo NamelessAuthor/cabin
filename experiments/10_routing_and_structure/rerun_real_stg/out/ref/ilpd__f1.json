@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "ilpd",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.6837606837606838,
+ "best_epoch": 96,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 23.5
+}

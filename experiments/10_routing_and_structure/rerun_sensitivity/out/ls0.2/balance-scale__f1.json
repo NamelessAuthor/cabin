@@ -1,0 +1,13 @@
+{
+ "config": "ls0.2",
+ "task": "balance-scale",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.992,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 17.0
+}

@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "climate-model-simulation-crashes",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9444444444444444,
+ "best_epoch": 79,
+ "gates_open": 8,
+ "n_gates": 18,
+ "n": 540,
+ "d": 18,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 29.4
+}

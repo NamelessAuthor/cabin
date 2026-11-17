@@ -1,0 +1,13 @@
+{
+ "config": "ls0.05",
+ "task": "climate-model-simulation-crashes",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.9629629629629629,
+ "n": 540,
+ "d": 18,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 21.4
+}

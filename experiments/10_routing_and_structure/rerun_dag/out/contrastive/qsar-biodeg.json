@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "qsar-biodeg",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 2300,
+ "joint_steps_at_restored": 483,
+ "accuracy": 0.8815165876777251,
+ "n": 1055,
+ "d": 41,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 79.2
+}

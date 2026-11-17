@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "diabetes",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8051948051948052,
+ "best_epoch": 20,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 28.3
+}

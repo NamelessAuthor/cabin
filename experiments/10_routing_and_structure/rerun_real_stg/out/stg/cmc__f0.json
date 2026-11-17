@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "cmc",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.5627118644067797,
+ "best_epoch": 45,
+ "gates_open": 6,
+ "n_gates": 9,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 54.9
+}

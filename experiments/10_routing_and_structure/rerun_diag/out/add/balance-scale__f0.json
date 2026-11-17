@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "balance-scale",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.976,
+ "best_epoch": 138,
+ "acc_W0": 0.864,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 23.0
+}

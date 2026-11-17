@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est_ens5",
+ "task": "mfeat-morphological",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 0.2,
+ "d_internal": 6,
+ "n_edges": 11,
+ "mean_degree": 3.6666667461395264,
+ "accuracy": 0.775,
+ "best_epoch": 49,
+ "n": 2000,
+ "d": 6,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 596.0
+}

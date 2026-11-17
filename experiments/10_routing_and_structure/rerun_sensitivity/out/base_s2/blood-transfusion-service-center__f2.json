@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "blood-transfusion-service-center",
+ "fold": 2,
+ "seed": 2,
+ "accuracy": 0.7933333333333333,
+ "n": 748,
+ "d": 4,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 15.4
+}

@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "analcatdata_dmft",
+ "fold": 0,
+ "seed": 2,
+ "accuracy": 0.1625,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 17.0
+}

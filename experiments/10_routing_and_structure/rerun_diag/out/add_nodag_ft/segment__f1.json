@@ -1,0 +1,14 @@
+{
+ "config": "add_nodag_ft",
+ "task": "segment",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9696969696969697,
+ "best_epoch": 140,
+ "acc_W0": 0.9696969696969697,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 143.2
+}

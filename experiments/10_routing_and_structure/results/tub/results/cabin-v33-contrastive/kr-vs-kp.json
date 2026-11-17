@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-contrastive",
+  "task": "kr-vs-kp",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-04-11T05:34:17.040700+00:00",
+  "runtime_seconds": 22716.7486,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.99375,
+        "f1_macro": 0.9937411985604757,
+        "f1_weighted": 0.9937514669065873,
+        "auc_ovr": 0.9997847442370161,
+        "log_loss": 0.025028053824696535
+      },
+      "runtime_seconds": 457.2351
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9984350547730829,
+        "f1_macro": 0.9984315977821467,
+        "f1_weighted": 0.9984349395400517,
+        "auc_ovr": 0.9999116521056248,
+        "log_loss": 0.015569208442007033
+      },
+      "runtime_seconds": 424.5446
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9937402190923318,
+        "f1_macro": 0.9937290231407878,
+        "f1_weighted": 0.9937410484220758,
+        "auc_ovr": 0.9983508393049966,
+        "log_loss": 0.025401915994739066
+      },
+      "runtime_seconds": 528.5502
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9953051643192489,
+        "f1_macro": 0.9952933608644305,
+        "f1_weighted": 0.9953040577453596,
+        "auc_ovr": 0.9991459703543731,
+        "log_loss": 0.02451222200886042
+      },
+      "runtime_seconds": 489.7755
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9953051643192489,
+        "f1_macro": 0.9952985321708421,
+        "f1_weighted": 0.9953059933377998,
+        "auc_ovr": 0.9999214901175685,
+        "log_loss": 0.019672903896001837
+      },
+      "runtime_seconds": 20815.4711
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.995307,
+    "f1_macro": 0.995299,
+    "f1_weighted": 0.995308,
+    "auc_ovr": 0.999423,
+    "log_loss": 0.022037
+  },
+  "std_metrics": {
+    "accuracy": 0.001713,
+    "f1_macro": 0.001715,
+    "f1_weighted": 0.001712,
+    "auc_ovr": 0.000607,
+    "log_loss": 0.003842
+  },
+  "tub_version": "0.1.0"
+}

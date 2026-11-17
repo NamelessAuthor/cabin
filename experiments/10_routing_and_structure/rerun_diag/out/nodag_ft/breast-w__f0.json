@@ -1,0 +1,14 @@
+{
+ "config": "nodag_ft",
+ "task": "breast-w",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9714285714285714,
+ "best_epoch": 120,
+ "acc_W0": 0.9714285714285714,
+ "n": 699,
+ "d": 9,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 30.4
+}

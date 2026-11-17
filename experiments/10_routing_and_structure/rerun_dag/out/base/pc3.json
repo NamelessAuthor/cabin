@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "pc3",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 3400,
+ "joint_steps_at_restored": 1156,
+ "accuracy": 0.8945686900958466,
+ "n": 1563,
+ "d": 37,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 106.5
+}

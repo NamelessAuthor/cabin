@@ -1,0 +1,14 @@
+{
+ "config": "nodag_ft",
+ "task": "mfeat-morphological",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.755,
+ "best_epoch": 133,
+ "acc_W0": 0.755,
+ "n": 2000,
+ "d": 6,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 76.2
+}

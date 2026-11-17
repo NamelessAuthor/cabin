@@ -1,0 +1,14 @@
+{
+ "config": "add_nodag",
+ "task": "balance-scale",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.912,
+ "best_epoch": 9,
+ "acc_W0": 0.912,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 20.1
+}

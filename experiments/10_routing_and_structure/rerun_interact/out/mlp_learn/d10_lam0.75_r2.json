@@ -1,0 +1,15 @@
+{
+ "d": 10,
+ "lam": 0.75,
+ "rep": 2,
+ "seed": 19002,
+ "target": 1,
+ "n_parents": 3,
+ "n_children": 1,
+ "n_edges_feats": 10,
+ "model": "mlp_learn",
+ "acc": 0.7005,
+ "best_epoch": 121,
+ "status": "ok",
+ "seconds": 76.7
+}

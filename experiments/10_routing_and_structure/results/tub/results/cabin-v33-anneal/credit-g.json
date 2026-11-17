@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-anneal",
+  "task": "credit-g",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-04-05T21:18:39.055795+00:00",
+  "runtime_seconds": 493.5337,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.75,
+        "f1_macro": 0.6791169297907842,
+        "f1_weighted": 0.7394429469901168,
+        "auc_ovr": 0.7782142857142857,
+        "log_loss": 0.9585013409624463
+      },
+      "runtime_seconds": 101.4718
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.75,
+        "f1_macro": 0.6964545896066052,
+        "f1_weighted": 0.7474502185526956,
+        "auc_ovr": 0.7604761904761904,
+        "log_loss": 1.043075563583599
+      },
+      "runtime_seconds": 100.6802
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.75,
+        "f1_macro": 0.6666666666666667,
+        "f1_weighted": 0.7333333333333334,
+        "auc_ovr": 0.7947619047619048,
+        "log_loss": 0.8722754867675384
+      },
+      "runtime_seconds": 97.7128
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.775,
+        "f1_macro": 0.7129278172945042,
+        "f1_weighted": 0.7663232432777264,
+        "auc_ovr": 0.8290476190476191,
+        "log_loss": 0.8143923279471185
+      },
+      "runtime_seconds": 96.2138
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.745,
+        "f1_macro": 0.6427445623620889,
+        "f1_weighted": 0.719197226016602,
+        "auc_ovr": 0.7897619047619049,
+        "log_loss": 0.5396199348166709
+      },
+      "runtime_seconds": 96.3566
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.754,
+    "f1_macro": 0.679582,
+    "f1_weighted": 0.741149,
+    "auc_ovr": 0.790452,
+    "log_loss": 0.845573
+  },
+  "std_metrics": {
+    "accuracy": 0.010677,
+    "f1_macro": 0.024169,
+    "f1_weighted": 0.015616,
+    "auc_ovr": 0.022614,
+    "log_loss": 0.171495
+  },
+  "tub_version": "0.1.0"
+}

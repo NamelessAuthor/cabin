@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "analcatdata_authorship",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 1.0,
+ "best_epoch": 25,
+ "gates_open": 69,
+ "n_gates": 70,
+ "n": 841,
+ "d": 70,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 108.0
+}

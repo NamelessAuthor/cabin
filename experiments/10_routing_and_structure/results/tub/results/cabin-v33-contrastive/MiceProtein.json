@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-contrastive",
+  "task": "MiceProtein",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-06T13:34:26.580200+00:00",
+  "runtime_seconds": 6439.3036,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.03142753596665996
+      },
+      "runtime_seconds": 1289.2425
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9953703703703703,
+        "f1_macro": 0.9955923291060934,
+        "f1_weighted": 0.9953646424029969,
+        "auc_ovr": 1.0,
+        "log_loss": 0.039228606364647645
+      },
+      "runtime_seconds": 1283.5093
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9953703703703703,
+        "f1_macro": 0.9955923291060934,
+        "f1_weighted": 0.9953646424029969,
+        "auc_ovr": 1.0,
+        "log_loss": 0.03616572968270376
+      },
+      "runtime_seconds": 1281.6704
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.0344034258010382
+      },
+      "runtime_seconds": 1294.6736
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9953703703703703,
+        "f1_macro": 0.9953687821612349,
+        "f1_weighted": 0.9953687821612349,
+        "auc_ovr": 1.0,
+        "log_loss": 0.046963863715562576
+      },
+      "runtime_seconds": 1284.9285
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.997222,
+    "f1_macro": 0.997311,
+    "f1_weighted": 0.99722,
+    "auc_ovr": 1.0,
+    "log_loss": 0.037638
+  },
+  "std_metrics": {
+    "accuracy": 0.002268,
+    "f1_macro": 0.002197,
+    "f1_weighted": 0.00227,
+    "auc_ovr": 0.0,
+    "log_loss": 0.005305
+  },
+  "tub_version": "0.1.0"
+}

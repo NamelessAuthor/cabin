@@ -1,0 +1,14 @@
+{
+ "config": "selacc_ft",
+ "task": "kc1",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8412322274881516,
+ "best_epoch": 123,
+ "acc_W0": 0.8199052132701422,
+ "n": 2109,
+ "d": 21,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 130.4
+}

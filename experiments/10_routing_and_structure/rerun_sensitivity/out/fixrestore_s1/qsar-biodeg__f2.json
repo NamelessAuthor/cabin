@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s1",
+ "task": "qsar-biodeg",
+ "fold": 2,
+ "seed": 1,
+ "accuracy": 0.8672985781990521,
+ "n": 1055,
+ "d": 41,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 88.3
+}

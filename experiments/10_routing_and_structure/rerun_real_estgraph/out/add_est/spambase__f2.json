@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "spambase",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 4.8,
+ "d_internal": 57,
+ "n_edges": 147,
+ "mean_degree": 5.157894611358643,
+ "accuracy": 0.9445652173913044,
+ "best_epoch": 20,
+ "n": 4601,
+ "d": 57,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 774.8
+}

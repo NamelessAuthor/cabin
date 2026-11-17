@@ -1,0 +1,15 @@
+{
+ "config": "stg_l003",
+ "task": "cylinder-bands",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8055555555555556,
+ "best_epoch": 85,
+ "gates_open": 49,
+ "n_gates": 49,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 53.2
+}

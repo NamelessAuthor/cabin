@@ -1,0 +1,12 @@
+{
+ "config": "randdag",
+ "task": "pc4",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8972602739726028,
+ "n": 1458,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 91.3
+}

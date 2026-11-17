@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "vowel",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9696969696969697,
+ "best_epoch": 108,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 45.0
+}

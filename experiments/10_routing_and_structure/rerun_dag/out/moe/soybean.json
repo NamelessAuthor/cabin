@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "soybean",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1500,
+ "joint_steps_at_restored": 1050,
+ "accuracy": 0.9562043795620438,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "n_categorical": 35,
+ "status": "ok",
+ "seconds": 74.2
+}

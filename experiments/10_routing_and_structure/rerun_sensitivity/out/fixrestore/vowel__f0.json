@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore",
+ "task": "vowel",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9696969696969697,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 37.1
+}

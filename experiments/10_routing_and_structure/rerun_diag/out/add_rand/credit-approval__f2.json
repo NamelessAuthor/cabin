@@ -1,0 +1,14 @@
+{
+ "config": "add_rand",
+ "task": "credit-approval",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8913043478260869,
+ "best_epoch": 37,
+ "acc_W0": 0.6811594202898551,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 35.9
+}

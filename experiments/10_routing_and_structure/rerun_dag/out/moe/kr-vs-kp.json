@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "kr-vs-kp",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 6800,
+ "joint_steps_at_restored": 2856,
+ "accuracy": 0.9953125,
+ "n": 3196,
+ "d": 36,
+ "n_classes": 2,
+ "n_categorical": 36,
+ "status": "ok",
+ "seconds": 194.0
+}

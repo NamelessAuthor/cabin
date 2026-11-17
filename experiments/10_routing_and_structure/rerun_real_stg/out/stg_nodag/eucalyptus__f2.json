@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "eucalyptus",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.6870748299319728,
+ "best_epoch": 41,
+ "gates_open": 19,
+ "n_gates": 19,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 39.8
+}

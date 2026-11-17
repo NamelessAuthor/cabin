@@ -1,0 +1,14 @@
+{
+ "config": "selacc",
+ "task": "steel-plates-fault",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.7634961439588689,
+ "best_epoch": 79,
+ "acc_W0": 0.6889460154241646,
+ "n": 1941,
+ "d": 27,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 116.7
+}

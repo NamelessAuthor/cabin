@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est_ens5",
+ "task": "mfeat-zernike",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 4.2,
+ "d_internal": 47,
+ "n_edges": 93,
+ "mean_degree": 3.957446813583374,
+ "accuracy": 0.825,
+ "best_epoch": 10,
+ "n": 2000,
+ "d": 47,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 890.6
+}

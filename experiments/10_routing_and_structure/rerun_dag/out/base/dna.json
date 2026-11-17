@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "dna",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 6800,
+ "joint_steps_at_restored": 2380,
+ "accuracy": 0.9592476489028213,
+ "n": 3186,
+ "d": 180,
+ "n_classes": 3,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 730.9
+}

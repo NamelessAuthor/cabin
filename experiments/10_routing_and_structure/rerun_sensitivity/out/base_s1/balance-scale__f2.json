@@ -1,0 +1,12 @@
+{
+ "config": "base_s1",
+ "task": "balance-scale",
+ "fold": 2,
+ "seed": 1,
+ "accuracy": 0.96,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 14.9
+}

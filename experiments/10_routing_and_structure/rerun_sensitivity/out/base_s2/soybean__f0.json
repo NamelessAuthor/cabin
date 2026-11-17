@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "soybean",
+ "fold": 0,
+ "seed": 2,
+ "accuracy": 0.927007299270073,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 65.5
+}

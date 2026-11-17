@@ -1,0 +1,13 @@
+{
+ "config": "k64",
+ "task": "soybean",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 64,
+ "accuracy": 0.8905109489051095,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 70.8
+}

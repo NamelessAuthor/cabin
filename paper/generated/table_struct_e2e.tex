@@ -1,0 +1,10 @@
+additive head, true graph (reference) & .700 & -- & .466 & -- \\
+feature-level ordered graph learned end to end, finetune restore & .640 & \ensuremath{-}6.06 & .434 & \ensuremath{-}7.01 \\
+factored ordered graph on the estimated skeleton, finetune restore & .611 & \ensuremath{-}8.84 & .436 & \ensuremath{-}3.00 \\
+same, no warmup (graph trains from the start) & .611 & \ensuremath{-}8.89 & .437 & \ensuremath{-}2.84 \\
+same, edges of the skeleton learned & .609 & \ensuremath{-}9.03 & .440 & \ensuremath{-}2.62 \\
+estimated graph, fixed (two-stage) & .696 & \ensuremath{-}0.37 & .433 & \ensuremath{-}3.29 \\
+\midrule
+MLP head, true graph (reference) & .700 & -- & .452 & -- \\
+MLP head, factored ordered graph on the estimated skeleton & .657 & \ensuremath{-}4.26 & .485 & +3.34 \\
+MLP head, estimated graph, fixed (two-stage) & .694 & \ensuremath{-}0.56 & .446 & \ensuremath{-}0.60 \\

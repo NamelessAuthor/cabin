@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "cmc",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.5627118644067797,
+ "best_epoch": 5,
+ "acc_W0": 0.559322033898305,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 53.2
+}

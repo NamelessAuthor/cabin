@@ -1,0 +1,80 @@
+{
+  "model": "lightgbm",
+  "task": "banknote-authentication",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T10:40:49.083814+00:00",
+  "runtime_seconds": 2.1804,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9963636363636363,
+        "f1_macro": 0.9963137223361618,
+        "f1_weighted": 0.9963620765502778,
+        "auc_ovr": 1.0,
+        "log_loss": 0.010001331756393735
+      },
+      "runtime_seconds": 0.4778
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9927272727272727,
+        "f1_macro": 0.9926210153482882,
+        "f1_weighted": 0.9927208328861221,
+        "auc_ovr": 0.9998928533161898,
+        "log_loss": 0.018836514458048185
+      },
+      "runtime_seconds": 0.4437
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.0027799927460209588
+      },
+      "runtime_seconds": 0.3714
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9854014598540146,
+        "f1_macro": 0.9852688172043012,
+        "f1_weighted": 0.985421866415509,
+        "auc_ovr": 0.9997842968075927,
+        "log_loss": 0.06318179886320065
+      },
+      "runtime_seconds": 0.3543
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.002980432996266116
+      },
+      "runtime_seconds": 0.5064
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.994898,
+    "f1_macro": 0.994841,
+    "f1_weighted": 0.994901,
+    "auc_ovr": 0.999935,
+    "log_loss": 0.019556
+  },
+  "std_metrics": {
+    "accuracy": 0.005461,
+    "f1_macro": 0.005513,
+    "f1_weighted": 0.005454,
+    "auc_ovr": 8.6e-05,
+    "log_loss": 0.022589
+  },
+  "tub_version": "0.1.0"
+}

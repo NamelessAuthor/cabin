@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "cylinder-bands",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.7129629629629629,
+ "best_epoch": 64,
+ "gates_open": 31,
+ "n_gates": 49,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 53.3
+}

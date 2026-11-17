@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "wilt",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 0.2,
+ "d_internal": 5,
+ "n_edges": 9,
+ "mean_degree": 3.5999999046325684,
+ "accuracy": 0.987603305785124,
+ "best_epoch": 58,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 249.4
+}

@@ -1,0 +1,12 @@
+{
+ "config": "nodag",
+ "task": "pc3",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8977635782747604,
+ "n": 1563,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 97.1
+}

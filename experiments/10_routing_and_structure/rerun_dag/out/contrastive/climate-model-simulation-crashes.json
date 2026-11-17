@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "climate-model-simulation-crashes",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1200,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.9629629629629629,
+ "n": 540,
+ "d": 18,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 25.2
+}

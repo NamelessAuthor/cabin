@@ -1,0 +1,12 @@
+{
+ "config": "nodag",
+ "task": "cylinder-bands",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.6574074074074074,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 43.1
+}

@@ -1,0 +1,21 @@
+\multirow{3}{*}{\shortstack[l]{D1 DAG learning\\($n{=}53$)}} & CASTLE (two-stage) & .861 & \ensuremath{-}0.16 & 2.21 & 0.114 &  \\
+ & GOLEM (two-stage) & .861 & \ensuremath{-}0.14 & 2.00 & 0.322 &  \\
+ & \textbf{SDCD (end-to-end)} & .862 & -- & 1.79 & -- &  \\
+\midrule
+\multirow{4}{*}{\shortstack[l]{D2 Adjacency\\($n{=}55$)}} & Full $W\in\mathbb{R}^{d\times d}$ & .865 & \ensuremath{-}0.10 & 2.48 & 0.152 &  \\
+ & Block-diagonal reg. & .864 & \ensuremath{-}0.19 & 2.68 & 0.104 &  \\
+ & Latent nodes ($n_\ell{=}32$) & .863 & \ensuremath{-}0.30 & 2.60 & 0.010 &  \\
+ & \textbf{Factored $ASA^\top$, $k{=}32$} & .866 & -- & 2.24 & -- &  \\
+\midrule
+\multirow{3}{*}{\shortstack[l]{D3 Acyclicity\\($n{=}54$)}} & Spectral radius (SDCD) & .856 & \ensuremath{-}0.01 & 2.00 & 0.985 &  \\
+ & DP-DAG (SoftSort) & .855 & \ensuremath{-}0.09 & 2.05 & 0.586 &  \\
+ & \textbf{VCUDA} & .856 & -- & 1.95 & -- &  \\
+\midrule
+\multirow{3}{*}{\shortstack[l]{D4 Message passing\\($n{=}54$)}} & Two rounds ($K{=}2$) & .855 & \ensuremath{-}0.89 & 2.17 & $<$0.001 &  \\
+ & Three rounds ($K{=}3$) & .825 & \ensuremath{-}3.88 & 2.30 & $<$0.001 &  \\
+ & \textbf{One round ($K{=}1$)} & .864 & -- & 1.54 & -- &  \\
+\midrule
+\multirow{4}{*}{\shortstack[l]{D6 Ensemble\\($n{=}51$)}} & Single model & .871 & \ensuremath{-}0.59 & 3.40 & $<$0.001 &  \\
+ & Boosted ($M{=}5$, $\eta{=}0.1$) & .876 & \ensuremath{-}0.04 & 2.22 & 0.963 &  \\
+ & + adaptive $\alpha$ & .877 & +0.01 & 2.15 & 0.505 &  \\
+ & \textbf{+ temperature scaling} & .877 & -- & 2.24 & -- &  \\

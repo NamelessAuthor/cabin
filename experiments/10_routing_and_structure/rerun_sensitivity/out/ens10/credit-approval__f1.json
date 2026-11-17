@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "credit-approval",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.8115942028985508,
+ "accuracy_M1": 0.8260869565217391,
+ "accuracy_M3": 0.8188405797101449,
+ "accuracy_M5": 0.8043478260869565,
+ "accuracy_M10": 0.8115942028985508,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 310.3
+}

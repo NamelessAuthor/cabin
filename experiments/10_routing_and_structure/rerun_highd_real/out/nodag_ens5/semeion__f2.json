@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "semeion",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9373040752351097,
+ "n": 1593,
+ "d": 256,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 3880.4
+}

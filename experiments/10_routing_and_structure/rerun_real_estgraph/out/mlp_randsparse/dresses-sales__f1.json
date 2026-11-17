@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "dresses-sales",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.2,
+ "d_internal": 21,
+ "n_edges": 49,
+ "mean_degree": 4.666666507720947,
+ "accuracy": 0.61,
+ "best_epoch": 6,
+ "n": 500,
+ "d": 12,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 25.5
+}

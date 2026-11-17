@@ -1,0 +1,13 @@
+{
+ "config": "k64",
+ "task": "pc4",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 64,
+ "accuracy": 0.9178082191780822,
+ "n": 1458,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 90.1
+}

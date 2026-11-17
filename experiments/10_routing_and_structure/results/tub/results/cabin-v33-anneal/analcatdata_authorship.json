@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-anneal",
+  "task": "analcatdata_authorship",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-04-05T22:26:52.219492+00:00",
+  "runtime_seconds": 1987.7973,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.023527917772459047
+      },
+      "runtime_seconds": 425.2188
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9940476190476191,
+        "f1_macro": 0.9959252633671238,
+        "f1_weighted": 0.994045252766183,
+        "auc_ovr": 0.9999624399038461,
+        "log_loss": 0.03006660985604465
+      },
+      "runtime_seconds": 414.0714
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9940476190476191,
+        "f1_macro": 0.9959306557268577,
+        "f1_weighted": 0.994046043614296,
+        "auc_ovr": 0.9999228395061728,
+        "log_loss": 0.03844632720106468
+      },
+      "runtime_seconds": 420.9875
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9940476190476191,
+        "f1_macro": 0.99589474392624,
+        "f1_weighted": 0.9940456160928602,
+        "auc_ovr": 0.999807791600892,
+        "log_loss": 0.03640794691006079
+      },
+      "runtime_seconds": 375.3192
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.017856017729797776
+      },
+      "runtime_seconds": 348.3559
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.996429,
+    "f1_macro": 0.99755,
+    "f1_weighted": 0.996427,
+    "auc_ovr": 0.999939,
+    "log_loss": 0.029261
+  },
+  "std_metrics": {
+    "accuracy": 0.002916,
+    "f1_macro": 0.002,
+    "f1_weighted": 0.002917,
+    "auc_ovr": 7.1e-05,
+    "log_loss": 0.007734
+  },
+  "tub_version": "0.1.0"
+}

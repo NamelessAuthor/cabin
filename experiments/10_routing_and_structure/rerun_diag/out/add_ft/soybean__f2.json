@@ -1,0 +1,14 @@
+{
+ "config": "add_ft",
+ "task": "soybean",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9197080291970803,
+ "best_epoch": 121,
+ "acc_W0": 0.8686131386861314,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 92.5
+}

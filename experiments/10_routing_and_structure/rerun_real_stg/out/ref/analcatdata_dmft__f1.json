@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "analcatdata_dmft",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.2625,
+ "best_epoch": 9,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 23.7
+}

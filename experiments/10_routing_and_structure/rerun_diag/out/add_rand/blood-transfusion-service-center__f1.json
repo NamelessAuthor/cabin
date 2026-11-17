@@ -1,0 +1,14 @@
+{
+ "config": "add_rand",
+ "task": "blood-transfusion-service-center",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8133333333333334,
+ "best_epoch": 28,
+ "acc_W0": 0.7666666666666667,
+ "n": 748,
+ "d": 4,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 22.4
+}

@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s2",
+ "task": "soybean",
+ "fold": 1,
+ "seed": 2,
+ "accuracy": 0.9197080291970803,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 82.3
+}

@@ -1,0 +1,14 @@
+{
+ "config": "add_nodag",
+ "task": "Australian",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8913043478260869,
+ "best_epoch": 9,
+ "acc_W0": 0.8913043478260869,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 31.2
+}

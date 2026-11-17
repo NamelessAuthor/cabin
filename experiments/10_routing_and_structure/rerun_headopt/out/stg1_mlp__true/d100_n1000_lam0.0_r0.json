@@ -1,0 +1,20 @@
+{
+ "d": 100,
+ "n": 1000,
+ "lam": 0.0,
+ "rep": 0,
+ "seed": 111000,
+ "target": 36,
+ "n_parents": 6,
+ "n_children": 2,
+ "mb_size": 19,
+ "n_edges_feats": 199,
+ "model": "stg1_mlp__true",
+ "acc": 0.7052,
+ "best_epoch": 15,
+ "gates_open": 99,
+ "gates_open_mb": 19,
+ "mb_size_cols": 19,
+ "status": "ok",
+ "seconds": 202.7
+}

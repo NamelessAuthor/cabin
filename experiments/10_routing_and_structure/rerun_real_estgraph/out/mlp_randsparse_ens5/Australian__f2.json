@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse_ens5",
+ "task": "Australian",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 0.2,
+ "d_internal": 14,
+ "n_edges": 33,
+ "mean_degree": 4.714285850524902,
+ "accuracy": 0.8913043478260869,
+ "best_epoch": 6,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 141.4
+}

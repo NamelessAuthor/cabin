@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est_ens5",
+ "task": "MiceProtein",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 10.5,
+ "d_internal": 77,
+ "n_edges": 172,
+ "mean_degree": 4.467532634735107,
+ "accuracy": 1.0,
+ "best_epoch": 133,
+ "n": 1080,
+ "d": 77,
+ "n_classes": 8,
+ "status": "ok",
+ "seconds": 1101.9
+}

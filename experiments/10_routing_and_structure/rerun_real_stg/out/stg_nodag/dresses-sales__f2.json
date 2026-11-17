@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "dresses-sales",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.61,
+ "best_epoch": 57,
+ "gates_open": 18,
+ "n_gates": 21,
+ "n": 500,
+ "d": 12,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 28.4
+}

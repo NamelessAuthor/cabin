@@ -1,0 +1,15 @@
+{
+ "variant": "contrastive",
+ "task": "vowel",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 2200,
+ "joint_steps_at_restored": 2200,
+ "accuracy": 0.9696969696969697,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "n_categorical": 2,
+ "status": "ok",
+ "seconds": 44.9
+}

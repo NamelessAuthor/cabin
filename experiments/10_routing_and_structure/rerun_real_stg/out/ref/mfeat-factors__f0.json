@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "mfeat-factors",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9875,
+ "best_epoch": 116,
+ "n": 2000,
+ "d": 216,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 755.1
+}

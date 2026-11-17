@@ -1,0 +1,15 @@
+{
+ "config": "stg_l03",
+ "task": "diabetes",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.7987012987012987,
+ "best_epoch": 85,
+ "gates_open": 4,
+ "n_gates": 8,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 27.7
+}

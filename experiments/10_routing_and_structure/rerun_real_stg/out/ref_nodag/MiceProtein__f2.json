@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "MiceProtein",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 1.0,
+ "best_epoch": 91,
+ "n": 1080,
+ "d": 77,
+ "n_classes": 8,
+ "status": "ok",
+ "seconds": 144.7
+}

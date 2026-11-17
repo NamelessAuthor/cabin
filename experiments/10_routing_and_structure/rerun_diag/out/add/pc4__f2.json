@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "pc4",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.910958904109589,
+ "best_epoch": 29,
+ "acc_W0": 0.8835616438356164,
+ "n": 1458,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 109.2
+}

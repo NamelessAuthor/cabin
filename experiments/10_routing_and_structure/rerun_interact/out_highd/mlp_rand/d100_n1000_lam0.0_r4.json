@@ -1,0 +1,17 @@
+{
+ "d": 100,
+ "n": 1000,
+ "lam": 0.0,
+ "rep": 4,
+ "seed": 111004,
+ "target": 26,
+ "n_parents": 6,
+ "n_children": 1,
+ "mb_size": 10,
+ "n_edges_feats": 182,
+ "model": "mlp_rand",
+ "acc": 0.5698,
+ "best_epoch": 4,
+ "status": "ok",
+ "seconds": 230.9
+}

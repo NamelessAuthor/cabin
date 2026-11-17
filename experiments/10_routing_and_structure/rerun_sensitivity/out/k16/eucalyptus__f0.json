@@ -1,0 +1,13 @@
+{
+ "config": "k16",
+ "task": "eucalyptus",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 16,
+ "accuracy": 0.7094594594594594,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 28.6
+}

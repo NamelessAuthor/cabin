@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "MiceProtein",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 12.7,
+ "d_internal": 77,
+ "n_edges": 170,
+ "mean_degree": 4.415584564208984,
+ "accuracy": 1.0,
+ "best_epoch": 126,
+ "n": 1080,
+ "d": 77,
+ "n_classes": 8,
+ "status": "ok",
+ "seconds": 295.0
+}

@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "blood-transfusion-service-center",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.7666666666666667,
+ "best_epoch": 9,
+ "n": 748,
+ "d": 4,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 22.3
+}

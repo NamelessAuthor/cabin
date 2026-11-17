@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "cmc",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.5728813559322034,
+ "best_epoch": 3,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 51.8
+}

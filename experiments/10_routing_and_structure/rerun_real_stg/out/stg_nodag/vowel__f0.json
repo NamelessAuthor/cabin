@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "vowel",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9595959595959596,
+ "best_epoch": 122,
+ "gates_open": 11,
+ "n_gates": 12,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 55.2
+}

@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "Australian",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8913043478260869,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 118.6
+}

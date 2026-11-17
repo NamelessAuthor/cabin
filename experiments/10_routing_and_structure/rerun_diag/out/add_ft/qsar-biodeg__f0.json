@@ -1,0 +1,14 @@
+{
+ "config": "add_ft",
+ "task": "qsar-biodeg",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8436018957345972,
+ "best_epoch": 121,
+ "acc_W0": 0.6777251184834123,
+ "n": 1055,
+ "d": 41,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 103.9
+}

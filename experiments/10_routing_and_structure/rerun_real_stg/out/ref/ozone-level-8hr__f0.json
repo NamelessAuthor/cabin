@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "ozone-level-8hr",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9408284023668639,
+ "best_epoch": 1,
+ "n": 2534,
+ "d": 72,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 307.7
+}

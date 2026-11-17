@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s2",
+ "task": "analcatdata_dmft",
+ "fold": 2,
+ "seed": 2,
+ "accuracy": 0.1949685534591195,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 19.1
+}

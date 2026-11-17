@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "Australian",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8840579710144928,
+ "best_epoch": 45,
+ "gates_open": 13,
+ "n_gates": 14,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 32.1
+}

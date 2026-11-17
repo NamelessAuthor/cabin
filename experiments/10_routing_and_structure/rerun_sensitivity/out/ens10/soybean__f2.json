@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "soybean",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.9343065693430657,
+ "accuracy_M1": 0.9051094890510949,
+ "accuracy_M3": 0.927007299270073,
+ "accuracy_M5": 0.927007299270073,
+ "accuracy_M10": 0.9343065693430657,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 711.5
+}

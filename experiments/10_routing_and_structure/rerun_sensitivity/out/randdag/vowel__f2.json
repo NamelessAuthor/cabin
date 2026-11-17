@@ -1,0 +1,12 @@
+{
+ "config": "randdag",
+ "task": "vowel",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9595959595959596,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 34.6
+}

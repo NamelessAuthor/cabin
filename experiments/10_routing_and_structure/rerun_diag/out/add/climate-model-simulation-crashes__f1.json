@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "climate-model-simulation-crashes",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9166666666666666,
+ "best_epoch": 8,
+ "acc_W0": 0.9166666666666666,
+ "n": 540,
+ "d": 18,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 27.9
+}

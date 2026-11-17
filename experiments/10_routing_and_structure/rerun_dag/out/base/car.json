@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "car",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 3700,
+ "joint_steps_at_restored": 3441,
+ "accuracy": 1.0,
+ "n": 1728,
+ "d": 6,
+ "n_classes": 4,
+ "n_categorical": 6,
+ "status": "ok",
+ "seconds": 47.3
+}

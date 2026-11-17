@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "cnae-9",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9583333333333334,
+ "n": 1080,
+ "d": 856,
+ "n_classes": 9,
+ "status": "ok",
+ "seconds": 6829.2
+}

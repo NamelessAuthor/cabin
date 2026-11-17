@@ -1,0 +1,13 @@
+{
+ "config": "ed0.1",
+ "task": "segment",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.9891774891774892,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 108.9
+}

@@ -1,0 +1,14 @@
+{
+ "config": "nodag_ft",
+ "task": "steel-plates-fault",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.770618556701031,
+ "best_epoch": 149,
+ "acc_W0": 0.770618556701031,
+ "n": 1941,
+ "d": 27,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 149.1
+}

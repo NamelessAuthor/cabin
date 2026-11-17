@@ -1,0 +1,15 @@
+{
+ "d": 10,
+ "lam": 0.5,
+ "rep": 0,
+ "seed": 19000,
+ "target": 3,
+ "n_parents": 3,
+ "n_children": 1,
+ "n_edges_feats": 10,
+ "model": "stgsum_mlp__nodag",
+ "acc": 0.7025,
+ "best_epoch": 22,
+ "status": "ok",
+ "seconds": 92.3
+}

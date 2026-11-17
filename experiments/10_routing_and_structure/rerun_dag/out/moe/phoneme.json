@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "phoneme",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 11500,
+ "joint_steps_at_restored": 10350,
+ "accuracy": 0.8936170212765957,
+ "n": 5404,
+ "d": 5,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 179.7
+}

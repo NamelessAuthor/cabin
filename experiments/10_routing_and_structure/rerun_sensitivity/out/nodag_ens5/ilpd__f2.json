@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "ilpd",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.6837606837606838,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 87.7
+}

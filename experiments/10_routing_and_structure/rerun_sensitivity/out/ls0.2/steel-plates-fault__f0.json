@@ -1,0 +1,13 @@
+{
+ "config": "ls0.2",
+ "task": "steel-plates-fault",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.7557840616966581,
+ "n": 1941,
+ "d": 27,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 94.6
+}

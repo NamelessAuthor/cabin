@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "breast-w",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1500,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.9642857142857143,
+ "n": 699,
+ "d": 9,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 21.3
+}

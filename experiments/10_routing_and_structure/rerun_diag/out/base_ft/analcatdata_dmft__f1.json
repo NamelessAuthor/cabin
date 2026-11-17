@@ -1,0 +1,14 @@
+{
+ "config": "base_ft",
+ "task": "analcatdata_dmft",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.21875,
+ "best_epoch": 120,
+ "acc_W0": 0.26875,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 26.9
+}

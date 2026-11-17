@@ -1,0 +1,14 @@
+{
+ "config": "selacc",
+ "task": "analcatdata_dmft",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.26875,
+ "best_epoch": 8,
+ "acc_W0": 0.2625,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 23.2
+}

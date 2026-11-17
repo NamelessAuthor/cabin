@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "analcatdata_dmft",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.22012578616352202,
+ "accuracy_M1": 0.1949685534591195,
+ "accuracy_M3": 0.22012578616352202,
+ "accuracy_M5": 0.22641509433962265,
+ "accuracy_M10": 0.22012578616352202,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 199.2
+}

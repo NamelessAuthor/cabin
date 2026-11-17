@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "wdbc",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 1.0,
+ "d_internal": 30,
+ "n_edges": 57,
+ "mean_degree": 3.799999952316284,
+ "accuracy": 0.9649122807017544,
+ "best_epoch": 6,
+ "n": 569,
+ "d": 30,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 39.1
+}

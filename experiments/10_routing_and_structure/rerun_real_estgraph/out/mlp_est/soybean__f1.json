@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est",
+ "task": "soybean",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 1.1,
+ "d_internal": 69,
+ "n_edges": 178,
+ "mean_degree": 5.159420490264893,
+ "accuracy": 0.9416058394160584,
+ "best_epoch": 45,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 126.5
+}

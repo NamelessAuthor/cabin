@@ -1,0 +1,15 @@
+{
+ "config": "stg_l03",
+ "task": "wilt",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9462809917355371,
+ "best_epoch": 2,
+ "gates_open": 5,
+ "n_gates": 5,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 143.9
+}

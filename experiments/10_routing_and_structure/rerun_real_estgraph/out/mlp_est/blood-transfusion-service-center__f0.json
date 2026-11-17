@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est",
+ "task": "blood-transfusion-service-center",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 0.1,
+ "d_internal": 4,
+ "n_edges": 6,
+ "mean_degree": 3.0,
+ "accuracy": 0.8,
+ "best_epoch": 6,
+ "n": 748,
+ "d": 4,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 40.6
+}

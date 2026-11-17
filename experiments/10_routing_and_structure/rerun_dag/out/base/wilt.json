@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "wilt",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 10300,
+ "joint_steps_at_restored": 5253,
+ "accuracy": 0.9886363636363636,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 113.6
+}

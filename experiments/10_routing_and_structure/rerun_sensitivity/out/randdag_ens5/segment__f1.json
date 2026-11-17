@@ -1,0 +1,12 @@
+{
+ "config": "randdag_ens5",
+ "task": "segment",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9826839826839827,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 485.0
+}

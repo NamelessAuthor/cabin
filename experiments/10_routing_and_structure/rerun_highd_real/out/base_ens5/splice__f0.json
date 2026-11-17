@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "splice",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9717868338557993,
+ "n": 3190,
+ "d": 60,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 2447.1
+}

@@ -1,0 +1,15 @@
+{
+ "d": 20,
+ "lam": 1.0,
+ "rep": 4,
+ "seed": 29004,
+ "target": 9,
+ "n_parents": 6,
+ "n_children": 4,
+ "n_edges_feats": 48,
+ "model": "add_rand",
+ "acc": 0.5075,
+ "best_epoch": 120,
+ "status": "ok",
+ "seconds": 117.4
+}

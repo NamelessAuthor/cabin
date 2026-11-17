@@ -1,0 +1,80 @@
+{
+  "model": "lightgbm",
+  "task": "dresses-sales",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T10:41:40.235273+00:00",
+  "runtime_seconds": 1.1471,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.61,
+        "f1_macro": 0.5882166613873931,
+        "f1_weighted": 0.603370288248337,
+        "auc_ovr": 0.6149425287356323,
+        "log_loss": 0.7397459314768214
+      },
+      "runtime_seconds": 0.2444
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.55,
+        "f1_macro": 0.508679986898133,
+        "f1_weighted": 0.5314772355060596,
+        "auc_ovr": 0.5192939244663383,
+        "log_loss": 0.7828670989491853
+      },
+      "runtime_seconds": 0.2352
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.59,
+        "f1_macro": 0.516452411841019,
+        "f1_weighted": 0.5466257813421393,
+        "auc_ovr": 0.4991789819376026,
+        "log_loss": 0.7936710276653816
+      },
+      "runtime_seconds": 0.2155
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.62,
+        "f1_macro": 0.5967741935483871,
+        "f1_weighted": 0.6122580645161291,
+        "auc_ovr": 0.671592775041051,
+        "log_loss": 0.6548730756412064
+      },
+      "runtime_seconds": 0.2135
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.58,
+        "f1_macro": 0.5543293718166383,
+        "f1_weighted": 0.5714431239388794,
+        "auc_ovr": 0.5233990147783252,
+        "log_loss": 0.8118967382150712
+      },
+      "runtime_seconds": 0.2202
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.59,
+    "f1_macro": 0.552891,
+    "f1_weighted": 0.573035,
+    "auc_ovr": 0.565681,
+    "log_loss": 0.756611
+  },
+  "std_metrics": {
+    "accuracy": 0.024495,
+    "f1_macro": 0.035939,
+    "f1_weighted": 0.031259,
+    "auc_ovr": 0.066342,
+    "log_loss": 0.056133
+  },
+  "tub_version": "0.1.0"
+}

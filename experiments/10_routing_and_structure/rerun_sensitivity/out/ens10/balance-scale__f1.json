@@ -1,0 +1,17 @@
+{
+ "config": "ens10",
+ "task": "balance-scale",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 1.0,
+ "accuracy_M1": 0.992,
+ "accuracy_M3": 0.992,
+ "accuracy_M5": 1.0,
+ "accuracy_M10": 1.0,
+ "n": 625,
+ "d": 4,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 158.6
+}

@@ -1,0 +1,14 @@
+{
+ "config": "selacc",
+ "task": "cmc",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.5661016949152542,
+ "best_epoch": 22,
+ "acc_W0": 0.5728813559322034,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 50.2
+}

@@ -1,0 +1,12 @@
+{
+ "config": "randdag_ens5",
+ "task": "cnae-9",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.12037037037037036,
+ "n": 1080,
+ "d": 856,
+ "n_classes": 9,
+ "status": "ok",
+ "seconds": 5836.5
+}

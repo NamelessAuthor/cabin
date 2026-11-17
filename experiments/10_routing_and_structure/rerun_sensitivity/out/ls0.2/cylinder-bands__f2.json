@@ -1,0 +1,13 @@
+{
+ "config": "ls0.2",
+ "task": "cylinder-bands",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.8518518518518519,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 58.5
+}

@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "vehicle",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.7159763313609467,
+ "best_epoch": 35,
+ "gates_open": 18,
+ "n_gates": 18,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 43.2
+}

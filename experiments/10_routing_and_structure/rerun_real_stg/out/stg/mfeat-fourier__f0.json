@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "mfeat-fourier",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8625,
+ "best_epoch": 54,
+ "gates_open": 20,
+ "n_gates": 76,
+ "n": 2000,
+ "d": 76,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 264.5
+}

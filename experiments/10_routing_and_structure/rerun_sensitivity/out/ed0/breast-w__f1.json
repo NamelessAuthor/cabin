@@ -1,0 +1,13 @@
+{
+ "config": "ed0",
+ "task": "breast-w",
+ "fold": 1,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.9642857142857143,
+ "n": 699,
+ "d": 9,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 18.8
+}

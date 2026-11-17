@@ -1,0 +1,13 @@
+{
+ "config": "k8",
+ "task": "vehicle",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 8,
+ "accuracy": 0.7751479289940828,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 35.9
+}

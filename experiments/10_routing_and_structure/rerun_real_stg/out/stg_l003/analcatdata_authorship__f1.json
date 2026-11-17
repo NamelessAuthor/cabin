@@ -1,0 +1,15 @@
+{
+ "config": "stg_l003",
+ "task": "analcatdata_authorship",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9940476190476191,
+ "best_epoch": 35,
+ "gates_open": 70,
+ "n_gates": 70,
+ "n": 841,
+ "d": 70,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 107.3
+}

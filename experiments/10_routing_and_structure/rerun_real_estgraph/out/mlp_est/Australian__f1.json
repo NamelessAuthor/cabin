@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est",
+ "task": "Australian",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.3,
+ "d_internal": 14,
+ "n_edges": 33,
+ "mean_degree": 4.714285850524902,
+ "accuracy": 0.8478260869565217,
+ "best_epoch": 7,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 49.4
+}

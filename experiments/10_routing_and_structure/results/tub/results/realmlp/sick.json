@@ -1,0 +1,53 @@
+{
+  "model": "realmlp-cc18",
+  "task": "sick",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-04-02T07:51:57.887733+00:00",
+  "runtime_seconds": 0,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9735099337748344
+      },
+      "runtime_seconds": 0
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.970860927152318
+      },
+      "runtime_seconds": 0
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9708222811671088
+      },
+      "runtime_seconds": 0
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9708222811671088
+      },
+      "runtime_seconds": 0
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9641909814323608
+      },
+      "runtime_seconds": 0
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.970041
+  },
+  "std_metrics": {
+    "accuracy": 0.003103
+  },
+  "tub_version": "0.1.0",
+  "note": "imported from Pipe_CINN/07_cc18_benchmarks/cc18_results.csv"
+}

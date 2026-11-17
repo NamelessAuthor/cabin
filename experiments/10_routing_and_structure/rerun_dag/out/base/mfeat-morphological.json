@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "mfeat-morphological",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 4300,
+ "joint_steps_at_restored": 1677,
+ "accuracy": 0.7575,
+ "n": 2000,
+ "d": 6,
+ "n_classes": 10,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 50.6
+}

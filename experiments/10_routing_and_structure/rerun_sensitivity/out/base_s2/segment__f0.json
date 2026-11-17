@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "segment",
+ "fold": 0,
+ "seed": 2,
+ "accuracy": 0.9826839826839827,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 99.0
+}

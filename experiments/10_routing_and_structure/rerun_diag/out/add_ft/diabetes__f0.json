@@ -1,0 +1,14 @@
+{
+ "config": "add_ft",
+ "task": "diabetes",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.6883116883116883,
+ "best_epoch": 120,
+ "acc_W0": 0.7142857142857143,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 31.3
+}

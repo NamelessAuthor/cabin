@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "diabetes",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.7662337662337663,
+ "best_epoch": 50,
+ "acc_W0": 0.7922077922077922,
+ "n": 768,
+ "d": 8,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 26.4
+}

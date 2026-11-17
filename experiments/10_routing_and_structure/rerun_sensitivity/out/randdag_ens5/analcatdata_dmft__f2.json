@@ -1,0 +1,12 @@
+{
+ "config": "randdag_ens5",
+ "task": "analcatdata_dmft",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.23270440251572327,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 85.0
+}

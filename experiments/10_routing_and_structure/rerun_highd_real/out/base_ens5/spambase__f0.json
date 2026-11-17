@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "spambase",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9446254071661238,
+ "n": 4601,
+ "d": 57,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 4145.3
+}

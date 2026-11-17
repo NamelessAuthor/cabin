@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "cmc",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.5423728813559322,
+ "best_epoch": 5,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 49.0
+}

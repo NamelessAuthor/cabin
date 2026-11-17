@@ -1,0 +1,17 @@
+{
+ "d": 50,
+ "n": 1000,
+ "lam": 1.0,
+ "rep": 1,
+ "seed": 61001,
+ "target": 9,
+ "n_parents": 4,
+ "n_children": 1,
+ "mb_size": 11,
+ "n_edges_feats": 82,
+ "model": "wd01_mlp__nodag",
+ "acc": 0.4824,
+ "best_epoch": 10,
+ "status": "ok",
+ "seconds": 215.4
+}

@@ -1,0 +1,14 @@
+{
+ "config": "add_ft",
+ "task": "cmc",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.5322033898305085,
+ "best_epoch": 123,
+ "acc_W0": 0.5389830508474577,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 61.5
+}

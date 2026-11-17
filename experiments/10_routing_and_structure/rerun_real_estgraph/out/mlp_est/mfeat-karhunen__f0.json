@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est",
+ "task": "mfeat-karhunen",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 10.1,
+ "d_internal": 64,
+ "n_edges": 164,
+ "mean_degree": 5.125,
+ "accuracy": 0.9675,
+ "best_epoch": 99,
+ "n": 2000,
+ "d": 64,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 389.5
+}

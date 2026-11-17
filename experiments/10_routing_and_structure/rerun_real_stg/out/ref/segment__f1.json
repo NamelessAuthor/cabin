@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "segment",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.974025974025974,
+ "best_epoch": 104,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 118.0
+}

@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "cylinder-bands",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.6851851851851852,
+ "best_epoch": 9,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 50.4
+}

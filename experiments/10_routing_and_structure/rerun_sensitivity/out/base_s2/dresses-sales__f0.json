@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "dresses-sales",
+ "fold": 0,
+ "seed": 2,
+ "accuracy": 0.64,
+ "n": 500,
+ "d": 12,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 21.4
+}

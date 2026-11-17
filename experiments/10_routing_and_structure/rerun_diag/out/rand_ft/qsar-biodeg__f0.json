@@ -1,0 +1,14 @@
+{
+ "config": "rand_ft",
+ "task": "qsar-biodeg",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8341232227488151,
+ "best_epoch": 121,
+ "acc_W0": 0.8199052132701422,
+ "n": 1055,
+ "d": 41,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 105.5
+}

@@ -1,0 +1,14 @@
+{
+ "config": "nodag_ft",
+ "task": "credit-g",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.695,
+ "best_epoch": 146,
+ "acc_W0": 0.695,
+ "n": 1000,
+ "d": 20,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 61.7
+}

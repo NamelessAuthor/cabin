@@ -1,0 +1,14 @@
+{
+ "config": "add_rand_ft",
+ "task": "Australian",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8405797101449275,
+ "best_epoch": 133,
+ "acc_W0": 0.7318840579710145,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 36.3
+}

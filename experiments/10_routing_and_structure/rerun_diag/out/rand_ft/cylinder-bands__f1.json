@@ -1,0 +1,14 @@
+{
+ "config": "rand_ft",
+ "task": "cylinder-bands",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.7407407407407407,
+ "best_epoch": 146,
+ "acc_W0": 0.6018518518518519,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 61.9
+}

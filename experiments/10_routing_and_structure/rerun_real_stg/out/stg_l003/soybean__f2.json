@@ -1,0 +1,15 @@
+{
+ "config": "stg_l003",
+ "task": "soybean",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.927007299270073,
+ "best_epoch": 80,
+ "gates_open": 63,
+ "n_gates": 67,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 82.1
+}

@@ -1,0 +1,80 @@
+{
+  "model": "tabm",
+  "task": "dna",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T23:07:51.130165+00:00",
+  "runtime_seconds": 177.1648,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9655172413793104,
+        "f1_macro": 0.9614918220382528,
+        "f1_weighted": 0.9658301283044554,
+        "auc_ovr": 0.9943725960344078,
+        "log_loss": 0.13285368021694227
+      },
+      "runtime_seconds": 36.1087
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9638932496075353,
+        "f1_macro": 0.9584815634447157,
+        "f1_weighted": 0.9641014757733244,
+        "auc_ovr": 0.9939517202712511,
+        "log_loss": 0.13092410249811529
+      },
+      "runtime_seconds": 37.8892
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9591836734693877,
+        "f1_macro": 0.9531031651005891,
+        "f1_weighted": 0.9593922909992719,
+        "auc_ovr": 0.9927043727308685,
+        "log_loss": 0.1472119960658884
+      },
+      "runtime_seconds": 30.2485
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9654631083202512,
+        "f1_macro": 0.959916903550409,
+        "f1_weighted": 0.965588365328755,
+        "auc_ovr": 0.9963896250145988,
+        "log_loss": 0.11036851439979067
+      },
+      "runtime_seconds": 24.8361
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9560439560439561,
+        "f1_macro": 0.9518844176832184,
+        "f1_weighted": 0.9562322934074146,
+        "auc_ovr": 0.9949698244601688,
+        "log_loss": 0.131185094663008
+      },
+      "runtime_seconds": 48.0548
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.96202,
+    "f1_macro": 0.956976,
+    "f1_weighted": 0.962229,
+    "auc_ovr": 0.994478,
+    "log_loss": 0.130509
+  },
+  "std_metrics": {
+    "accuracy": 0.003778,
+    "f1_macro": 0.003801,
+    "f1_weighted": 0.003789,
+    "auc_ovr": 0.001211,
+    "log_loss": 0.011754
+  },
+  "tub_version": "0.1.0"
+}

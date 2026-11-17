@@ -1,0 +1,13 @@
+{
+ "config": "ref",
+ "task": "wdbc",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9824561403508771,
+ "best_epoch": 10,
+ "n": 569,
+ "d": 30,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 39.8
+}

@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-contrastive",
+  "task": "vowel",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-04T12:06:32.396308+00:00",
+  "runtime_seconds": 1061.2849,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9646464646464646,
+        "f1_macro": 0.9641956549851287,
+        "f1_weighted": 0.9641956549851286,
+        "auc_ovr": 0.9986251402918068,
+        "log_loss": 0.13664946568245764
+      },
+      "runtime_seconds": 213.505
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9797979797979798,
+        "f1_macro": 0.9797628073169868,
+        "f1_weighted": 0.9797628073169868,
+        "auc_ovr": 0.9999719416386083,
+        "log_loss": 0.08310315201683521
+      },
+      "runtime_seconds": 207.1467
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9949494949494949,
+        "f1_macro": 0.9949455949455949,
+        "f1_weighted": 0.994945594945595,
+        "auc_ovr": 1.0,
+        "log_loss": 0.07410394642065554
+      },
+      "runtime_seconds": 212.1918
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9747474747474747,
+        "f1_macro": 0.9746921140109994,
+        "f1_weighted": 0.9746921140109995,
+        "auc_ovr": 0.9996632996632997,
+        "log_loss": 0.10848499087683793
+      },
+      "runtime_seconds": 218.4657
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.98989898989899,
+        "f1_macro": 0.9898911898911898,
+        "f1_weighted": 0.9898911898911898,
+        "auc_ovr": 0.9999438832772166,
+        "log_loss": 0.07483846508393366
+      },
+      "runtime_seconds": 207.018
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.980808,
+    "f1_macro": 0.980697,
+    "f1_weighted": 0.980697,
+    "auc_ovr": 0.999641,
+    "log_loss": 0.095436
+  },
+  "std_metrics": {
+    "accuracy": 0.010785,
+    "f1_macro": 0.010925,
+    "f1_weighted": 0.010925,
+    "auc_ovr": 0.000522,
+    "log_loss": 0.024084
+  },
+  "tub_version": "0.1.0"
+}

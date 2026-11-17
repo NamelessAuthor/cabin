@@ -1,0 +1,13 @@
+{
+ "config": "kauto",
+ "task": "vehicle",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 6,
+ "accuracy": 0.7705882352941177,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 32.5
+}

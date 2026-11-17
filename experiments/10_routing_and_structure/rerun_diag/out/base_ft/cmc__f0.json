@@ -1,0 +1,14 @@
+{
+ "config": "base_ft",
+ "task": "cmc",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.46779661016949153,
+ "best_epoch": 122,
+ "acc_W0": 0.5050847457627119,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 59.9
+}

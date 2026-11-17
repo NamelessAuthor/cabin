@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "mfeat-karhunen",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9675,
+ "best_epoch": 55,
+ "n": 2000,
+ "d": 64,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 231.3
+}

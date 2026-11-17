@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "semeion",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9278996865203761,
+ "best_epoch": 7,
+ "gates_open": 256,
+ "n_gates": 256,
+ "n": 1593,
+ "d": 256,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 606.8
+}

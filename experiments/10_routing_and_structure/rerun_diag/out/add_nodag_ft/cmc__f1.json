@@ -1,0 +1,14 @@
+{
+ "config": "add_nodag_ft",
+ "task": "cmc",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.6,
+ "best_epoch": 126,
+ "acc_W0": 0.6,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 67.6
+}

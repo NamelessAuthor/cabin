@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "cmc",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 0.2,
+ "d_internal": 9,
+ "n_edges": 21,
+ "mean_degree": 4.666666507720947,
+ "accuracy": 0.5423728813559322,
+ "best_epoch": 7,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 92.5
+}

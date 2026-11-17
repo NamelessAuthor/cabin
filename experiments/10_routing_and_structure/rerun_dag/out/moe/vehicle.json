@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "vehicle",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1800,
+ "joint_steps_at_restored": 630,
+ "accuracy": 0.8352941176470589,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 40.3
+}

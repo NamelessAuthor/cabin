@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "wilt",
+ "fold": 0,
+ "seed": 2,
+ "accuracy": 0.984504132231405,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 99.1
+}

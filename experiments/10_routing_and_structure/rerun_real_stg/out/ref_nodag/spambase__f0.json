@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "spambase",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9446254071661238,
+ "best_epoch": 19,
+ "n": 4601,
+ "d": 57,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 475.5
+}

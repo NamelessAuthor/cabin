@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore",
+ "task": "wdbc",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9649122807017544,
+ "n": 569,
+ "d": 30,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 40.2
+}

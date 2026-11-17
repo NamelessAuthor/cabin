@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-2slots",
+  "task": "first-order-theorem-proving",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-04-17T10:59:14.995515+00:00",
+  "runtime_seconds": 13039.4351,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.5833333333333334,
+        "f1_macro": 0.45456553436411257,
+        "f1_weighted": 0.5567397617634003,
+        "auc_ovr": 0.8040186908536057,
+        "log_loss": 1.326910099350119
+      },
+      "runtime_seconds": 2635.4637
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.5751633986928104,
+        "f1_macro": 0.4450304010369844,
+        "f1_weighted": 0.548226053129921,
+        "auc_ovr": 0.8210007177137166,
+        "log_loss": 1.3092845222726723
+      },
+      "runtime_seconds": 2597.5624
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.5841503267973857,
+        "f1_macro": 0.4512661078613003,
+        "f1_weighted": 0.5599176511525309,
+        "auc_ovr": 0.8137554247809217,
+        "log_loss": 1.3440046081259147
+      },
+      "runtime_seconds": 2600.7459
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.5748160261651676,
+        "f1_macro": 0.43967307519040694,
+        "f1_weighted": 0.5510606115443482,
+        "auc_ovr": 0.814525839914891,
+        "log_loss": 2.4684175363187904
+      },
+      "runtime_seconds": 2603.9906
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.5592804578904333,
+        "f1_macro": 0.4180127302656496,
+        "f1_weighted": 0.5311751795576873,
+        "auc_ovr": 0.7945330748550904,
+        "log_loss": 2.6638416590994334
+      },
+      "runtime_seconds": 2599.1474
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.575349,
+    "f1_macro": 0.44171,
+    "f1_weighted": 0.549424,
+    "auc_ovr": 0.809567,
+    "log_loss": 1.822492
+  },
+  "std_metrics": {
+    "accuracy": 0.008941,
+    "f1_macro": 0.01291,
+    "f1_weighted": 0.010008,
+    "auc_ovr": 0.00927,
+    "log_loss": 0.610413
+  },
+  "tub_version": "0.1.0"
+}

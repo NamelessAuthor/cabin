@@ -1,0 +1,80 @@
+{
+  "model": "tabicl",
+  "task": "dresses-sales",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T13:20:55.547780+00:00",
+  "runtime_seconds": 2.5265,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.63,
+        "f1_macro": 0.5960257670051315,
+        "f1_weighted": 0.6147701714160935,
+        "auc_ovr": 0.674055829228243,
+        "log_loss": 0.6291349966235722
+      },
+      "runtime_seconds": 0.5082
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.57,
+        "f1_macro": 0.50997150997151,
+        "f1_weighted": 0.5374131054131054,
+        "auc_ovr": 0.4987684729064039,
+        "log_loss": 0.7263689702654997
+      },
+      "runtime_seconds": 0.4905
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.57,
+        "f1_macro": 0.483110950835437,
+        "f1_weighted": 0.5170188724606323,
+        "auc_ovr": 0.6338259441707716,
+        "log_loss": 0.659994225911553
+      },
+      "runtime_seconds": 0.4868
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.62,
+        "f1_macro": 0.5634191176470589,
+        "f1_weighted": 0.5885661764705883,
+        "auc_ovr": 0.6428571428571428,
+        "log_loss": 0.6518149032449664
+      },
+      "runtime_seconds": 0.5109
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.67,
+        "f1_macro": 0.6108031607500884,
+        "f1_weighted": 0.635089043519283,
+        "auc_ovr": 0.6186371100164203,
+        "log_loss": 0.6519769276853467
+      },
+      "runtime_seconds": 0.4945
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.612,
+    "f1_macro": 0.552666,
+    "f1_weighted": 0.578571,
+    "auc_ovr": 0.613629,
+    "log_loss": 0.663858
+  },
+  "std_metrics": {
+    "accuracy": 0.038158,
+    "f1_macro": 0.049064,
+    "f1_weighted": 0.044916,
+    "auc_ovr": 0.060219,
+    "log_loss": 0.032907
+  },
+  "tub_version": "0.1.0"
+}

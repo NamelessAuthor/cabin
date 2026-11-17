@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-anneal",
+  "task": "steel-plates-fault",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-04T19:58:32.300889+00:00",
+  "runtime_seconds": 4614.6163,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.7737789203084833,
+        "f1_macro": 0.802306738264601,
+        "f1_weighted": 0.7725156410000382,
+        "auc_ovr": 0.9560845259858374,
+        "log_loss": 0.672927185325193
+      },
+      "runtime_seconds": 904.814
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.75,
+        "f1_macro": 0.7685411007192889,
+        "f1_weighted": 0.7463828216331445,
+        "auc_ovr": 0.939158067782305,
+        "log_loss": 0.6530578916723899
+      },
+      "runtime_seconds": 910.5198
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.7577319587628866,
+        "f1_macro": 0.7929529478547793,
+        "f1_weighted": 0.7569435555135645,
+        "auc_ovr": 0.961228550141505,
+        "log_loss": 0.5843404006202918
+      },
+      "runtime_seconds": 933.4617
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.7860824742268041,
+        "f1_macro": 0.8046153150325853,
+        "f1_weighted": 0.7849413493144803,
+        "auc_ovr": 0.9532200576826042,
+        "log_loss": 0.569547530224526
+      },
+      "runtime_seconds": 928.1416
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.7731958762886598,
+        "f1_macro": 0.7925113134704945,
+        "f1_weighted": 0.7720724850397922,
+        "auc_ovr": 0.945422190113201,
+        "log_loss": 0.6149583824104321
+      },
+      "runtime_seconds": 936.9077
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.768158,
+    "f1_macro": 0.792185,
+    "f1_weighted": 0.766571,
+    "auc_ovr": 0.951023,
+    "log_loss": 0.618966
+  },
+  "std_metrics": {
+    "accuracy": 0.01278,
+    "f1_macro": 0.01278,
+    "f1_weighted": 0.013441,
+    "auc_ovr": 0.007833,
+    "log_loss": 0.039322
+  },
+  "tub_version": "0.1.0"
+}

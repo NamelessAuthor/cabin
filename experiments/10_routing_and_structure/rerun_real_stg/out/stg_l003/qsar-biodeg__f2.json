@@ -1,0 +1,15 @@
+{
+ "config": "stg_l003",
+ "task": "qsar-biodeg",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8815165876777251,
+ "best_epoch": 56,
+ "gates_open": 40,
+ "n_gates": 41,
+ "n": 1055,
+ "d": 41,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 89.9
+}

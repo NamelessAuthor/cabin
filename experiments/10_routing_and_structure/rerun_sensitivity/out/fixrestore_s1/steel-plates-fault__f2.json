@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s1",
+ "task": "steel-plates-fault",
+ "fold": 2,
+ "seed": 1,
+ "accuracy": 0.7912371134020618,
+ "n": 1941,
+ "d": 27,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 114.8
+}

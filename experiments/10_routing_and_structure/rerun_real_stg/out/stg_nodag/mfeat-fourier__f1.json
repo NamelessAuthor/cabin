@@ -1,0 +1,15 @@
+{
+ "config": "stg_nodag",
+ "task": "mfeat-fourier",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.855,
+ "best_epoch": 42,
+ "gates_open": 21,
+ "n_gates": 76,
+ "n": 2000,
+ "d": 76,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 269.5
+}

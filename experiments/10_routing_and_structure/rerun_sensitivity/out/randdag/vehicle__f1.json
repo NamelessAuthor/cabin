@@ -1,0 +1,12 @@
+{
+ "config": "randdag",
+ "task": "vehicle",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8224852071005917,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 32.3
+}

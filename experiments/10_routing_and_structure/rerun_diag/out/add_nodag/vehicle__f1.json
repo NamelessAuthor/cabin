@@ -1,0 +1,14 @@
+{
+ "config": "add_nodag",
+ "task": "vehicle",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8165680473372781,
+ "best_epoch": 83,
+ "acc_W0": 0.8165680473372781,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 42.5
+}

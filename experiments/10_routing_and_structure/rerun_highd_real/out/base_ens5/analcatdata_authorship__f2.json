@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "analcatdata_authorship",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 1.0,
+ "n": 841,
+ "d": 70,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 650.3
+}

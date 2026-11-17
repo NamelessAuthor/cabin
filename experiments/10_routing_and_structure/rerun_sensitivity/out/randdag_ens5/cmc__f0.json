@@ -1,0 +1,12 @@
+{
+ "config": "randdag_ens5",
+ "task": "cmc",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.5559322033898305,
+ "n": 1473,
+ "d": 9,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 195.2
+}

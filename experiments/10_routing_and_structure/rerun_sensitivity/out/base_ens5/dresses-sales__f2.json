@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "dresses-sales",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.63,
+ "n": 500,
+ "d": 12,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 104.6
+}

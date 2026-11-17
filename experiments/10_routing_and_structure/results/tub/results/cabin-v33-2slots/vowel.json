@@ -1,0 +1,80 @@
+{
+  "model": "cabin-v33-2slots",
+  "task": "vowel",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-04-09T10:26:58.436612+00:00",
+  "runtime_seconds": 926.0342,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9696969696969697,
+        "f1_macro": 0.9693423305863498,
+        "f1_weighted": 0.9693423305863498,
+        "auc_ovr": 0.998905723905724,
+        "log_loss": 0.11491491165006941
+      },
+      "runtime_seconds": 180.6095
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.98989898989899,
+        "f1_macro": 0.9898911898911898,
+        "f1_weighted": 0.9898911898911898,
+        "auc_ovr": 0.9999719416386083,
+        "log_loss": 0.07691381722984315
+      },
+      "runtime_seconds": 187.2917
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "auc_ovr": 1.0,
+        "log_loss": 0.06003974832744573
+      },
+      "runtime_seconds": 181.1193
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.98989898989899,
+        "f1_macro": 0.98989508989509,
+        "f1_weighted": 0.9898950898950899,
+        "auc_ovr": 0.9999158249158249,
+        "log_loss": 0.07548071554329644
+      },
+      "runtime_seconds": 189.0806
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9949494949494949,
+        "f1_macro": 0.9949455949455949,
+        "f1_weighted": 0.994945594945595,
+        "auc_ovr": 1.0,
+        "log_loss": 0.06510565086990366
+      },
+      "runtime_seconds": 186.4961
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.988889,
+    "f1_macro": 0.988815,
+    "f1_weighted": 0.988815,
+    "auc_ovr": 0.999759,
+    "log_loss": 0.078491
+  },
+  "std_metrics": {
+    "accuracy": 0.010301,
+    "f1_macro": 0.010433,
+    "f1_weighted": 0.010433,
+    "auc_ovr": 0.000428,
+    "log_loss": 0.019276
+  },
+  "tub_version": "0.1.0"
+}

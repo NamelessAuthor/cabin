@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "segment",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9826839826839827,
+ "best_epoch": 118,
+ "gates_open": 8,
+ "n_gates": 19,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 138.7
+}

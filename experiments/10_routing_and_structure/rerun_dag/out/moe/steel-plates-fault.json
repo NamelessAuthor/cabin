@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "steel-plates-fault",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 4200,
+ "joint_steps_at_restored": 546,
+ "accuracy": 0.7583547557840618,
+ "n": 1941,
+ "d": 27,
+ "n_classes": 7,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 116.0
+}

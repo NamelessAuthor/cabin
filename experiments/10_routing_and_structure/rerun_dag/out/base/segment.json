@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "segment",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 5000,
+ "joint_steps_at_restored": 5000,
+ "accuracy": 0.9891774891774892,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 122.8
+}

@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore",
+ "task": "mfeat-morphological",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.735,
+ "n": 2000,
+ "d": 6,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 52.8
+}

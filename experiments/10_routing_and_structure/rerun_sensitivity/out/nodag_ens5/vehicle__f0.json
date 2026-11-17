@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "vehicle",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.8529411764705882,
+ "n": 846,
+ "d": 18,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 162.4
+}

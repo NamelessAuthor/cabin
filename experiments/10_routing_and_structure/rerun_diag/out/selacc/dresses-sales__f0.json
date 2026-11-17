@@ -1,0 +1,14 @@
+{
+ "config": "selacc",
+ "task": "dresses-sales",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.63,
+ "best_epoch": 48,
+ "acc_W0": 0.57,
+ "n": 500,
+ "d": 12,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 26.8
+}

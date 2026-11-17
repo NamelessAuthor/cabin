@@ -1,0 +1,15 @@
+{
+ "config": "stg",
+ "task": "mfeat-karhunen",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9675,
+ "best_epoch": 38,
+ "gates_open": 30,
+ "n_gates": 64,
+ "n": 2000,
+ "d": 64,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 236.2
+}

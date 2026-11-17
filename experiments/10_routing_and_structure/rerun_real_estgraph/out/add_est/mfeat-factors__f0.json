@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "mfeat-factors",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 72.2,
+ "d_internal": 216,
+ "n_edges": 445,
+ "mean_degree": 4.120370388031006,
+ "accuracy": 0.9725,
+ "best_epoch": 69,
+ "n": 2000,
+ "d": 216,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 1092.1
+}

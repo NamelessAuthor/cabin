@@ -1,0 +1,13 @@
+{
+ "config": "k8",
+ "task": "wilt",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 8,
+ "accuracy": 0.9896694214876033,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 116.4
+}

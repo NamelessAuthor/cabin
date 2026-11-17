@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "vowel",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 1.0,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 179.0
+}

@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "credit-g",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 2200,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.745,
+ "n": 1000,
+ "d": 20,
+ "n_classes": 2,
+ "n_categorical": 13,
+ "status": "ok",
+ "seconds": 50.4
+}

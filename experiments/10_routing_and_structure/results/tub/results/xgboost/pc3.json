@@ -1,0 +1,80 @@
+{
+  "model": "xgboost",
+  "task": "pc3",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-06T18:17:37.112233+00:00",
+  "runtime_seconds": 2.3685,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9009584664536742,
+        "f1_macro": 0.6804965589910764,
+        "f1_weighted": 0.8916312319071795,
+        "auc_ovr": 0.8316281138790036,
+        "log_loss": 0.3194759324150948
+      },
+      "runtime_seconds": 0.2383
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.8945686900958466,
+        "f1_macro": 0.587977182974989,
+        "f1_weighted": 0.8707226839864466,
+        "auc_ovr": 0.8398576512455516,
+        "log_loss": 0.28937563619371254
+      },
+      "runtime_seconds": 0.2275
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.8881789137380192,
+        "f1_macro": 0.6622267443653069,
+        "f1_weighted": 0.8820005341067341,
+        "auc_ovr": 0.8463078291814947,
+        "log_loss": 0.2951255940089251
+      },
+      "runtime_seconds": 0.2225
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.875,
+        "f1_macro": 0.583615645210964,
+        "f1_weighted": 0.8604866030181705,
+        "auc_ovr": 0.7541294642857143,
+        "log_loss": 0.4124427876446337
+      },
+      "runtime_seconds": 0.2188
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.8717948717948718,
+        "f1_macro": 0.5651567944250872,
+        "f1_weighted": 0.855409631019387,
+        "auc_ovr": 0.8393973214285714,
+        "log_loss": 0.31762693595683394
+      },
+      "runtime_seconds": 0.2229
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.8861,
+    "f1_macro": 0.615895,
+    "f1_weighted": 0.87205,
+    "auc_ovr": 0.822264,
+    "log_loss": 0.326809
+  },
+  "std_metrics": {
+    "accuracy": 0.011177,
+    "f1_macro": 0.046294,
+    "f1_weighted": 0.013378,
+    "auc_ovr": 0.034384,
+    "log_loss": 0.044444
+  },
+  "tub_version": "0.1.0"
+}

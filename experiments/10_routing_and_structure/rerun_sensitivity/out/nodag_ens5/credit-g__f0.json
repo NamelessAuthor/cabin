@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "credit-g",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.75,
+ "n": 1000,
+ "d": 20,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 194.9
+}

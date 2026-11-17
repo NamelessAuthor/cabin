@@ -1,0 +1,13 @@
+{
+ "config": "ls0.2",
+ "task": "analcatdata_dmft",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.20754716981132076,
+ "n": 797,
+ "d": 4,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 19.7
+}

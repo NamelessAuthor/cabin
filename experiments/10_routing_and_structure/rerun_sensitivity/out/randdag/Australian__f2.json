@@ -1,0 +1,12 @@
+{
+ "config": "randdag",
+ "task": "Australian",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.855072463768116,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 23.2
+}

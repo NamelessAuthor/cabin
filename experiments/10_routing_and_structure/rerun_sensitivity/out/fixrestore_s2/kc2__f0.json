@@ -1,0 +1,12 @@
+{
+ "config": "fixrestore_s2",
+ "task": "kc2",
+ "fold": 0,
+ "seed": 2,
+ "accuracy": 0.7904761904761904,
+ "n": 522,
+ "d": 21,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 28.3
+}

@@ -1,0 +1,13 @@
+{
+ "config": "kauto",
+ "task": "pc3",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 12,
+ "accuracy": 0.9009584664536742,
+ "n": 1563,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 104.4
+}

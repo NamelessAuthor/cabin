@@ -1,0 +1,80 @@
+{
+  "model": "catboost",
+  "task": "steel-plates-fault",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T11:28:38.308896+00:00",
+  "runtime_seconds": 12.9808,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.7763496143958869,
+        "f1_macro": 0.8072858729486069,
+        "f1_weighted": 0.7762517531234818,
+        "auc_ovr": 0.9712001574246186,
+        "log_loss": 0.5065653053678336
+      },
+      "runtime_seconds": 2.5681
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.7938144329896907,
+        "f1_macro": 0.8125727533865181,
+        "f1_weighted": 0.7913957549053627,
+        "auc_ovr": 0.9581828982890597,
+        "log_loss": 0.5471287748955793
+      },
+      "runtime_seconds": 2.6366
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.8015463917525774,
+        "f1_macro": 0.8284639875714337,
+        "f1_weighted": 0.8002143964919417,
+        "auc_ovr": 0.9696224019608801,
+        "log_loss": 0.5155067373852876
+      },
+      "runtime_seconds": 2.5574
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.7938144329896907,
+        "f1_macro": 0.8182075889087821,
+        "f1_weighted": 0.795525134437582,
+        "auc_ovr": 0.9704436724230189,
+        "log_loss": 0.488417597755074
+      },
+      "runtime_seconds": 2.6214
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.8144329896907216,
+        "f1_macro": 0.8248151067894991,
+        "f1_weighted": 0.8142145929242142,
+        "auc_ovr": 0.965443388869324,
+        "log_loss": 0.5229774711514282
+      },
+      "runtime_seconds": 2.569
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.795992,
+    "f1_macro": 0.818269,
+    "f1_weighted": 0.79552,
+    "auc_ovr": 0.966979,
+    "log_loss": 0.516119
+  },
+  "std_metrics": {
+    "accuracy": 0.012379,
+    "f1_macro": 0.007744,
+    "f1_weighted": 0.012327,
+    "auc_ovr": 0.004828,
+    "log_loss": 0.019327
+  },
+  "tub_version": "0.1.0"
+}

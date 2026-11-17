@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "mfeat-fourier",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 4300,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.8125,
+ "n": 2000,
+ "d": 76,
+ "n_classes": 10,
+ "n_categorical": 0,
+ "status": "ok",
+ "seconds": 242.6
+}

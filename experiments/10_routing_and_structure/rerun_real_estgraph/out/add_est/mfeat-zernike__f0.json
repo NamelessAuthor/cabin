@@ -1,0 +1,17 @@
+{
+ "config": "add_est",
+ "task": "mfeat-zernike",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 5.6,
+ "d_internal": 47,
+ "n_edges": 94,
+ "mean_degree": 4.0,
+ "accuracy": 0.8375,
+ "best_epoch": 42,
+ "n": 2000,
+ "d": 47,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 296.4
+}

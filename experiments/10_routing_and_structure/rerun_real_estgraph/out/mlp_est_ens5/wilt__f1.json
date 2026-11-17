@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est_ens5",
+ "task": "wilt",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 0.2,
+ "d_internal": 5,
+ "n_edges": 9,
+ "mean_degree": 3.5999999046325684,
+ "accuracy": 0.9886363636363636,
+ "best_epoch": 57,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 1291.1
+}

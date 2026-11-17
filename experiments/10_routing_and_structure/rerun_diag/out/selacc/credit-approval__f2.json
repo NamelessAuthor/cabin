@@ -1,0 +1,14 @@
+{
+ "config": "selacc",
+ "task": "credit-approval",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.8768115942028986,
+ "best_epoch": 19,
+ "acc_W0": 0.7608695652173914,
+ "n": 690,
+ "d": 15,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 35.9
+}

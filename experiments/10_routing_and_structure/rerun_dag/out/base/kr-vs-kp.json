@@ -1,0 +1,15 @@
+{
+ "variant": "base",
+ "task": "kr-vs-kp",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 6800,
+ "joint_steps_at_restored": 6800,
+ "accuracy": 0.996875,
+ "n": 3196,
+ "d": 36,
+ "n_classes": 2,
+ "n_categorical": 36,
+ "status": "ok",
+ "seconds": 212.5
+}

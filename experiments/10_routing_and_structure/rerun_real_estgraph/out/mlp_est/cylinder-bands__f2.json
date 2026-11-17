@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est",
+ "task": "cylinder-bands",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 1.0,
+ "d_internal": 49,
+ "n_edges": 121,
+ "mean_degree": 4.938775539398193,
+ "accuracy": 0.7037037037037037,
+ "best_epoch": 2,
+ "n": 540,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 83.4
+}

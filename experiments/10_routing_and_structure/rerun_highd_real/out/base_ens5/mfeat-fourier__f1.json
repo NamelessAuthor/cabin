@@ -1,0 +1,12 @@
+{
+ "config": "base_ens5",
+ "task": "mfeat-fourier",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.85,
+ "n": 2000,
+ "d": 76,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 2051.3
+}

@@ -1,0 +1,13 @@
+{
+ "config": "k16",
+ "task": "vowel",
+ "fold": 0,
+ "seed": 42,
+ "n_groups": 16,
+ "accuracy": 0.9595959595959596,
+ "n": 990,
+ "d": 12,
+ "n_classes": 11,
+ "status": "ok",
+ "seconds": 36.1
+}

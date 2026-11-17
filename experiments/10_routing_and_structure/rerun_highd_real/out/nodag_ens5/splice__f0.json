@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "splice",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9702194357366771,
+ "n": 3190,
+ "d": 60,
+ "n_classes": 3,
+ "status": "ok",
+ "seconds": 2599.9
+}

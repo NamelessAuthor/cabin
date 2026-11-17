@@ -1,0 +1,15 @@
+{
+ "variant": "moe",
+ "task": "ilpd",
+ "fold": 0,
+ "seed": 42,
+ "joint_steps_total": 1300,
+ "joint_steps_at_restored": 0,
+ "accuracy": 0.717948717948718,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "n_categorical": 1,
+ "status": "ok",
+ "seconds": 23.0
+}

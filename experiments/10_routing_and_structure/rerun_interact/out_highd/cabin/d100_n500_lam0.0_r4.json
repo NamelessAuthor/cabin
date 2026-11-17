@@ -1,0 +1,17 @@
+{
+ "d": 100,
+ "n": 500,
+ "lam": 0.0,
+ "rep": 4,
+ "seed": 111004,
+ "target": 26,
+ "n_parents": 6,
+ "n_children": 1,
+ "mb_size": 10,
+ "n_edges_feats": 182,
+ "model": "cabin",
+ "acc": 0.5406,
+ "best_epoch": 103,
+ "status": "ok",
+ "seconds": 129.7
+}

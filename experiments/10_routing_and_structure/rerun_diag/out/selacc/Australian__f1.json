@@ -1,0 +1,14 @@
+{
+ "config": "selacc",
+ "task": "Australian",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.8695652173913043,
+ "best_epoch": 11,
+ "acc_W0": 0.8623188405797102,
+ "n": 690,
+ "d": 14,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 29.8
+}

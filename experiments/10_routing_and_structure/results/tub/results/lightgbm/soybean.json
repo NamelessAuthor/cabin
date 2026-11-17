@@ -1,0 +1,80 @@
+{
+  "model": "lightgbm",
+  "task": "soybean",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-05T10:45:38.343042+00:00",
+  "runtime_seconds": 35.3991,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9343065693430657,
+        "f1_macro": 0.9689466183518652,
+        "f1_weighted": 0.933834299502872,
+        "auc_ovr": 0.9979353699004994,
+        "log_loss": 0.2360020020632556
+      },
+      "runtime_seconds": 6.7352
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9343065693430657,
+        "f1_macro": 0.958012558012558,
+        "f1_weighted": 0.9360605462795244,
+        "auc_ovr": 0.9979069190002872,
+        "log_loss": 0.27182854292078196
+      },
+      "runtime_seconds": 8.0762
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9197080291970803,
+        "f1_macro": 0.9618013836687455,
+        "f1_weighted": 0.9190542495552552,
+        "auc_ovr": 0.9963639070038708,
+        "log_loss": 0.33905040581900325
+      },
+      "runtime_seconds": 6.3334
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9558823529411765,
+        "f1_macro": 0.9830579567421673,
+        "f1_weighted": 0.9562543312543312,
+        "auc_ovr": 0.9994884595922204,
+        "log_loss": 0.08078055708736029
+      },
+      "runtime_seconds": 7.5627
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9411764705882353,
+        "f1_macro": 0.9289120236488658,
+        "f1_weighted": 0.9350481218128277,
+        "auc_ovr": 0.9991613036503642,
+        "log_loss": 0.13025478981897104
+      },
+      "runtime_seconds": 6.5971
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.937076,
+    "f1_macro": 0.960146,
+    "f1_weighted": 0.93605,
+    "auc_ovr": 0.998171,
+    "log_loss": 0.211583
+  },
+  "std_metrics": {
+    "accuracy": 0.011726,
+    "f1_macro": 0.017806,
+    "f1_weighted": 0.011857,
+    "auc_ovr": 0.001105,
+    "log_loss": 0.094018
+  },
+  "tub_version": "0.1.0"
+}

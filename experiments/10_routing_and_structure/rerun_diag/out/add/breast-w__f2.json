@@ -1,0 +1,14 @@
+{
+ "config": "add",
+ "task": "breast-w",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9714285714285714,
+ "best_epoch": 37,
+ "acc_W0": 0.9785714285714285,
+ "n": 699,
+ "d": 9,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 24.5
+}

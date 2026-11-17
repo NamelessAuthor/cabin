@@ -1,0 +1,12 @@
+{
+ "config": "base_s2",
+ "task": "ilpd",
+ "fold": 0,
+ "seed": 2,
+ "accuracy": 0.6666666666666666,
+ "n": 583,
+ "d": 10,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 19.2
+}

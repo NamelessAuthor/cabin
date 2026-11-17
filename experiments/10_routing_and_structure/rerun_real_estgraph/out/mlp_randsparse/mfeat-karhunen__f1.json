@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse",
+ "task": "mfeat-karhunen",
+ "fold": 1,
+ "seed": 42,
+ "graph_seconds": 9.2,
+ "d_internal": 64,
+ "n_edges": 162,
+ "mean_degree": 5.0625,
+ "accuracy": 0.9825,
+ "best_epoch": 84,
+ "n": 2000,
+ "d": 64,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 309.7
+}

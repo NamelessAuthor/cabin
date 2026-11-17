@@ -1,0 +1,14 @@
+{
+ "config": "add_rand_ft",
+ "task": "climate-model-simulation-crashes",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9259259259259259,
+ "best_epoch": 140,
+ "acc_W0": 0.9166666666666666,
+ "n": 540,
+ "d": 18,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 34.6
+}

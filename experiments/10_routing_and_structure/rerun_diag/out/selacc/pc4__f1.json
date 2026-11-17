@@ -1,0 +1,14 @@
+{
+ "config": "selacc",
+ "task": "pc4",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9075342465753424,
+ "best_epoch": 18,
+ "acc_W0": 0.8904109589041096,
+ "n": 1458,
+ "d": 37,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 105.7
+}

@@ -1,0 +1,80 @@
+{
+  "model": "xgboost",
+  "task": "kr-vs-kp",
+  "task_type": "classification",
+  "n_folds": 5,
+  "timestamp": "2026-05-06T18:15:43.858469+00:00",
+  "runtime_seconds": 2.3019,
+  "fold_results": [
+    {
+      "fold": 0,
+      "metrics": {
+        "accuracy": 0.9921875,
+        "f1_macro": 0.9921755608533529,
+        "f1_weighted": 0.9921889326975976,
+        "auc_ovr": 0.9997456068255646,
+        "log_loss": 0.025663119471326396
+      },
+      "runtime_seconds": 0.2238
+    },
+    {
+      "fold": 1,
+      "metrics": {
+        "accuracy": 0.9953051643192489,
+        "f1_macro": 0.9952947933464402,
+        "f1_weighted": 0.9953048186201551,
+        "auc_ovr": 0.9998134877785414,
+        "log_loss": 0.022201434402541527
+      },
+      "runtime_seconds": 0.2433
+    },
+    {
+      "fold": 2,
+      "metrics": {
+        "accuracy": 0.9937402190923318,
+        "f1_macro": 0.9937272994993619,
+        "f1_weighted": 0.9937402190923318,
+        "auc_ovr": 0.9997840384804162,
+        "log_loss": 0.026120588658721536
+      },
+      "runtime_seconds": 0.2394
+    },
+    {
+      "fold": 3,
+      "metrics": {
+        "accuracy": 0.9937402190923318,
+        "f1_macro": 0.9937254516889238,
+        "f1_weighted": 0.9937392663566281,
+        "auc_ovr": 0.9989398252674978,
+        "log_loss": 0.03144472820222126
+      },
+      "runtime_seconds": 0.2534
+    },
+    {
+      "fold": 4,
+      "metrics": {
+        "accuracy": 0.9906103286384976,
+        "f1_macro": 0.9905935347111818,
+        "f1_weighted": 0.9906103286384976,
+        "auc_ovr": 0.9998135390292253,
+        "log_loss": 0.0274749024117425
+      },
+      "runtime_seconds": 0.2409
+    }
+  ],
+  "mean_metrics": {
+    "accuracy": 0.993117,
+    "f1_macro": 0.993103,
+    "f1_weighted": 0.993117,
+    "auc_ovr": 0.999619,
+    "log_loss": 0.026581
+  },
+  "std_metrics": {
+    "accuracy": 0.001595,
+    "f1_macro": 0.001596,
+    "f1_weighted": 0.001594,
+    "auc_ovr": 0.000341,
+    "log_loss": 0.00299
+  },
+  "tub_version": "0.1.0"
+}

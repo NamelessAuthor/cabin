@@ -1,0 +1,14 @@
+{
+ "config": "nodag_ft",
+ "task": "wilt",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.987603305785124,
+ "best_epoch": 120,
+ "acc_W0": 0.987603305785124,
+ "n": 4839,
+ "d": 5,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 165.5
+}

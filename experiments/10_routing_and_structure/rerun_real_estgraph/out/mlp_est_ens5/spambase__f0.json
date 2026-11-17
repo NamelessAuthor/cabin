@@ -1,0 +1,17 @@
+{
+ "config": "mlp_est_ens5",
+ "task": "spambase",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 4.0,
+ "d_internal": 57,
+ "n_edges": 145,
+ "mean_degree": 5.087719440460205,
+ "accuracy": 0.9522258414766558,
+ "best_epoch": 113,
+ "n": 4601,
+ "d": 57,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 3230.8
+}

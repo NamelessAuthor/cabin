@@ -1,0 +1,13 @@
+{
+ "config": "ref_nodag",
+ "task": "climate-model-simulation-crashes",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9074074074074074,
+ "best_epoch": 53,
+ "n": 540,
+ "d": 18,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 28.1
+}

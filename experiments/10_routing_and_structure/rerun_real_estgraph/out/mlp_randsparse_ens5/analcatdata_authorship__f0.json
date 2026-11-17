@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse_ens5",
+ "task": "analcatdata_authorship",
+ "fold": 0,
+ "seed": 42,
+ "graph_seconds": 2.6,
+ "d_internal": 70,
+ "n_edges": 188,
+ "mean_degree": 5.371428489685059,
+ "accuracy": 1.0,
+ "best_epoch": 113,
+ "n": 841,
+ "d": 70,
+ "n_classes": 4,
+ "status": "ok",
+ "seconds": 725.4
+}

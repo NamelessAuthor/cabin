@@ -1,0 +1,17 @@
+{
+ "config": "mlp_randsparse_ens5",
+ "task": "soybean",
+ "fold": 2,
+ "seed": 42,
+ "graph_seconds": 0.7,
+ "d_internal": 67,
+ "n_edges": 172,
+ "mean_degree": 5.134328365325928,
+ "accuracy": 0.9124087591240876,
+ "best_epoch": 49,
+ "n": 683,
+ "d": 35,
+ "n_classes": 19,
+ "status": "ok",
+ "seconds": 402.5
+}

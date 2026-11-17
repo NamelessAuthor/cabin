@@ -1,0 +1,12 @@
+{
+ "config": "nodag_ens5",
+ "task": "spambase",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9478827361563518,
+ "n": 4601,
+ "d": 57,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 3886.8
+}

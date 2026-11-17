@@ -1,0 +1,14 @@
+{
+ "config": "base_ft",
+ "task": "segment",
+ "fold": 0,
+ "seed": 42,
+ "accuracy": 0.9891774891774892,
+ "best_epoch": 146,
+ "acc_W0": 0.9848484848484849,
+ "n": 2310,
+ "d": 19,
+ "n_classes": 7,
+ "status": "ok",
+ "seconds": 136.3
+}

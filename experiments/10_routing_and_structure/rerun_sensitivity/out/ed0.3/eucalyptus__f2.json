@@ -1,0 +1,13 @@
+{
+ "config": "ed0.3",
+ "task": "eucalyptus",
+ "fold": 2,
+ "seed": 42,
+ "n_groups": 32,
+ "accuracy": 0.6938775510204082,
+ "n": 736,
+ "d": 19,
+ "n_classes": 5,
+ "status": "ok",
+ "seconds": 32.7
+}

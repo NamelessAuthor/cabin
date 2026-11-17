@@ -1,0 +1,15 @@
+{
+ "config": "stg_l03",
+ "task": "wdbc",
+ "fold": 2,
+ "seed": 42,
+ "accuracy": 0.9736842105263158,
+ "best_epoch": 11,
+ "gates_open": 30,
+ "n_gates": 30,
+ "n": 569,
+ "d": 30,
+ "n_classes": 2,
+ "status": "ok",
+ "seconds": 42.1
+}

@@ -1,0 +1,15 @@
+{
+ "config": "stg_l003",
+ "task": "mfeat-factors",
+ "fold": 1,
+ "seed": 42,
+ "accuracy": 0.9775,
+ "best_epoch": 26,
+ "gates_open": 216,
+ "n_gates": 216,
+ "n": 2000,
+ "d": 216,
+ "n_classes": 10,
+ "status": "ok",
+ "seconds": 659.4
+}
